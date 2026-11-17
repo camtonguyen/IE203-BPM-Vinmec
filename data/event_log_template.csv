@@ -1,0 +1,4 @@
+case_id,activity,start_time,end_time,resource,note
+L01,Tiếp đón - mở hồ sơ,2026-12-01 08:05,2026-12-01 08:12,Lễ tân,
+L01,Chờ gọi khám,2026-12-01 08:12,2026-12-01 08:40,,
+L01,Đo sinh hiệu,2026-12-01 08:40,2026-12-01 08:45,Điều dưỡng,

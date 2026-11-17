@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# Node
+node_modules/
+dist/
+.env
+# Ghi âm và dữ liệu nhạy cảm – KHÔNG commit
+*.m4a
+*.mp3
+*.wav
+interviews/recordings/
+data/raw-private/
+
+# Claude Code
+.claude/

@@ -1,0 +1,18 @@
+name: check
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  bpmn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kiểm tra BPMN (XML hợp lệ, đếm gateway)
+        run: python scripts/check_bpmn.py bpmn
+      - name: Chặn file ghi âm
+        run: |
+          if git ls-files | grep -Ei '\.(m4a|mp3|wav)$'; then echo "Không commit file ghi âm"; exit 1; fi

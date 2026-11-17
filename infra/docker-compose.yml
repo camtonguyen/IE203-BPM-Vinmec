@@ -1,0 +1,10 @@
+# Camunda 7 Run (bản cộng đồng, gọn nhẹ cho demo).
+# Truy cập: http://localhost:8080  (tài khoản demo / demo)
+# Deploy: dùng Camunda Modeler → Deploy, endpoint http://localhost:8080/engine-rest
+services:
+  camunda:
+    image: camunda/camunda-bpm-platform:run-7.22.0
+    container_name: ie203-camunda
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
