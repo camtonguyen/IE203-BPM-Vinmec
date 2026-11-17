@@ -17,7 +17,10 @@
 
 **Lịch:** 16/11/2026 – 14/12/2026 (hoàn thành trước 15/12/2026), 4 tuần.
 
-Phân công chi tiết: xem file `PhanCong_DoAn_Vinmec.xlsx` (ngoài repo) hoặc GitHub Projects.
+Phân công chi tiết: xem file `PhanCong_DoAn_Vinmec.xlsx` (ngoài repo).
+
+Tiến độ theo task: [GitHub Projects board](https://github.com/users/hdphuc201/projects/3)
+(issue #N = task TN; PR ghi `Closes #N` để thẻ tự sang Hoàn thành).
 
 ## Cấu trúc thư mục
 
