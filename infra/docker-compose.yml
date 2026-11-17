@@ -1,10 +1,21 @@
-# Camunda 7 Run (bản cộng đồng, gọn nhẹ cho demo).
-# Truy cập: http://localhost:8080  (tài khoản demo / demo)
-# Deploy: dùng Camunda Modeler → Deploy, endpoint http://localhost:8080/engine-rest
+# Docker Compose cho Hệ thống Quản trị Quy trình Camunda BPM (Bản 7.22 Run)
+# Phục vụ Đồ án môn học IE203 - Bệnh viện Đa khoa Quốc tế Vinmec Central Park
+
 services:
   camunda:
     image: camunda/camunda-bpm-platform:run-7.22.0
     container_name: ie203-camunda
     ports:
       - "8080:8080"
+    environment:
+      - CAMUNDA_RUN_WEB_PORT=8080
+    volumes:
+      # Tự động nạp các quy trình .bpmn khi container khởi động
+      - ./camunda/deployments:/camunda/configuration/resources:ro
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/engine-rest/version || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
     restart: unless-stopped

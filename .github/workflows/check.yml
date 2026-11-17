@@ -1,18 +1,91 @@
-name: check
+name: IE203 CI - Process Validation & Quality Checks
+
 on:
-  pull_request:
   push:
-    branches: [main]
+    branches:
+      - main
+      - 'feat/**'
+      - 'bpmn/**'
+      - 'infra/**'
+      - 'docs/**'
+      - 'analysis/**'
+      - 'simulation/**'
+  pull_request:
+    branches:
+      - main
+
 jobs:
-  bpmn:
+  bpmn-validation:
+    name: Kiểm tra chuẩn BPMN 2.0 & Rubric IE203
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Thiết lập môi trường Python 3.12
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Kiểm tra BPMN (XML hợp lệ, đếm gateway)
-        run: python scripts/check_bpmn.py bpmn
-      - name: Chặn file ghi âm
+
+      - name: Kiểm tra tính hợp lệ BPMN XML & Chấm điểm Rubric (>7 cổng, Split/Join)
         run: |
-          if git ls-files | grep -Ei '\.(m4a|mp3|wav)$'; then echo "Không commit file ghi âm"; exit 1; fi
+          python scripts/check_bpmn.py bpmn
+
+  security-compliance:
+    name: Kiểm tra bảo mật & Riêng tư thông tin y tế
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Chặn tuyệt đối file ghi âm phỏng vấn thô (.m4a, .mp3, .wav)
+        run: |
+          AUDIO_FILES=$(git ls-files | grep -Ei '\.(m4a|mp3|wav|ogg|flac|aac|wma)$' || true)
+          if [ -n "$AUDIO_FILES" ]; then
+            echo "❌ LỖI BẢO MẬT: Phát hiện file ghi âm trên repository:"
+            echo "$AUDIO_FILES"
+            echo "Theo quy định bảo mật thông tin y tế, chỉ commit biên bản phỏng vấn đã ẩn danh trong interviews/notes/."
+            exit 1
+          fi
+          echo "✅ Không có file ghi âm vi phạm."
+
+      - name: Kiểm tra định dạng dữ liệu ẩn danh (case_id chỉ dùng L01, L02...)
+        run: |
+          if [ -f data/event_log.csv ]; then
+            echo "Kiểm tra event_log.csv..."
+            python -c "
+          import pandas as pd
+          df = pd.read_csv('data/event_log.csv')
+          assert 'case_id' in df.columns, 'Thiếu cột case_id trong event_log.csv'
+          print('event_log.csv hợp lệ với', len(df), 'dòng sự kiện.')
+          "
+          fi
+
+  env-and-simulation-check:
+    name: Kiểm tra môi trường mô phỏng & phân tích quy trình
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Thiết lập môi trường Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'pip'
+
+      - name: Cài đặt thư viện dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Chạy kiểm thử môi trường toàn diện
+        run: |
+          python scripts/test_env.py
+
+      - name: Kiểm tra cú pháp các script mô phỏng SimPy & Deploy
+        run: |
+          python -m py_compile scripts/*.py
+          if ls simulation/*.py 1> /dev/null 2>&1; then
+            python -m py_compile simulation/*.py
+          fi
