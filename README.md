@@ -6,14 +6,14 @@
 
 ## Thành viên
 
-| MSSV | Họ tên | Vai trò | Phụ trách chính |
-|---|---|---|---|
-| 26410134 | Nguyễn Thị Cẩm Tố | Nhóm trưởng | C1, thời gian thực tế, to-be, ghép báo cáo Word |
-| 26410092 | Huỳnh Duy Phúc | Nhóm phó | C3, C4, M1, dashboard demo, theo dõi tiến độ |
-| 26410095 | Qua Tú Phương | Thành viên | Kiến trúc quy trình, journey map, slide |
-| 26410086 | Đinh Hoàng Phát | Thành viên | S1–S3, CI, Camunda, mô phỏng |
-| 26410042 | Nguyễn Quang Hòa | Thành viên | M1–M3, BPMN M3, định lượng (PM4Py), chi phí, review ký hiệu |
-| 26410158 | Nguyễn Thị Tường Vy | Thành viên | Phương pháp, phỏng vấn, biểu mẫu |
+| MSSV | Họ tên | Email | Vai trò | Phụ trách chính |
+|---|---|---|---|---|
+| 26410134 | Nguyễn Thị Cẩm Tố | nguyenthicamto@gmail.com | Nhóm trưởng | C1, thời gian thực tế, to-be, ghép báo cáo Word |
+| 26410092 | Huỳnh Duy Phúc | hdphuc201@gmail.com | Nhóm phó | C3, C4, M1, dashboard demo, theo dõi tiến độ |
+| 26410095 | Qua Tú Phương | 26410095@ms.uit.edu.vn | Thành viên | Kiến trúc quy trình, journey map, slide |
+| 26410086 | Đinh Hoàng Phát | hoangphat310304@gmail.com | Thành viên | S1–S3, CI, Camunda, mô phỏng |
+| 26410042 | Nguyễn Quang Hòa | hoanqfpt@gmail.com | Thành viên | M1–M3, BPMN M3, định lượng (PM4Py), chi phí, review ký hiệu |
+| 26410158 | Nguyễn Thị Tường Vy | nguyenthituongvy28122002@gmail.com | Thành viên | Phương pháp, phỏng vấn, biểu mẫu |
 
 **Lịch:** 16/11/2026 – 14/12/2026 (hoàn thành trước 15/12/2026), 4 tuần.
 
