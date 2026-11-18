@@ -1,5 +1,5 @@
 ## Task
-- Mã task: T__
+- Mã task: T__ – Closes #__ <!-- số issue = số task, vd T13 – Closes #13 -->
 - Hạng mục rubric: <!-- 1 Liệt kê / 2 Mô hình hóa / 3 Phương pháp / 4 Phân tích / 5 Trình bày -->
 
 ## Thay đổi
