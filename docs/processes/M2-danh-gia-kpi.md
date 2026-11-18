@@ -17,7 +17,7 @@
      https://kcb.vn/upload/2005611/20241206/3652-qdbyt_signed_61852.pdf
   4. Quyết định 3869/QĐ-BYT ngày 28/8/2019 – mẫu phiếu khảo sát hài lòng (Mẫu 2: người bệnh ngoại trú, 5 nhóm, thang 5 mức):
      https://hethongphapluat.com/decision-no-3869-qd-byt-dated-august-28-2019-on-issuance-of-forms-and-guidance-on-patient-and-health-worker-satisfaction-survey.html
-  5. Luật Thời đại – *Hệ thống y tế Vinmec: Vị thế mới cho Việt Nam trên bản đồ y tế thế giới* (10/11/2025; Vinmec đo PROM,
+  5. Luật sư Việt Nam – *Hệ thống y tế Vinmec: Vị thế mới cho Việt Nam trên bản đồ y tế thế giới* (10/11/2025; Vinmec đo PROM,
      đo hài lòng tại nhiều điểm chạm, mô hình y học dựa trên giá trị):
      https://lsvn.vn/he-thong-y-te-vinmec-vi-the-moi-cho-viet-nam-tren-ban-do-y-te-the-gioi-a165812.html
   6. Vinmec – *Tầm nhìn và sứ mệnh* (công bố NES 85%; bản lưu 25/01/2026):
@@ -25,6 +25,11 @@
   7. Pháp luật TP.HCM – *Vinmec Central Park … chứng chỉ JCI lần thứ 3* (01/04/2024; chỉ số nhiễm khuẩn, sai sót thuốc):
      https://plo.vn/vinmec-central-park-xuat-sac-dat-dau-vang-chat-luong-chung-chi-jci-lan-thu-3-post783150.html
   8. Phỏng vấn bác sĩ, điều dưỡng, thu ngân (T24, T25) – *chưa thực hiện*.
+  9. Quyết định 56/QĐ-BYT ngày 08/01/2024 – hướng dẫn phương pháp đo lường hài lòng của người dân đối với dịch vụ y tế
+     công giai đoạn 2024–2030 (thay mẫu khảo sát người bệnh của QĐ 3869; QĐ 3652 áp dụng cho cả bệnh viện tư nhân [3]):
+     https://lsvn.vn/bo-y-te-huong-dan-do-luong-hai-long-cua-nguoi-dan-ve-dich-vu-y-te-cong-1705192506-a139943.html
+
+> Danh mục tài liệu tham khảo chung của nhóm: [`docs/tai-lieu-tham-khao.md`](../tai-lieu-tham-khao.md).
 
 > Mục đánh dấu **⚠** là suy luận theo khung Thông tư 19 / QĐ 6858, cần xác minh qua phỏng vấn
 > (câu 5, 15, 16, 17, 20 trong `interviews/questions.md`).
@@ -39,7 +44,7 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 | Thời gian | Tổng thời gian một lượt khám | Từ tiếp đón đến khi rời bệnh viện (phút) | Event log | [2] A1.3 |
 | Thời gian | Thời gian trả kết quả cận lâm sàng | Từ lấy mẫu đến có kết quả (phút) | LIS / RIS ⚠ | [2] |
 | Thời gian | Thời gian chờ duyệt bảo lãnh | Từ gửi yêu cầu đến có phản hồi (phút) | Quầy bảo hiểm | C3 |
-| Hài lòng | Tỉ lệ hài lòng người bệnh ngoại trú | % phiếu mức 4–5 | Khảo sát theo QĐ 56/2024 | [3][4] |
+| Hài lòng | Tỉ lệ hài lòng người bệnh ngoại trú | % phiếu mức 4–5 | Khảo sát theo QĐ 56/2024 | [3][4][9] |
 | Hài lòng | NES (Net Excellence Score) | Theo phương pháp Vinmec ⚠ | Khảo sát Vinmec | [6] |
 | Hài lòng | Số khiếu nại / 1.000 lượt khám | | S3 | [2] |
 | An toàn | Số sự cố y khoa / 1.000 lượt khám, tỉ lệ near-miss | | M3 | [2] D2.2 |
@@ -78,7 +83,7 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 **B. Thu thập dữ liệu** (song song)
 
 3. Trích xuất **dữ liệu hệ thống** (HIS, đặt lịch, thu ngân): lượt khám, thời gian từng phân đoạn, doanh thu ⚠.
-4. **Khảo sát hài lòng** người bệnh ngoại trú theo mẫu và cỡ mẫu quy định [3][4]
+4. **Khảo sát hài lòng** người bệnh ngoại trú theo mẫu và cỡ mẫu quy định [3][4][9]
    (500–4.999 lượt/ngày → ≥ 200 phiếu; 100–499 lượt/ngày → ≥ 100 phiếu [4]).
 5. Lấy **số liệu sự cố** từ M3 và **khiếu nại** từ S3.
 

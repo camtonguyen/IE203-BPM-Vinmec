@@ -20,6 +20,8 @@
      https://caselaw.vn/van-ban-phap-luat/138727-quyet-dinh-6858-qd-byt-nam-2016-ve-bo-tieu-chi-chat-luong-benh-vien-viet-nam-do-bo-truong-bo-y-te-ban-hanh
   7. Phỏng vấn bác sĩ, điều dưỡng (T24, tuần 2) – *chưa thực hiện*.
 
+> Danh mục tài liệu tham khảo chung của nhóm: [`docs/tai-lieu-tham-khao.md`](../tai-lieu-tham-khao.md).
+
 > Vinmec không công bố quy trình lập lịch nội bộ. Từ phía người bệnh có thể thấy: người bệnh chọn **bác sĩ cụ thể** và
 > **xem lịch làm việc** của bác sĩ khi đặt trên website [3]; giờ khám đặt "chỉ là thời gian dự kiến", tư vấn viên gọi lại
 > xác nhận khung giờ [2] → nghĩa là bên trong phải có một lịch bác sĩ được lập trước và mở thành khung giờ.
@@ -73,7 +75,7 @@
 
 7. **Nhập lịch vào hệ thống đặt lịch**: hệ thống chia buổi khám thành các khung giờ theo thời lượng khám dự kiến mỗi
    lượt, mở cho người bệnh đặt trên website / MyVinmec / tổng đài [2][3] ⚠ (thời lượng mỗi khung chưa rõ).
-8. Song song: **thông báo lịch** cho bác sĩ, điều dưỡng trưởng (bố trí điều dưỡng, phòng khám) và tổng đài ⚠.
+8. Song song: **thông báo lịch** cho bác sĩ, điều dưỡng trưởng (bố trí điều dưỡng, phòng khám) và tổng đài.
 
 **C. Điều chỉnh đột xuất**
 
