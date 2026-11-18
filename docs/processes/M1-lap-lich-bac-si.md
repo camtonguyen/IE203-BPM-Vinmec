@@ -14,7 +14,7 @@
      https://www.vinmec.com/vie/bai-viet/huong-dan-dat-lich-kham-vinmec-tren-website-online-vinmec
   4. HelloBacsi – *Vinmec Central Park – Đặt lịch khám tại BV Vinmec* (giờ làm việc):
      https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-quoc-te-vinmec-central-park-386/
-  5. Vinmec – *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec*:
+  5. Vinmec – *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec* (cập nhật 19/10/2026):
      https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi
   6. Quyết định 6858/QĐ-BYT (2016) – Bộ tiêu chí chất lượng bệnh viện Việt Nam, tiêu chí A1.3, A1.5 (thời gian chờ):
      https://caselaw.vn/van-ban-phap-luat/138727-quyet-dinh-6858-qd-byt-nam-2016-ve-bo-tieu-chi-chat-luong-benh-vien-viet-nam-do-bo-truong-bo-y-te-ban-hanh
@@ -30,9 +30,8 @@
 
 ## Ràng buộc đầu vào
 
-- **Giờ làm việc khu ngoại trú Central Park:** thứ Hai – thứ Sáu sáng 07:30–12:00, chiều 13:00–16:30; thứ Bảy buổi sáng,
-  chỉ một số chuyên khoa [4][5]. ⚠ Các nguồn không thống nhất (HelloBacsi có bảng 08:00–11:30), cần xác nhận với tổng đài
-  028 3622 1166.
+- **Giờ làm việc khu ngoại trú Central Park:** thứ Hai – thứ Bảy sáng 07:30–12:00, chiều 13:00–16:30 [5];
+  thứ Bảy chỉ một số chuyên khoa mở khám [4]; cấp cứu 24 giờ [5]. (Chốt theo trang chính thức [5], giống Chương 1.)
 - **Trực liên tục** cả ngày lễ, tết, ngày nghỉ với cơ sở có giường nội trú; thành phần trực gồm trực lãnh đạo, lâm sàng,
   cận lâm sàng, hậu cần; người đứng đầu phải **phân công người trực** và bảo đảm báo cáo mỗi phiên trực [1, Điều 70].
   → Bác sĩ vừa khám ngoại trú vừa trực/mổ, nên lịch ngoại trú phải tránh trùng ca trực, lịch mổ ⚠.
