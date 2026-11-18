@@ -46,12 +46,12 @@ jobs:
         run: |
           AUDIO_FILES=$(git ls-files | grep -Ei '\.(m4a|mp3|wav|ogg|flac|aac|wma)$' || true)
           if [ -n "$AUDIO_FILES" ]; then
-            echo "❌ LỖI BẢO MẬT: Phát hiện file ghi âm trên repository:"
+            echo " LỖI BẢO MẬT: Phát hiện file ghi âm trên repository:"
             echo "$AUDIO_FILES"
             echo "Theo quy định bảo mật thông tin y tế, chỉ commit biên bản phỏng vấn đã ẩn danh trong interviews/notes/."
             exit 1
           fi
-          echo "✅ Không có file ghi âm vi phạm."
+          echo " Không có file ghi âm vi phạm."
 
       - name: Kiểm tra định dạng dữ liệu ẩn danh (case_id chỉ dùng L01, L02...)
         run: |
@@ -94,5 +94,5 @@ jobs:
             pip install -r requirements.txt
             python scripts/test_env.py
           else
-            echo "ℹ️ Tuần 1: scripts/test_env.py sẽ được nạp tại Tuần 2 (Task T30). Bỏ qua kiểm thử runtime."
+            echo " Tuần 1: scripts/test_env.py sẽ được nạp tại Tuần 2 (Task T30). Bỏ qua kiểm thử runtime."
           fi
