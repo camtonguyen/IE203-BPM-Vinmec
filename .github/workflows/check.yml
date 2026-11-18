@@ -16,7 +16,7 @@ on:
 
 jobs:
   bpmn-validation:
-    name: Kiểm tra chuẩn BPMN 2.0 & Rubric IE203
+    name: bpmn
     runs-on: ubuntu-latest
     steps:
       - name: Checkout mã nguồn
