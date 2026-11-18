@@ -4,6 +4,9 @@
 - **Người phụ trách viết:** Qua Tú Phương (26410095)
 - **Phạm vi:** từ lúc bác sĩ chỉ định cận lâm sàng (hoặc người bệnh chọn gói khám sức khỏe tổng quát) đến khi bác sĩ đọc,
   giải thích kết quả. Giao với C3 ở bước thanh toán chỉ định.
+- Link doc: https://docs.google.com/document/d/1zZ4uj2-rWw2rp7SE1vkBTj5EhrpVKqHbi_50azaCK2g/edit?tab=t.0#heading=h.r75hmklaa8vz
+
+
 - **Nguồn bằng chứng** (truy cập 18/11/2026; link đã kiểm tra mở được):
   1. Vinmec – *Xét nghiệm cận lâm sàng là gì?* (2024): https://www.vinmec.com/vie/bai-viet/xet-nghiem-can-lam-sang-la-gi-vi
   2. Vinmec – *Khám cận lâm sàng*: https://www.vinmec.com/vie/chu-de/kham-can-lam-sang
@@ -14,7 +17,8 @@
 
 > Các nguồn 1–5 là hướng dẫn chung của hệ thống Vinmec, không riêng Vinmec Central Park.
 > Mục đánh dấu **⚠** là suy luận hoặc nguồn chưa nói rõ, cần xác minh qua phỏng vấn.
-> Riêng con số "4–6 tiếng" ở nguồn [5] đã đối chiếu lại trên trang gốc; các con số khác (32–91 dịch vụ) chưa đối chiếu.
+
+
 
 ## Giải thích thuật ngữ
 
@@ -28,46 +32,39 @@ Trong ngoại trú, cận lâm sàng gồm 3 nhóm, tương ứng 3 hoạt độ
 
 Bảng 1. Ba nhóm cận lâm sàng trong ngoại trú
 
-| Nhóm | Là gì | Ví dụ | Hoạt động trong danh mục |
-|---|---|---|---|
-| Xét nghiệm | Phân tích mẫu lấy từ cơ thể | Máu, nước tiểu, dịch | Xét nghiệm - lấy mẫu |
-| Chẩn đoán hình ảnh | Tạo hình ảnh bên trong cơ thể | X-quang, siêu âm, CT, MRI | Chẩn đoán hình ảnh |
-| Thăm dò chức năng | Đo hoạt động của cơ quan | Điện tim, nội soi | Thăm dò chức năng |
+Xét nghiệm: Phân tích mẫu lấy từ cơ thể (Máu, nước tiểu, dịch...)
+Chuẩn đoán hìnhb ảnh: Tạo hình ảnh bên trong cơ thể (X-quang, siêu âm, CT, MRI, Chẩn đoán hình ảnh)
+Thăm dò chức năng: Đo hoạt động của cơ quan Điện tim, nội soi Thăm dò chức năng
 
 Hai hoạt động chờ đi kèm là **Chờ cận lâm sàng** và **Chờ kết quả**.
 
+
+
 ## Actor
 
-Bảng 2. Actor của quy trình C2
+Người bệnh (và người nhà):  Nhận chỉ định, ký phiếu, đi làm cận lâm sàng, nhận kết quả
+Bác sĩ:  Chỉ định cận lâm sàng; đọc và giải thích kết quả 
+Điều dưỡng: Phân loại người bệnh, hướng dẫn đến đúng khu vực 
+Kỹ thuật viên xét nghiệm: Lấy mẫu và xử lý mẫu 
+Kỹ thuật viên chẩn đoán hình ảnh : Chụp, siêu âm, đọc hình 
+Thu ngân : Thu viện phí hoặc xác nhận bảo hiểm cho chỉ định (giao với C3) 
 
-| Actor | Vai trò trong C2 |
-|---|---|
-| Người bệnh (và người nhà) | Nhận chỉ định, ký phiếu, đi làm cận lâm sàng, nhận kết quả |
-| Bác sĩ | Chỉ định cận lâm sàng; đọc và giải thích kết quả |
-| Điều dưỡng | Phân loại người bệnh, hướng dẫn đến đúng khu vực |
-| Kỹ thuật viên xét nghiệm | Lấy mẫu và xử lý mẫu ⚠ |
-| Kỹ thuật viên chẩn đoán hình ảnh | Chụp, siêu âm, đọc hình ⚠ |
-| Thu ngân | Thu viện phí hoặc xác nhận bảo hiểm cho chỉ định (giao với C3) |
 
-> ⚠ Hai vai kỹ thuật viên là suy luận từ loại cận lâm sàng; nguồn [3] không nêu nhân viên phụ trách.
 
 ## Khách hàng của quy trình
 
-Bảng 3. Customer của quy trình C2
 
-| Customer | Vai trò |
-|---|---|
-| Người bệnh (và người nhà) | Khách hàng chính, người nhận kết quả cận lâm sàng |
-| Bác sĩ khám | Khách hàng nội bộ, dùng kết quả để chẩn đoán và quyết định điều trị |
+Người bệnh (và người nhà): Khách hàng chính, người nhận kết quả cận lâm sàng
+Bác sĩ khám: Khách hàng nội bộ, dùng kết quả để chẩn đoán và quyết định điều trị
+Bệnh viện: là khách hàng tổ chức, được hưởng giá trị từ dịch vụ cận lâm sàng cung cấp cho người bệnh.
+
 
 ## Giá trị quy trình mang lại cho khách hàng
 
-Bảng 4. Giá trị C2 mang lại cho khách hàng
 
-| Customer | Giá trị nhận được |
-|---|---|
-| Người bệnh | Biết chính xác tình trạng bệnh qua kết quả khách quan; được giải thích kết quả; biết hướng xử trí tiếp theo (ra về, tái khám, nhập viện); ít phải chờ và đi lại |
-| Bác sĩ khám | Có dữ liệu khách quan, đầy đủ và kịp thời để chẩn đoán đúng và chọn phương án điều trị phù hợp |
+Người bệnh: Biết chính xác tình trạng bệnh qua kết quả khách quan; được giải thích kết quả; biết hướng xử trí tiếp theo (ra về, tái khám, nhập viện); ít phải chờ và đi lại |
+Bác sĩ khám: Có dữ liệu khách quan, đầy đủ và kịp thời để chẩn đoán đúng và chọn phương án điều trị phù hợp 
+Bệnh viện: giá trị bệnh viện nhận được là thu viện phí hoặc thanh toán bảo hiểm, hồ sơ bệnh án và phiếu đồng ý đầy đủ, dùng thiết bị và nhân lực hiệu quả, người bệnh hài lòng và quay lại.
 
 ## Các bước (mô tả bằng lời)
 
@@ -124,17 +121,15 @@ Bảng 5. So sánh hai case của C2
 
 ## Các kết quả có thể
 
-Bảng 6. Outcome positive và negative của C2
+Positive: Có kết quả đầy đủ, bác sĩ đọc và giải thích, người bệnh ra về (kèm đơn thuốc nếu có)
+Positive: Có kết quả, hẹn tái khám theo kế hoạch điều trị
+Positive: Có kết quả, người bệnh được nhập viện nội khoa hoặc phẫu thuật, thủ thuật đúng chỉ định 
+Negative: Chưa có kết quả trong ngày, người bệnh phải hẹn trả sau hoặc quay lại ⚠
+Negative: Phải làm thêm hoặc làm lại cận lâm sàng (kết quả chưa đủ để kết luận, mẫu không đạt, chưa chuẩn bị đúng yêu cầu)
+Negative: Người bệnh từ chối hoặc hủy chỉ định (ký phiếu từ chối) [3] 
+Negative: Người bệnh chờ lâu hoặc đi lại nhiều giữa các khu vực, trải nghiệm kém ⚠
+Negative: khu cận lâm sàng quá tải, thiết bị và nhân lực dùng chưa hiệu quả, chất lượng dịch vụ giảm.
 
-| Loại | Outcome |
-|---|---|
-| Positive | Có kết quả đầy đủ, bác sĩ đọc và giải thích, người bệnh ra về (kèm đơn thuốc nếu có) |
-| Positive | Có kết quả, hẹn tái khám theo kế hoạch điều trị |
-| Positive | Có kết quả, người bệnh được nhập viện nội khoa hoặc phẫu thuật, thủ thuật đúng chỉ định |
-| Negative | Chưa có kết quả trong ngày, người bệnh phải hẹn trả sau hoặc quay lại ⚠ |
-| Negative | Phải làm thêm hoặc làm lại cận lâm sàng (kết quả chưa đủ để kết luận, mẫu không đạt, chưa chuẩn bị đúng yêu cầu) ⚠ |
-| Negative | Người bệnh từ chối hoặc hủy chỉ định (ký phiếu từ chối) [3] |
-| Negative | Người bệnh chờ lâu hoặc đi lại nhiều giữa các khu vực, trải nghiệm kém ⚠ |
 
 ## Cổng điều kiện dự kiến (nếu mô hình hóa)
 
