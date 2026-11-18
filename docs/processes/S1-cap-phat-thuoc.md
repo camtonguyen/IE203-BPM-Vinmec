@@ -108,8 +108,6 @@
 
 ## 7. Điều kiện rẽ nhánh và Cổng điều kiện (Gateways)
 
-Khi chuyển thành mô hình BPMN 2.0 (tại task T37), quy trình S1 sẽ có **hơn 7 cổng điều kiện** và **1 cặp Parallel Split & Join**, thỏa mãn đầy đủ rubric IE203:
-
 1. **Gateway 1 (Exclusive - XOR)**: Đơn thuốc có cảnh báo tương tác thuốc / dị ứng không?
    - `[Có cảnh báo nguy cơ]`: Liên hệ bác sĩ kê đơn để tham vấn và hiệu chỉnh đơn.
    - `[An toàn / Không cảnh báo]`: Tiếp tục quy trình thẩm định.
