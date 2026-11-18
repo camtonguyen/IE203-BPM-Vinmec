@@ -14,7 +14,8 @@ công bố chiến lược phát triển chuỗi 10 bệnh viện Vinmec trong 5
 Năm 2015, Vinmec Times City trở thành bệnh viện đa khoa đầu tiên tại Việt Nam đạt chứng nhận chất lượng quốc tế JCI
 (Joint Commission International) [5].
 
-Đến cuối năm 2025, theo Tổng Giám đốc GS.TS Trần Trung Dũng, Vinmec có 9 bệnh viện và 6 phòng khám trên toàn quốc [6].
+Theo trang giới thiệu chính thức, hệ thống hiện có 17 bệnh viện và phòng khám [1]; tháng 11/2025, Tổng Giám đốc
+GS.TS Trần Trung Dũng cho biết Vinmec có 9 bệnh viện và 6 phòng khám trên toàn quốc [6].
 Hai bệnh viện Times City và Central Park đạt chuẩn JCI, là thành viên mạng lưới liên kết của Cleveland Clinic (Hoa Kỳ) [7].
 
 ### 1.1.2. Tầm nhìn, sứ mệnh và giá trị cốt lõi
@@ -38,13 +39,16 @@ liên quan trực tiếp đến đề tài, vì cải tiến quy trình khám ng
 
 | Chỉ tiêu | Giá trị |
 |---|---|
+| Bệnh viện và phòng khám | 17 |
 | Giường bệnh | 1.505 |
-| Khách hàng đã phục vụ | 6 triệu |
-| Lượt khách hàng ngoại trú | 4 triệu |
+| Khách hàng đã phục vụ | 8,8 triệu |
+| Lượt khách hàng ngoại trú | 5,7 triệu |
 | Tổng nhân sự | 3.782 (597 bác sĩ, 1.626 điều dưỡng, 135 dược sĩ) |
 | Điểm xuất sắc ròng (NES) | 85% |
 
-*Nguồn: trang "Tầm nhìn và sứ mệnh" của Vinmec [1], truy cập 17/11/2026; trang không ghi thời điểm cập nhật số liệu.*
+*Nguồn: mục "Năng lực Hệ thống" trên trang "Tầm nhìn và sứ mệnh" của Vinmec [1], truy cập 18/11/2026. Trang không ghi
+thời điểm chốt số liệu (chỉ có dòng bản quyền © 2026), nên báo cáo ghi theo ngày truy cập; đây là số liệu lũy kế của
+toàn hệ thống.*
 
 ## 1.2. Bệnh viện Đa khoa Quốc tế Vinmec Central Park
 
@@ -52,7 +56,7 @@ liên quan trực tiếp đến đề tài, vì cải tiến quy trình khám ng
 
 Vinmec Central Park là cơ sở thứ ba của hệ thống, chính thức hoạt động từ ngày 26/12/2015 tại 208 Nguyễn Hữu Cảnh,
 khu Vinhomes Central Park, quận Bình Thạnh (cũ), TP. Hồ Chí Minh [8][9]. Bệnh viện có 178 giường, khuôn viên gần
-39.000 m², vốn đầu tư khoảng 1.200 tỷ đồng [8]. Ban đầu bệnh viện có 16 chuyên khoa; đến năm 2025 có 22 khoa và
+39.000 m², tổng vốn đầu tư 1.200 tỷ đồng [8]. Ban đầu bệnh viện có 16 chuyên khoa; đến năm 2025 có 22 khoa và
 4 trung tâm trọng điểm: tim mạch, ung bướu, chẩn đoán hình ảnh, xét nghiệm [8].
 
 **Bảng 1.2. Thông tin chính về Vinmec Central Park**
@@ -61,12 +65,13 @@ khu Vinhomes Central Park, quận Bình Thạnh (cũ), TP. Hồ Chí Minh [8][9]
 |---|---|
 | Địa chỉ | 208 Nguyễn Hữu Cảnh, Vinhomes Central Park, TP. Hồ Chí Minh |
 | Ngày hoạt động | 26/12/2015 |
-| Quy mô | 178 giường; 22 khoa, 4 trung tâm trọng điểm |
+| Quy mô | 178 giường; 22 khoa, 4 trung tâm trọng điểm; tổng vốn đầu tư 1.200 tỷ đồng |
+| Giờ khám ngoại trú | Thứ Hai – thứ Bảy: 07:30–12:00, 13:00–16:30; cấp cứu 24 giờ |
 | Lượt khám | ~18.000 lượt năm đầu; hơn 130.000 lượt năm 2025; lũy kế gần 1 triệu lượt |
 | Chứng nhận | JCI lần 1 (2017, 9,84/10), lần 2 (2021, 9,96/10), lần 3 (2024, 9,92/10) |
 | Tổng đài đặt hẹn | 028 3622 1166 |
 
-*Nguồn: [8][10][11][12][13].*
+*Nguồn: [8][10][11][12][13][15].*
 
 ### 1.2.2. Chất lượng và an toàn người bệnh
 
@@ -78,8 +83,9 @@ sóc theo đội nhóm áp dụng cho 100% người bệnh [11]. Lần thứ ba 
 
 ### 1.2.3. Hoạt động khám ngoại trú
 
-Khu khám ngoại trú làm việc từ thứ Hai đến thứ Sáu, sáng 07:30–12:00, chiều 13:00–16:30; thứ Bảy làm buổi sáng với một số
-chuyên khoa; xét nghiệm, chẩn đoán hình ảnh và phòng mổ hoạt động 24 giờ phục vụ cấp cứu [9]. Người bệnh có thể đặt lịch
+Theo lịch làm việc chính thức của Vinmec (cập nhật 19/10/2026), khu khám ngoại trú Vinmec Central Park làm việc từ
+thứ Hai đến thứ Bảy, sáng 07:30–12:00, chiều 13:00–16:30; dịch vụ cấp cứu phục vụ 24 giờ [15]. Thứ Bảy chỉ một số
+chuyên khoa mở khám, người bệnh cần gọi tổng đài để biết lịch cụ thể [9]. Người bệnh có thể đặt lịch
 qua tổng đài của bệnh viện, website và ứng dụng MyVinmec; giờ khám chọn khi đặt là giờ dự kiến, tư vấn viên sẽ gọi lại xác
 nhận [13]. Với khoảng 130.000 lượt khám mỗi năm [8], trung bình khu ngoại trú tiếp nhận khoảng 400–500 lượt mỗi ngày làm
 việc (ước tính của nhóm), nên thời gian chờ và sự phối hợp giữa các khâu là vấn đề quản trị quan trọng.
@@ -140,7 +146,7 @@ gian chỉ từ một số lượt khám quan sát được nên mang tính minh
 
 ## Tài liệu tham khảo (Chương 1)
 
-Truy cập lần cuối: 17/11/2026.
+Truy cập lần cuối: 18/11/2026.
 
 1. Vinmec. *Tầm nhìn và sứ mệnh*. https://www.vinmec.com/vie/tam-nhin-va-su-menh
 2. Báo Điện tử Chính phủ. *Five-star hospital inaugurated* (07/01/2012). https://en.baochinhphu.vn/print/five-star-hospital-inaugurated-11112086.htm
@@ -156,10 +162,15 @@ Truy cập lần cuối: 17/11/2026.
 12. Pháp luật TP.HCM. *Vinmec Central Park xuất sắc đạt "Dấu vàng" chất lượng chứng chỉ JCI lần thứ 3* (01/04/2024). https://plo.vn/vinmec-central-park-xuat-sac-dat-dau-vang-chat-luong-chung-chi-jci-lan-thu-3-post783150.html
 13. Medpro. *3 cách đặt lịch khám Vinmec online dễ dàng, nhanh chóng* (cập nhật 05/11/2026). https://medpro.vn/tin-tuc/huong-dan-dat-lich-kham-vinmec-nhanh-chong-va-tien-loi
 14. Bộ Y tế. *Quyết định 6858/QĐ-BYT ngày 18/11/2016 ban hành Bộ tiêu chí chất lượng bệnh viện Việt Nam*. https://caselaw.vn/van-ban-phap-luat/138727-quyet-dinh-6858-qd-byt-nam-2016-ve-bo-tieu-chi-chat-luong-benh-vien-viet-nam-do-bo-truong-bo-y-te-ban-hanh
+15. Vinmec. *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec* (cập nhật 19/10/2026). https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi
 
-## Việc cần xác minh trước khi ghép báo cáo
+## Ghi chú chốt số liệu (theo review T21)
 
-- Mở trực tiếp trang [1] để lấy số bệnh viện/phòng khám hiện tại và thời điểm cập nhật số liệu Bảng 1.1.
-- Các nguồn ghi khác nhau về vốn đầu tư Central Park (1.200 tỷ [8] / 2.000 tỷ [5]) và giờ làm việc (07:30 [9] / 08:00);
-  hỏi tổng đài 028 3622 1166.
-- Tên phường của địa chỉ sau sắp xếp đơn vị hành chính 2025.
+- **Vốn đầu tư Central Park:** chốt **1.200 tỷ đồng** theo [8] (Đại biểu Nhân dân, 25/12/2025 – bài tổng kết 10 năm, mới
+  nhất). Bài Thanh Tra 2017 [5] ghi "tổng vốn đầu tư 2.000 tỷ đồng" nhưng không giải thích cách tính, nên không dùng.
+- **Giờ làm việc:** chốt **07:30–12:00, 13:00–16:30** theo trang chính thức của Vinmec [15] (cập nhật 19/10/2026).
+  Bảng giờ 08:00–11:30 trên HelloBacsi [9] là nguồn thứ cấp, mâu thuẫn ngay với phần mô tả của chính trang đó, nên bỏ.
+- **Bảng 1.1:** đã mở lại trang [1] ngày 18/11/2026, cập nhật 17 bệnh viện và phòng khám, 8,8 triệu khách hàng,
+  5,7 triệu lượt ngoại trú; trang không ghi thời điểm số liệu.
+- Còn lại: trang [15] vẫn ghi địa chỉ "Phường 22, Q. Bình Thạnh"; báo cáo ghi "quận Bình Thạnh (cũ)" để tránh sai tên
+  phường sau sắp xếp đơn vị hành chính 2025.
