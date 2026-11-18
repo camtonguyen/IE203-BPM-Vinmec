@@ -17,6 +17,23 @@ Bảng 1. Danh mục nguồn bằng chứng
 | E04 | Các câu hỏi thường gặp về quyền lợi Bảo hiểm y tế tại Vinmec | https://www.vinmec.com/vi/huong-dan-khach-hang/bao-hiem/cac-cau-hoi-thuong-gap-ve-quyen-loi-bao-hiem-y-te-tai-vinmec | 28/01/2026 | 18/11/2026 | C3 (nhánh BHYT) | Chưa |
 | E05 | Thủ tục thanh toán bảo hiểm tại Vinmec | https://www.vinmec.com/vie/bai-viet/huong-dan-thu-tuc-thanh-toan-bao-hiem-tai-vinmec-vi | 09/05/2026 | 18/11/2026 | C3 (bảo hiểm tư nhân, bảo lãnh) | Chưa |
 | E06 | Hướng dẫn dành cho khách hàng có Bảo hiểm Y tế | https://www.vinmec.com/vie/bai-viet/huong-dan-danh-cho-khach-hang-thanh-toan-khi-co-bao-hiem-y-te-vi | 17/10/2025 | 18/11/2026 | C3 (nhánh BHYT) | Chưa |
+| E07 | Hướng dẫn sử dụng dịch vụ Vinmec sau khi đăng ký online | https://www.vinmec.com/vie/bai-viet/huong-dan-su-dung-dich-vu-vinmec-sau-khi-dang-ky-online | (chưa ghi) | 18/11/2026 | C1 (tiếp đón, check-in) | Chưa |
+| E08 | Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec | https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi | (chưa ghi) | 18/11/2026 | Phạm vi, giờ phục vụ | Chưa |
+| E09 | Đăng ký khám (form đặt hẹn trên website) | https://www.vinmec.com/vie/dang-ky-kham/ | – | 18/11/2026 | C4 | Có (trong bài của Khoa) |
+
+Bảng 2. Bảng giá dịch vụ từng cơ sở (file PDF, tên file có tiền tố 251013, nghĩa là bản 13/10/2025 ⚠ suy từ tên file)
+
+| Mã | Cơ sở | URL | Truy cập | Kiểm tra link |
+|---|---|---|---|---|
+| P01 | Vinmec Central Park | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMCP_aa30cfed87.pdf | 18/11/2026 | 200, PDF |
+| P02 | Vinmec Hạ Long | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMHL_VN_9958773aa3.pdf | 18/11/2026 | 200, PDF |
+| P03 | Vinmec Hải Phòng | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMHP_VN_2ae1d0209e.pdf | 18/11/2026 | 200, PDF |
+| P04 | Vinmec Nha Trang | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMNT_VN_V2_2e2bf4a1e2.pdf | 18/11/2026 | 200, PDF |
+| P05 | Vinmec Phú Quốc | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMPQ_VN_d8e6c29afc.pdf | 18/11/2026 | 200, PDF |
+| P06 | Vinmec Đà Nẵng | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMDN_VN_V2_ccdc424eb8.pdf | 18/11/2026 | 200, PDF |
+| P07 | Vinmec Cần Thơ | https://www.vinmec.com/static/uploads/251013_VMEC_Bang_gia_VMCT_VN_f935e14be3.pdf | 18/11/2026 | 200, PDF |
+
+> **Nguồn bổ sung:** E07–E09 và P01–P07 lấy từ bài T05 dạng PDF của Khoa (thư mục chung của nhóm). Mình đã mở thử các link, đều truy cập được; nội dung trong từng PDF giá **chưa đọc** (xem "Việc còn lại").
 
 ## Nội dung chính của từng nguồn
 
@@ -54,17 +71,36 @@ Bảng 1. Danh mục nguồn bằng chứng
 - Khách mới điền phiếu đăng ký (khách cũ không cần) -> khám và **thanh toán toàn bộ viện phí** tại quầy thu ngân của khoa -> mang giấy tờ đến **Quầy bảo hiểm** nhận lại tiền theo chế độ BHXH và trả phần thuốc ngoài phạm vi.
 - Đúng tuyến: thẻ BHYT, giấy tờ có ảnh, bảng kê phí, đơn thuốc; nếu không đăng ký ban đầu tại Vinmec thì thêm giấy chuyển tuyến. Trái tuyến: thêm giấy chuyển viện theo mẫu Bộ Y tế.
 
+**E07 – Sau khi đăng ký online (theo bài của Khoa)**
+- Chuẩn bị: kiểm tra lịch hẹn/gói đã đăng ký, giấy tờ tùy thân, hồ sơ khám trước (nếu có), đến trước giờ hẹn 10–15 phút.
+- Tại bệnh viện: (1) check-in ở quầy tiếp đón bằng thông tin lịch hẹn hoặc mã đăng ký; (2) hoàn thiện thủ tục, thông tin đăng ký trên online.vinmec.com đã lưu sẵn nên nhanh hơn; (3) được hướng dẫn tới phòng khám/xét nghiệm; (4) nhận kết quả và bác sĩ tư vấn.
+
+**E08 – Giờ làm việc**
+- Vinmec Central Park (208 Nguyễn Hữu Cảnh, Bình Thạnh, TP.HCM; 028 3622 1166): T2–T6 sáng 07:30–12:00, chiều 13:00–16:30; **T7 làm cả sáng 07:30–12:00 và chiều 13:00–16:30**.
+- Khác Central Park: phần lớn cơ sở khác nghỉ chiều T7 và Chủ nhật. Chủ nhật chỉ Trung tâm Vaccine của PK Quốc tế Times City làm việc.
+- Phòng khám Grand Park (TP.HCM, cùng số 028 3622 1166): T2–T7, 08:30–12:30 và 13:30–19:30.
+- Bảng đầy đủ 11 bệnh viện và 6 phòng khám xem trong bài của Khoa.
+
+**E09 + app My Vinmec – luồng đặt lịch (theo ảnh chụp trong bài của Khoa)**
+- Website: chọn cơ sở và chuyên khoa (bắt buộc), bác sĩ (tùy chọn) -> chọn **ngày** (không chọn giờ) -> họ tên, giới tính, ngày sinh, số điện thoại -> lý do khám (bắt buộc) -> gửi. Tổng đài gọi lại xác nhận.
+- App: chọn người khám -> cơ sở -> 1 trong 3 cách (theo bác sĩ / chuyên khoa / triệu chứng) -> ngày và **giờ (khung 30 phút)** -> lý do khám (tối đa 120 ký tự) -> xác nhận, có hiện phí khám dự kiến -> trạng thái "Vui lòng chờ tổng đài xác nhận". Đặt trong ngày phải trước giờ bắt đầu 30 phút.
+- Cả hai kênh **không xác nhận lịch ngay**, phải chờ tổng đài gọi lại (có thể là điểm nghẽn để phân tích ở C4).
+
+**Bảng giá (Hình 1 trong bài của Khoa)**
+- Trang đầu bảng giá chung (áp dụng tại Times City, từ 14/10/2025, giá có thể đổi không báo trước): khám nội đa khoa có hẹn 440.000đ, không hẹn 1.100.000đ; khám chuyên khoa có hẹn 690.000đ, không hẹn 1.100.000đ.
+- ⚠ Đây là giá Times City, **không phải Central Park**. Giá Central Park nằm ở P01, chưa đọc.
+
 ## Điểm cần lưu ý khi dùng bằng chứng
 
 1. **E06 cũ hơn E05** (17/10/2025 so với 09/05/2026). E06 mô tả mô hình *trả trước rồi nhận lại qua BHXH*, không nhắc bảo lãnh hay tạm ứng. Hai trang mô tả hai nhóm người bệnh khác nhau (BHYT và bảo hiểm tư nhân), chưa thấy mâu thuẫn, nhưng nên hỏi thu ngân ở T25.
 2. **E03 chỉ nói về phiên bản 1.0** (trang cập nhật 22/07/2024). Tính năng hiện tại của ứng dụng có thể khác, cần kiểm tra trực tiếp trên ứng dụng.
 3. **E01 bước 7–8** nhắc phiếu nhận/trả phòng và phiếu xác nhận bồi thường; `docs/processes/C3-thanh-toan-bao-hiem.md` đã loại các giấy tờ này khỏi quy trình ngoại trú vì nghi là nội trú. Chưa xác minh được.
-4. Các trang là hướng dẫn chung của **cả hệ thống Vinmec**, không riêng Vinmec Central Park (trừ hotline).
+4. **Giờ làm việc T7:** E08 ghi Central Park làm cả ngày T7, trong khi E04 nói giờ khám BHYT là T2–T6, 8h–17h. Cần hỏi quầy bảo hiểm xem T7 có nhận BHYT không.
+5. Các trang là hướng dẫn chung của **cả hệ thống Vinmec**, không riêng Vinmec Central Park (trừ hotline).
 
 ## Việc còn lại
 
-- [ ] **Bảng giá dịch vụ:** chưa tìm thấy bảng giá công khai. Trang `https://www.vinmec.com/vi/bang-gia/` báo lỗi 404; trang chủ và trang `/vie/dich-vu-y-te/` không có giá từng dịch vụ.
-      Hướng tiếp theo: gọi tư vấn dịch vụ 024 3975 6789, hoặc xem trang đặt lịch `https://www.vinmec.com/vie/dang-ky-kham/` (chưa kiểm tra). T31 (đơn giá, `data/cost_rates.csv`) đang cần nguồn này.
-- [ ] **Ảnh chụp màn hình** các trang E01–E06 và màn hình ứng dụng My Vinmec, lưu vào `evidence/public/screenshots/` theo tên `E01.png`…; mỗi ảnh phải thấy được URL và ngày giờ.
+- [ ] **Bảng giá dịch vụ:** đã có đường dẫn PDF giá Central Park (P01), link còn hoạt động. **Chưa đọc nội dung PDF**, cần trích các dịch vụ cận lâm sàng cho T31 (đơn giá, `data/cost_rates.csv`) và ghi rõ số trang. Trang `/vi/bang-gia/` vẫn báo 404, đừng dùng.
+- [ ] **Ảnh chụp màn hình:** bài của Khoa đã có ảnh bảng giá (Hình 1), danh sách hotline (Hình 2) và màn hình đặt lịch trên app (Hình 4). Cần xin file ảnh gốc từ Khoa, lưu vào `evidence/public/screenshots/` theo tên `E01.png`…; mỗi ảnh phải thấy URL và ngày giờ. Các trang E01–E08 vẫn chưa có ảnh.
 - [ ] **Đối chiếu số liệu quan trọng** (tỉ lệ BHYT, 15–45 phút, danh sách giấy tờ) với trang gốc.
 - [ ] Bổ sung bằng chứng Bộ Y tế (Thông tư 01/2025/TT-BYT) nếu cần cho báo cáo.
