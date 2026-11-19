@@ -1,7 +1,5 @@
 # Kế hoạch tổng – IE203 Vinmec (khám ngoại trú)
 
-> Người lập: Nguyễn Thị Cẩm Tố (26410134, nhóm trưởng). Số liệu **tính lại từ** Google Sheet phân công của nhóm (61 task, 190 giờ); nếu sheet đổi thì tính lại và cập nhật file này.
-
 ## 1. Mốc thời gian
 
 - Bắt đầu: thứ Hai 16/11/2026. Hạn chót hoàn thành mọi task: **14/12/2026**; nộp trước 15/12/2026.
@@ -18,8 +16,8 @@
 
 | Tuần | Tố | Phúc | Phương | Phát | Hòa | Vy | Tổng |
 |---|---|---|---|---|---|---|---|
-| 1 | 8 | 9 | 9 | 10 | 9 | 13 | 58 |
-| 2 | 9 | 4.5 | 9 | 3 | 4.5 | 8 | 38 |
+| 1 | 8 | 9 | 13 | 10 | 9 | 9 | 58 |
+| 2 | 9 | 4.5 | 5 | 3 | 4.5 | 12 | 38 |
 | 3 | 4 | 8.5 | 2 | 6 | 13 | 9 | 42.5 |
 | 4 | 14 | 11.5 | 9 | 11 | 3 | 3 | 51.5 |
 | **Tổng** | **35** | **33.5** | **29** | **30** | **29.5** | **33** | **190** |
@@ -33,8 +31,8 @@ Giờ cộng theo người phụ trách chính.
 | 0. Quản lý dự án | 11 | 22 | Phát 9, Phúc 7.5, Tố 5, Hòa 0.5 |
 | 1. Liệt kê quy trình | 8 | 22 | Phúc 6, Phương 5, Hòa 4, Phát 4, Tố 3 |
 | 2. Mô hình hóa | 7 | 25 | Hòa 7, Phúc 7, Phát 6, Tố 5 |
-| 3. Phương pháp | 10 | 34 | Vy 24, Phương 5, Phúc 3, Phát 2 |
-| 4. Phân tích | 14 | 51 | Hòa 14, Tố 12, Phát 9, Vy 6, Phúc 6, Phương 4 |
+| 3. Phương pháp | 10 | 34 | Vy 20, Phương 9, Phúc 3, Phát 2 |
+| 4. Phân tích | 14 | 51 | Hòa 14, Tố 12, Vy 10, Phát 9, Phúc 6 |
 | 5. Trình bày – Báo cáo | 11 | 36 | Phương 15, Tố 10, Hòa 4, Phúc 4, Vy 3 |
 
 ## 4. Task theo tuần
@@ -47,7 +45,7 @@ Giờ cộng theo người phụ trách chính.
 | T02 | 22/11 | Lập kế hoạch tổng, chốt phân công; tạo template báo cáo Word theo mẫu UIT | Tố |  | 3 |
 | T03 | 22/11 | Tạo GitHub Projects board, issue template, quy ước commit | Phúc |  | 1.5 |
 | T04 | 22/11 | Thiết lập CI (kiểm tra file .bpmn hợp lệ, kiểm tra link) và docker-compose cho Camunda | Phát |  | 4 |
-| T05 | 22/11 | Thu thập bằng chứng công khai: quy trình khám, BHYT, bảng giá, app My Vinmec (ảnh chụp + URL + ngày truy cập) | Vy | Phương | 4 |
+| T05 | 22/11 | Thu thập bằng chứng công khai: quy trình khám, BHYT, bảng giá, app My Vinmec (ảnh chụp + URL + ngày truy cập) | Phương | Vy | 4 |
 | T06 | 22/11 | Dựng sơ đồ tổ chức Vinmec (website, tin tuyển dụng) | Vy |  | 3 |
 | T07 | 22/11 | Bảng thuật ngữ và viết tắt | Phát |  | 2 |
 | T08 | 22/11 | Style guide hình ảnh: màu, font, mẫu sơ đồ, mẫu slide | Phương |  | 4 |
@@ -75,7 +73,7 @@ Giờ cộng theo người phụ trách chính.
 | T25 | 29/11 | Phỏng vấn thu ngân / bộ phận bảo hiểm | Phúc |  | 3 |
 | T26 | 29/11 | Phỏng vấn người bệnh + phát khảo sát (mục tiêu ≥30 phản hồi) | Phương | Vy | 5 |
 | T27 | 29/11 | Ghi nhận thời gian thực tế ≥3 lượt khám → event_log.csv (ẩn danh) | Tố | Cả nhóm | 4 |
-| T28 | 29/11 | Customer journey map của người bệnh (điểm đau) | Phương |  | 4 |
+| T28 | 29/11 | Customer journey map của người bệnh (điểm đau) | Vy |  | 4 |
 | T29 | 29/11 | Tổng hợp, chuẩn hóa biên bản phỏng vấn | Vy |  | 3 |
 | T30 | 29/11 | Dựng Camunda local, môi trường Python (PM4Py, SimPy), notebook mẫu | Phát |  | 3 |
 | T31 | 29/11 | Tra đơn giá nhân công (tin tuyển dụng) và bảng giá dịch vụ, ghi nguồn | Hòa |  | 1.5 |
