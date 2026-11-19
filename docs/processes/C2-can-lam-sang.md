@@ -4,8 +4,6 @@
 - **Người phụ trách viết:** Qua Tú Phương (26410095)
 - **Phạm vi:** từ lúc bác sĩ chỉ định cận lâm sàng (hoặc người bệnh chọn gói khám sức khỏe tổng quát) đến khi bác sĩ đọc,
   giải thích kết quả. Giao với C3 ở bước thanh toán chỉ định.
-- Link doc: https://docs.google.com/document/d/1zZ4uj2-rWw2rp7SE1vkBTj5EhrpVKqHbi_50azaCK2g/edit?tab=t.0#heading=h.r75hmklaa8vz
-
 
 - **Nguồn bằng chứng** (truy cập 18/11/2026; link đã kiểm tra mở được):
   1. Vinmec – *Xét nghiệm cận lâm sàng là gì?* (2024): https://www.vinmec.com/vie/bai-viet/xet-nghiem-can-lam-sang-la-gi-vi
@@ -13,12 +11,10 @@
   3. Vinmec – *Quy trình khám chữa bệnh tại Vinmec*: https://www.vinmec.com/vie/bai-viet/quy-trinh-kham-chua-benh-tai-vinmec-vi
   4. Vinmec – *Thủ tục thanh toán bảo hiểm tại Vinmec*: https://www.vinmec.com/vie/bai-viet/huong-dan-thu-tuc-thanh-toan-bao-hiem-tai-vinmec-vi
   5. Vinmec – *Chuyên khoa Sức khỏe tổng quát – Dịch vụ*: https://www.vinmec.com/vie/chuyen-khoa-suc-khoe-tong-quat-vinmec/dich-vu
-  6. Phỏng vấn bác sĩ, điều dưỡng, kỹ thuật viên (T22–T25, tuần 2) – *chưa thực hiện*.
+  6. Phỏng vấn bác sĩ, điều dưỡng, kỹ thuật viên (T24–T26, tuần 2) – *chưa thực hiện*.
 
 > Các nguồn 1–5 là hướng dẫn chung của hệ thống Vinmec, không riêng Vinmec Central Park.
 > Mục đánh dấu **⚠** là suy luận hoặc nguồn chưa nói rõ, cần xác minh qua phỏng vấn.
-
-
 
 ## Giải thích thuật ngữ
 
@@ -32,39 +28,40 @@ Trong ngoại trú, cận lâm sàng gồm 3 nhóm, tương ứng 3 hoạt độ
 
 Bảng 1. Ba nhóm cận lâm sàng trong ngoại trú
 
-Xét nghiệm: Phân tích mẫu lấy từ cơ thể (Máu, nước tiểu, dịch...)
-Chuẩn đoán hìnhb ảnh: Tạo hình ảnh bên trong cơ thể (X-quang, siêu âm, CT, MRI, Chẩn đoán hình ảnh)
-Thăm dò chức năng: Đo hoạt động của cơ quan Điện tim, nội soi Thăm dò chức năng
+| Nhóm | Mô tả |
+|---|---|
+| Xét nghiệm | Phân tích mẫu lấy từ cơ thể (máu, nước tiểu, dịch...) |
+| Chẩn đoán hình ảnh | Tạo hình ảnh bên trong cơ thể (X-quang, siêu âm, CT, MRI) |
+| Thăm dò chức năng | Đo hoạt động của cơ quan (điện tim, nội soi) |
 
 Hai hoạt động chờ đi kèm là **Chờ cận lâm sàng** và **Chờ kết quả**.
 
-
-
 ## Actor
 
-Người bệnh (và người nhà):  Nhận chỉ định, ký phiếu, đi làm cận lâm sàng, nhận kết quả
-Bác sĩ:  Chỉ định cận lâm sàng; đọc và giải thích kết quả 
-Điều dưỡng: Phân loại người bệnh, hướng dẫn đến đúng khu vực 
-Kỹ thuật viên xét nghiệm: Lấy mẫu và xử lý mẫu 
-Kỹ thuật viên chẩn đoán hình ảnh : Chụp, siêu âm, đọc hình 
-Thu ngân : Thu viện phí hoặc xác nhận bảo hiểm cho chỉ định (giao với C3) 
-
-
+| Actor | Vai trò |
+|---|---|
+| Người bệnh (và người nhà) | Nhận chỉ định, ký phiếu, đi làm cận lâm sàng, nhận kết quả |
+| Bác sĩ | Chỉ định cận lâm sàng; đọc và giải thích kết quả |
+| Điều dưỡng | Phân loại người bệnh, hướng dẫn đến đúng khu vực |
+| Kỹ thuật viên xét nghiệm | Lấy mẫu và xử lý mẫu |
+| Kỹ thuật viên chẩn đoán hình ảnh | Chụp, siêu âm, đọc hình |
+| Thu ngân | Thu viện phí hoặc xác nhận bảo hiểm cho chỉ định (giao với C3) |
 
 ## Khách hàng của quy trình
 
-
-Người bệnh (và người nhà): Khách hàng chính, người nhận kết quả cận lâm sàng
-Bác sĩ khám: Khách hàng nội bộ, dùng kết quả để chẩn đoán và quyết định điều trị
-Bệnh viện: là khách hàng tổ chức, được hưởng giá trị từ dịch vụ cận lâm sàng cung cấp cho người bệnh.
-
+| Khách hàng | Loại |
+|---|---|
+| Người bệnh (và người nhà) | Khách hàng chính, người nhận kết quả cận lâm sàng |
+| Bác sĩ khám | Khách hàng nội bộ, dùng kết quả để chẩn đoán và quyết định điều trị |
+| Bệnh viện | Khách hàng tổ chức, được hưởng giá trị từ dịch vụ cận lâm sàng cung cấp cho người bệnh |
 
 ## Giá trị quy trình mang lại cho khách hàng
 
-
-Người bệnh: Biết chính xác tình trạng bệnh qua kết quả khách quan; được giải thích kết quả; biết hướng xử trí tiếp theo (ra về, tái khám, nhập viện); ít phải chờ và đi lại |
-Bác sĩ khám: Có dữ liệu khách quan, đầy đủ và kịp thời để chẩn đoán đúng và chọn phương án điều trị phù hợp 
-Bệnh viện: giá trị bệnh viện nhận được là thu viện phí hoặc thanh toán bảo hiểm, hồ sơ bệnh án và phiếu đồng ý đầy đủ, dùng thiết bị và nhân lực hiệu quả, người bệnh hài lòng và quay lại.
+| Khách hàng | Giá trị nhận được |
+|---|---|
+| Người bệnh | Biết chính xác tình trạng bệnh qua kết quả khách quan; được giải thích kết quả; biết hướng xử trí tiếp theo (ra về, tái khám, nhập viện); ít phải chờ và đi lại |
+| Bác sĩ khám | Có dữ liệu khách quan, đầy đủ và kịp thời để chẩn đoán đúng và chọn phương án điều trị phù hợp |
+| Bệnh viện | Thu viện phí hoặc thanh toán bảo hiểm, hồ sơ bệnh án và phiếu đồng ý đầy đủ, dùng thiết bị và nhân lực hiệu quả, người bệnh hài lòng và quay lại |
 
 ## Các bước (mô tả bằng lời)
 
@@ -109,33 +106,31 @@ thời gian có kết quả xét nghiệm và hình thức tư vấn chi tiết 
 
 **So sánh 2 case**
 
-Bảng 5. So sánh hai case của C2
+Bảng 2. So sánh hai case của C2
 
 | | Case 1: Khám theo bác sĩ | Case 2: Khám sức khỏe tổng quát |
 |---|---|---|
 | Ai quyết định cận lâm sàng | Bác sĩ chỉ định sau khám lâm sàng | Theo gói khám đã chọn |
 | Thứ tự | Khám lâm sàng, cận lâm sàng, đọc kết quả | Cận lâm sàng, khám lâm sàng, đọc kết quả và tư vấn |
-| Số hạng mục | Ít, theo từng người bệnh | Nhiều, theo gói (32–91 dịch vụ ở người lớn, chưa đối chiếu) |
+| Số hạng mục | Ít, theo từng người bệnh | Nhiều, theo gói |
 | Thời gian | Chưa có nguồn | Dự kiến 4–6 tiếng |
 | Nguồn | [1], [2], [3] | [5] |
 
 ## Các kết quả có thể
 
-Positive: Có kết quả đầy đủ, bác sĩ đọc và giải thích, người bệnh ra về (kèm đơn thuốc nếu có)
-Positive: Có kết quả, hẹn tái khám theo kế hoạch điều trị
-Positive: Có kết quả, người bệnh được nhập viện nội khoa hoặc phẫu thuật, thủ thuật đúng chỉ định 
-Negative: Chưa có kết quả trong ngày, người bệnh phải hẹn trả sau hoặc quay lại ⚠
-Negative: Phải làm thêm hoặc làm lại cận lâm sàng (kết quả chưa đủ để kết luận, mẫu không đạt, chưa chuẩn bị đúng yêu cầu)
-Negative: Người bệnh từ chối hoặc hủy chỉ định (ký phiếu từ chối) [3] 
-Negative: Người bệnh chờ lâu hoặc đi lại nhiều giữa các khu vực, trải nghiệm kém ⚠
-Negative: khu cận lâm sàng quá tải, thiết bị và nhân lực dùng chưa hiệu quả, chất lượng dịch vụ giảm.
-
+- **Positive:** Có kết quả đầy đủ, bác sĩ đọc và giải thích, người bệnh ra về (kèm đơn thuốc nếu có)
+- **Positive:** Có kết quả, hẹn tái khám theo kế hoạch điều trị
+- **Positive:** Có kết quả, người bệnh được nhập viện nội khoa hoặc phẫu thuật, thủ thuật đúng chỉ định
+- **Negative:** Chưa có kết quả trong ngày, người bệnh phải hẹn trả sau hoặc quay lại ⚠
+- **Negative:** Phải làm thêm hoặc làm lại cận lâm sàng (kết quả chưa đủ để kết luận, mẫu không đạt, chưa chuẩn bị đúng yêu cầu)
+- **Negative:** Người bệnh từ chối hoặc hủy chỉ định (ký phiếu từ chối) [3]
+- **Negative:** Người bệnh chờ lâu hoặc đi lại nhiều giữa các khu vực, trải nghiệm kém ⚠
 
 ## Cổng điều kiện dự kiến (nếu mô hình hóa)
 
 Dùng cho BPMN C2. Mục tiêu rubric: > 7 cổng điều kiện và có cặp split/join song song.
 
-Bảng 7. Cổng điều kiện dự kiến của C2
+Bảng 3. Cổng điều kiện dự kiến của C2
 
 | STT | Cổng điều kiện | Nhánh ra |
 |---|---|---|
@@ -143,7 +138,7 @@ Bảng 7. Cổng điều kiện dự kiến của C2
 | 2 | Bác sĩ có chỉ định cận lâm sàng không? | Có: sang chỉ định / Không: đơn thuốc, ra về |
 | 3 | Người bệnh đồng ý thực hiện chẩn đoán không? | Đồng ý: thanh toán / Từ chối: ký phiếu từ chối |
 | 4 | Chỉ định đã được thanh toán hoặc bảo lãnh chưa? | Rồi: thực hiện / Chưa: quay lại thanh toán |
-| 5 | Loại chỉ định là xét nghiệm, chẩn đoán hình ảnh hay thăm dò chức năng? | 3 nhánh |
+| 5 | Loại chỉ định là xét nghiệm, chẩn đoán hình ảnh hay thăm dò chức năng? | Xét nghiệm / Chẩn đoán hình ảnh / Thăm dò chức năng |
 | 6 | Cần chuẩn bị trước (nhịn ăn, nhịn tiểu) không, và đã đạt chưa? ⚠ | Đạt: thực hiện / Chưa đạt: hẹn lại |
 | 7 | Có đủ kết quả trong ngày không? ⚠ | Đủ: đọc kết quả / Chưa: hẹn trả sau |
 | 8 | Bác sĩ cần chỉ định thêm cận lâm sàng không? | Có: quay lại chỉ định / Không: kết luận |
@@ -157,7 +152,7 @@ các hạng mục này cũng nằm trong cùng một gói.
 
 Bảng dưới là dự kiến, sẽ đối chiếu lại bằng event log.
 
-Bảng 8. Phân tích lãng phí dự kiến của C2 (VA / BVA / NVA)
+Bảng 4. Phân tích lãng phí dự kiến của C2 (VA / BVA / NVA)
 
 | Hoạt động | Phân loại dự kiến | Loại lãng phí dự kiến |
 |---|---|---|
