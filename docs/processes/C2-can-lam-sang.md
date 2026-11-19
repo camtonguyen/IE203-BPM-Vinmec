@@ -162,6 +162,8 @@ Bảng 4. Phân tích lãng phí dự kiến của C2 (VA / BVA / NVA)
 | Chờ kết quả | NVA | Chờ đợi |
 | Di chuyển giữa khu vực, quay lại thanh toán | NVA | Di chuyển |
 
+Nguyên nhân dự kiến của lãng phí chờ đợi: khu cận lâm sàng quá tải, thiết bị và nhân lực dùng chưa hiệu quả, làm chất lượng dịch vụ giảm ⚠.
+
 ## Liên kết với quy trình khác
 
 - **C1 Khám ngoại trú:** C2 là một đoạn của lượt khám, bắt đầu sau khi bác sĩ khám lâm sàng.
