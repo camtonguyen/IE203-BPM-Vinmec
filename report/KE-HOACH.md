@@ -1,6 +1,6 @@
 # Kế hoạch tổng – IE203 Vinmec (khám ngoại trú)
 
-> Người lập: Nguyễn Thị Cẩm Tố (26410134, nhóm trưởng). Số liệu **tính lại từ** `.claude/ref/phan-cong-chi-tiet.csv` (61 task, 190 giờ); nếu Google Sheet đổi thì chạy lại và cập nhật file này.
+> Người lập: Nguyễn Thị Cẩm Tố (26410134, nhóm trưởng). Số liệu **tính lại từ** Google Sheet phân công của nhóm (61 task, 190 giờ); nếu sheet đổi thì tính lại và cập nhật file này.
 
 ## 1. Mốc thời gian
 
