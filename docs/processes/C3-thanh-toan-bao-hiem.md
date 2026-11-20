@@ -15,6 +15,9 @@
   4. Vinmec – *Quy trình khám chữa bệnh tại Vinmec* (cập nhật 19/10/2026):
      https://www.vinmec.com/huong-dan-khach-hang/quy-trinh-kham-chua-benh-tai-vinmec/
   5. Phỏng vấn thu ngân / bộ phận bảo hiểm (T25, tuần 2) – *chưa thực hiện*.
+  6. Bộ Y tế – *Thông tư 01/2025/TT-BYT ngày 01/01/2025 quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo
+     hiểm y tế* (truy cập 20/11/2026):
+     https://caselaw.vn/van-ban-phap-luat/413093-thong-tu-so-01-2025-tt-byt-ngay-01-01-2025-cua-bo-truong-bo-y-te-huong-dan-luat-bao-hiem-y-te
 
 > Các nguồn 1–4 là hướng dẫn chung của hệ thống Vinmec, không riêng Vinmec Central Park.
 > Mục đánh dấu **⚠** là suy luận hoặc nguồn chưa nói rõ, cần xác minh qua phỏng vấn T25
@@ -83,7 +86,7 @@
 14. Tại **Quầy bảo hiểm**, người bệnh **nhận lại** số tiền viện phí theo chế độ BHXH và **thanh toán** phần thuốc ngoài
     phạm vi BHXH (nếu có) [2]. Số tiền BHYT chi trả phụ thuộc mức hưởng 100% / 95% / 80% theo đối tượng; khám ngoại trú
     không đúng tuyến được hưởng theo tỉ lệ tùy cơ sở thuộc cấp cơ bản hay chuyên sâu, có trường hợp 50%, có trường hợp
-    vẫn 100% mức hưởng (danh mục Phụ lục 1 Thông tư 01/2025/TT-BYT) [3] (⚠ nguồn không nói
+    vẫn 100% mức hưởng (danh mục Phụ lục 1 Thông tư 01/2025/TT-BYT [6]) [3] (⚠ nguồn không nói
     Vinmec Central Park thuộc tuyến nào). Người bệnh tự chịu phần cùng chi trả, **chênh lệch giữa giá Vinmec và mức
     BHYT thanh toán**, và chi phí ngoài phạm vi quỹ BHYT [3].
 

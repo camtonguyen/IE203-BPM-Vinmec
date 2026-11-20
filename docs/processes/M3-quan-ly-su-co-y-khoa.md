@@ -84,7 +84,9 @@ Thông tư 19 [2, Điều 7].
      trường hợp khẩn được báo trực tiếp / điện thoại rồi bổ sung văn bản.
    - **Bắt buộc** (NC3, Mục 7–9): người gây ra hoặc phát hiện sự cố báo **trưởng khoa** và **bộ phận QLCL** →
      **trưởng khoa** báo **lãnh đạo cơ sở** → lãnh đạo cơ sở báo ngay **cơ quan quản lý** bằng văn bản hỏa tốc hoặc báo cáo
-     điện tử; báo cáo ghi rõ họ tên người báo cáo.
+     điện tử; báo cáo theo Mẫu Phụ lục III và ghi rõ họ tên người báo cáo [1, Điều 5]. Song song, **bộ phận QLCL** (bộ
+     phận tiếp nhận và quản lý sự cố) ghi nhận báo cáo và lưu hồ sơ [1, Điều 5], rồi phân loại, phân tích ở các bước sau
+     [1, Điều 7, 8].
 5. Nếu là **sự cố nghiêm trọng** (1 người tử vong và nghi có nguy cơ tử vong tiếp theo, hoặc ≥ 2 người tử vong do cùng
    nguyên nhân): bệnh viện **báo cáo trước bằng điện thoại trong 01 giờ** kể từ khi phát hiện [1, Điều 5].
    Thời hạn nộp phiếu nội bộ cho sự cố thường (vd trong 24 giờ) do từng bệnh viện tự quy định ⚠.
