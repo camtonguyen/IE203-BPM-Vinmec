@@ -27,8 +27,8 @@
 | Người bệnh / người nhà | Xuất trình giấy tờ, đóng tạm ứng hoặc thanh toán, ký chứng từ, nhận hoàn tiền |
 | Quầy tiếp đón | Nhận và sao chụp giấy tờ tùy thân, thẻ bảo hiểm khi mở hồ sơ [4] |
 | Bác sĩ | Chỉ định dịch vụ, làm căn cứ dự trù chi phí để thu tạm ứng [1] |
-| Thu ngân (khoa khám bệnh) | Thu tạm ứng / viện phí, lập bảng kê và biên lai, hoàn tạm ứng [1][2][4] |
-| Quầy bảo hiểm (bộ phận bảo lãnh) | Liên hệ công ty bảo hiểm xin bảo lãnh; kiểm tra giấy tờ BHYT và chi trả phần BHYT [1][2] |
+| Thu ngân (khoa khám bệnh) | Thu tạm ứng / viện phí, lập bảng kê và biên lai [1][2][4]; hoàn tạm ứng ⚠ ([1] chỉ ghi "bệnh viện" hoàn trả) |
+| Quầy bảo hiểm (bộ phận bảo lãnh) | Liên hệ công ty bảo hiểm xin bảo lãnh ⚠ ([1] chỉ ghi "Vinmec" liên hệ); kiểm tra giấy tờ BHYT và chi trả phần BHYT [2] |
 | Nhà thuốc bệnh viện | Cấp thuốc theo đơn [2] |
 | Công ty bảo hiểm tư nhân *(bên ngoài)* | Xét duyệt bảo lãnh viện phí hoặc hồ sơ bồi thường [1] |
 | Cơ quan Bảo hiểm xã hội *(bên ngoài)* | Thanh toán phần chi phí thuộc quỹ BHYT cho bệnh viện ⚠ |
@@ -54,18 +54,19 @@
    của bác sĩ. Đóng xong có thể sử dụng dịch vụ ngay [1].
 4. Người bệnh ký đơn yêu cầu bồi thường theo mẫu của công ty bảo hiểm (nếu công ty yêu cầu) [1].
 5. Người bệnh khám, làm cận lâm sàng (C1, C2). Phát sinh chỉ định mới → có thể thu thêm tạm ứng ⚠.
-6. Khi khám xong và có đủ hồ sơ, kết quả, **Quầy bảo hiểm gửi yêu cầu bảo lãnh** cho công ty bảo hiểm;
-   thời gian xử lý dự kiến **15–45 phút** tùy công ty [1].
+6. Khi khám xong và có đủ hồ sơ, kết quả, **Vinmec liên hệ công ty bảo hiểm để bảo lãnh** viện phí; thời gian xử lý
+   dự kiến **15–45 phút** tùy công ty [1]. Bộ phận thực hiện (quầy bảo hiểm) nguồn không nêu ⚠.
    Song song, người bệnh có thể lĩnh thuốc tại nhà thuốc (nếu có đơn) ⚠.
 7. Người bệnh có thể **không chờ bảo lãnh**: khi đó thanh toán toàn bộ và tự nộp hồ sơ bồi thường; công ty bảo hiểm
    thanh toán trực tiếp cho người bệnh nếu được chấp thuận [1].
 8. Nhận kết quả bảo lãnh: chấp thuận toàn bộ, chấp thuận một phần, hoặc từ chối ⚠ (nguồn không mô tả cách xử lý khi từ chối).
 9. Người bệnh **ký xác nhận trên thư bảo lãnh** và thanh toán các chi phí **ngoài phạm vi bảo lãnh** (nếu có) [1].
-10. Thu ngân **hoàn lại tạm ứng** sau khi trừ các chi phí công ty bảo hiểm không chấp thuận [1].
+10. Bệnh viện **hoàn lại tạm ứng** sau khi trừ các chi phí công ty bảo hiểm không chấp thuận [1] (bộ phận thực hiện ⚠).
 
 **C. Nhánh BHYT**
 
-> ⚠ Nguồn [3] không nói Vinmec Central Park có khám BHYT hay không; trang khuyên gọi hotline cơ sở để xác nhận.
+> ⚠ Nguồn [3] không nói Vinmec Central Park có khám BHYT hay không; trang chỉ khuyên liên hệ trực tiếp
+> bệnh viện trước khi đến nếu khám ngoài giờ hành chính, ngày nghỉ, ngày lễ.
 > Nhánh này chỉ giữ lại nếu Central Park có hợp đồng khám chữa bệnh BHYT (hỏi ở T25).
 > BHYT thường áp dụng trong giờ hành chính (8h–17h, thứ Hai–thứ Sáu); ngoài giờ chỉ được thanh toán nếu bệnh viện có
 > tổ chức khám BHYT vào thời gian đó [3].
@@ -81,7 +82,8 @@
       photo giấy chuyển viện ban đầu.
 14. Tại **Quầy bảo hiểm**, người bệnh **nhận lại** số tiền viện phí theo chế độ BHXH và **thanh toán** phần thuốc ngoài
     phạm vi BHXH (nếu có) [2]. Số tiền BHYT chi trả phụ thuộc mức hưởng 100% / 95% / 80% theo đối tượng; khám ngoại trú
-    trái tuyến được hưởng theo tỉ lệ thấp hơn, tùy cơ sở thuộc tuyến cơ bản hay chuyên sâu [3] (⚠ nguồn không nói
+    không đúng tuyến được hưởng theo tỉ lệ tùy cơ sở thuộc cấp cơ bản hay chuyên sâu, có trường hợp 50%, có trường hợp
+    vẫn 100% mức hưởng (danh mục Phụ lục 1 Thông tư 01/2025/TT-BYT) [3] (⚠ nguồn không nói
     Vinmec Central Park thuộc tuyến nào). Người bệnh tự chịu phần cùng chi trả, **chênh lệch giữa giá Vinmec và mức
     BHYT thanh toán**, và chi phí ngoài phạm vi quỹ BHYT [3].
 
@@ -92,8 +94,9 @@
 **E. Hoàn tất (mọi nhánh)**
 
 16. Người bệnh ký chứng từ thanh toán: **2 bảng kê** và **1 biên lai viện phí**; người dùng bảo hiểm tư nhân ký thêm
-    bản **thanh toán bảo hiểm** [4]. (Nguồn [4] còn nêu *cam kết thanh toán* và *phiếu xác nhận bồi thường bảo hiểm*,
-    nhưng ở các bước có nhận/trả phòng, nhiều khả năng là nội trú ⚠, nên không đưa vào quy trình ngoại trú.)
+    bản **thanh toán bảo hiểm** [4]. (Nguồn [4] còn nêu *cam kết thanh toán* và *phiếu xác nhận bồi thường bảo hiểm*
+    ở Bước 7–8, mà sơ đồ [4] ghi là "Tạm ứng nhập viện" và "Thanh toán ra viện", tức nội trú, nên không đưa vào quy
+    trình ngoại trú.)
 17. Người bệnh nhận chứng từ, hóa đơn ⚠ (hình thức hóa đơn điện tử/giấy chưa rõ) → kết thúc lượt khám (C1).
 
 ## Các kết quả có thể

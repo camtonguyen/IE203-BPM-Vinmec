@@ -29,8 +29,8 @@
 
 | Actor | Vai trò trong quy trình |
 |---|---|
-| Người bệnh / người giám hộ | Đặt lịch hoặc đến trực tiếp, cung cấp giấy tờ, ký phiếu, đi theo chỉ định, thanh toán [1]. Trang chỉ nhắc giấy khai sinh với trẻ em, không nhắc người giám hộ ⚠ (câu 8) |
-| Lễ tân (Quầy tiếp đón) | Mở hồ sơ khách mới, sao chụp giấy tờ và thẻ bảo hiểm [1]. Check-in và định danh ⚠ (trang không nói ai định danh; câu 8) |
+| Người bệnh / người giám hộ | Cung cấp giấy tờ, ký phiếu, đi theo chỉ định, thanh toán [1]; đặt lịch hoặc đến trực tiếp không hẹn trước ⚠ (câu 1). Trang chỉ nhắc giấy khai sinh với trẻ em, không nhắc người giám hộ ⚠ (câu 8) |
+| Lễ tân (Quầy tiếp đón) | Mở hồ sơ khách mới [1]. Sao chụp giấy tờ, check-in và định danh ⚠ (trang không nói ai sao chụp, ai định danh; câu 8) |
 | Điều dưỡng | Phân loại, đo sinh hiệu, nhận biết dấu hiệu cấp cứu, hướng dẫn người bệnh đến đúng phòng ⚠ (câu 6, 7) |
 | Bác sĩ | Khám, chỉ định cận lâm sàng, đọc kết quả, kết luận, kê đơn, hẹn tái khám, chỉ định nhập viện hoặc chuyển viện ⚠ (câu 6, 12, 13) |
 | Kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh | Thực hiện cận lâm sàng (chi tiết ở C2) |
@@ -55,7 +55,8 @@
 1. Người bệnh **đến khám** (khách cũ, khách mới hoặc tái khám [1]): đã đặt lịch qua tổng đài hoặc kênh khác (C4, chuyển giao
    ở bước check-in) hoặc đến trực tiếp không hẹn trước ⚠ (câu 1).
 2. Tại **Quầy tiếp đón**: khách mới mở hồ sơ, cung cấp họ tên, giấy tờ tùy thân (CCCD/CMND/hộ chiếu, trẻ em dùng giấy
-   khai sinh), thẻ bảo hiểm và thẻ ưu đãi nếu có, điền **phiếu đăng ký (01 bản)**, quầy sao chụp giấy tờ [1].
+   khai sinh), thẻ bảo hiểm và thẻ ưu đãi nếu có, điền **phiếu đăng ký (01 bản)**, sao chụp giấy tờ tùy thân, thẻ bảo hiểm [1]
+   (trang không nói ai sao chụp ⚠).
    Khách cũ dùng hồ sơ có sẵn, khách đặt lịch online đã có thông tin trên hệ thống (C4) ⚠ (câu 1, 8).
 3. **Định danh** bằng ít nhất 2 thông tin: họ tên đầy đủ, ngày sinh, kèm mã PID nếu cần; thực hiện trước mọi lần thăm
    khám hoặc can thiệp y tế [1].
@@ -138,7 +139,7 @@ nguồn công khai nên đánh ⚠ (số câu hỏi ở từng dòng). Cổng 8 
 | 5 | Cần cận lâm sàng? | Có: chỉ định, thanh toán, thực hiện (C2) / Không: kết luận, thanh toán sau khám [1] |
 | 6 | Kết quả có bất thường hoặc cần hội chẩn? ⚠ (câu 13, 22) | Có: chỉ định bổ sung hoặc chuyển chuyên khoa / Không: kết luận |
 | 7 | Kết luận là gì? | Ra về, kê đơn / Tái khám / Nhập viện [1] / Chuyển viện ⚠ (không có trên trang; câu 22) |
-| 8 | Người bệnh đồng ý thực hiện chỉ định? | Đồng ý: thanh toán chỉ định / Từ chối: ký phiếu từ chối, về bước kết luận [1] |
+| 8 | Người bệnh đồng ý thực hiện chỉ định? | Đồng ý: thanh toán chỉ định / Từ chối: ký phiếu từ chối [1], về bước kết luận ⚠ (sơ đồ không vẽ nhánh từ chối) |
 | 9 | Có lấy thuốc tại bệnh viện? ⚠ (câu 6, 7) | Có: lĩnh thuốc (S1) / Không: ra về (sơ đồ chỉ có "đơn thuốc (nếu có)") |
 
 **Song song (split/join):** khi bác sĩ chỉ định nhiều cận lâm sàng, *thực hiện xét nghiệm* ∥ *thực hiện chẩn đoán hình

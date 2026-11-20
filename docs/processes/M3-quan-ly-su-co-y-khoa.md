@@ -28,7 +28,8 @@
 
 - **Sự cố y khoa:** tình huống không mong muốn hoặc bất thường xảy ra trong quá trình khám bệnh, chữa bệnh do yếu tố
   khách quan, chủ quan [3, Điều 2 khoản 22]; không phải do diễn biến bệnh lý hoặc cơ địa người bệnh [1, Điều 2].
-- **Near-miss (suýt xảy ra sự cố):** tình huống có nguy cơ gây ra sự cố nhưng chưa xảy ra [1, Điều 2].
+- **Near-miss (tình huống có nguy cơ gây ra sự cố):** tình huống đã xảy ra nhưng chưa gây hậu quả, hoặc gần như xảy ra
+  nhưng được phát hiện và ngăn chặn kịp thời, chưa gây tổn thương cho người bệnh [1, Điều 2].
 - **Nguyên nhân gốc:** nguyên nhân ban đầu, có quan hệ nhân quả trực tiếp và có thể khắc phục [1, Điều 2].
 - **Mức độ tổn thương** [1, Phụ lục I]:
 
@@ -36,7 +37,7 @@
 |---|---|---|---|
 | NC0 | Chưa xảy ra (near-miss) | 1 (A) | Tự nguyện |
 | NC1 | Tổn thương nhẹ | 2–4 (B, C, D) | Tự nguyện |
-| NC2 | Tổn thương trung bình (phải can thiệp điều trị, kéo dài thời gian điều trị) | 5–6 (E, F) | Tự nguyện, nhưng báo ngay cho người đứng đầu [1, Điều 8] |
+| NC2 | Tổn thương trung bình (phải can thiệp điều trị, kéo dài thời gian nằm viện) | 5–6 (E, F) | Tự nguyện, nhưng báo ngay cho người đứng đầu [1, Điều 8] |
 | NC3 | Tổn thương nặng (di chứng, cần hồi sức, tử vong) | 7–9 (G, H, I) | **Bắt buộc** |
 
 **Ví dụ sự cố có thể gặp ở khu ngoại trú** ⚠: nhầm người bệnh khi gọi khám / lấy mẫu xét nghiệm, dán nhầm nhãn ống mẫu,
@@ -51,9 +52,9 @@ Thông tư 19 [2, Điều 7].
 |---|---|
 | Nhân viên y tế phát hiện / liên quan (bác sĩ, điều dưỡng, kỹ thuật viên, dược sĩ, lễ tân…) | Xử lý ngay để bảo đảm an toàn người bệnh, sau đó báo cáo sự cố [1, Điều 9] |
 | Người bệnh / người nhà | Có thể phát hiện và thông báo sự cố ⚠; được thông tin về sự cố liên quan đến mình ⚠ |
-| Trưởng khoa (khoa khám bệnh / khoa có sự cố) | Nhận báo cáo bắt buộc, phối hợp xử lý, triển khai giải pháp tại khoa [1, Điều 5] |
+| Trưởng khoa (khoa khám bệnh / khoa có sự cố) | Nhận báo cáo bắt buộc và báo cáo lãnh đạo cơ sở [1, Điều 5]; phối hợp xử lý, triển khai giải pháp tại khoa ⚠ |
 | Phòng / Tổ Quản lý chất lượng (QLCL) – bộ phận tiếp nhận | Tiếp nhận, lưu hồ sơ, phân loại, phân tích sơ bộ, tổng hợp báo cáo, phản hồi người báo cáo, theo dõi khắc phục [1, Điều 5, 7, 8, 9; 2, Điều 12] |
-| Giám đốc bệnh viện (người đứng đầu) | Nhận báo cáo NC2/NC3, thành lập nhóm chuyên gia phân tích nguyên nhân gốc (RCA), phê duyệt khuyến cáo [1, Điều 8] |
+| Giám đốc bệnh viện (người đứng đầu) | Nhận báo cáo của QLCL 1 tuần/lần và báo cáo ngay sự cố NC2/NC3; thành lập nhóm chuyên gia phân tích nguyên nhân gốc (RCA) theo danh sách sự cố QLCL đề xuất [1, Điều 8]; ban hành kế hoạch khắc phục do QLCL tham mưu [1, Điều 11] |
 | Nhóm chuyên gia RCA | Phân tích nguyên nhân gốc, xác định nguyên nhân hệ thống hay đơn lẻ, đề xuất giải pháp trong 60 ngày [1, Điều 8] |
 | Hội đồng QLCL | Giám đốc làm chủ tịch; phát hiện nguy cơ an toàn người bệnh, đề xuất đề án cải tiến [2, Điều 10–11] |
 | Hệ thống báo cáo sự cố (giấy / trực tuyến) | Ghi nhận và lưu trữ toàn bộ sự cố [1, Điều 5]. Vinmec dùng phần mềm hay phiếu giấy chưa rõ ⚠ |
@@ -63,7 +64,8 @@ Thông tư 19 [2, Điều 7].
 
 - **Chính:** người bệnh ngoại trú – được bảo vệ khỏi tổn hại và sự cố không lặp lại.
 - **Nội bộ:** các khoa/phòng (nhận khuyến cáo, bài học), ban giám đốc và Hội đồng QLCL (số liệu an toàn người bệnh
-  cho M2), nhân viên báo cáo (được phản hồi, được bảo vệ, không bị quy lỗi cá nhân [1, Điều 3, 12]).
+  cho M2), nhân viên báo cáo (được phản hồi; được khuyến khích, bảo vệ và giữ bí mật danh tính [1, Điều 3, 12]; không bị quy lỗi
+  cá nhân ⚠).
 - **Bên ngoài:** cơ quan quản lý (Sở Y tế, Bộ Y tế), tổ chức kiểm định JCI.
 
 ## Các bước (mô tả bằng lời)
@@ -78,10 +80,11 @@ Thông tư 19 [2, Điều 7].
 **B. Báo cáo**
 
 4. Nhân viên **xác định hình thức báo cáo** theo mức độ [1, Điều 5]:
-   - **Tự nguyện** (NC0–NC2, Mục 1–6): điền phiếu báo cáo sự cố (Phụ lục III) bằng giấy hoặc trực tuyến, có thể ẩn danh;
+   - **Tự nguyện** (NC0–NC2, Mục 1–6): điền phiếu báo cáo sự cố (Phụ lục III) bằng giấy hoặc trực tuyến, có thể ẩn danh ⚠;
      trường hợp khẩn được báo trực tiếp / điện thoại rồi bổ sung văn bản.
    - **Bắt buộc** (NC3, Mục 7–9): người gây ra hoặc phát hiện sự cố báo **trưởng khoa** và **bộ phận QLCL** →
-     QLCL báo **giám đốc** → bệnh viện báo **cơ quan quản lý** bằng văn bản hỏa tốc hoặc báo cáo điện tử.
+     **trưởng khoa** báo **lãnh đạo cơ sở** → lãnh đạo cơ sở báo ngay **cơ quan quản lý** bằng văn bản hỏa tốc hoặc báo cáo
+     điện tử; báo cáo ghi rõ họ tên người báo cáo.
 5. Nếu là **sự cố nghiêm trọng** (1 người tử vong và nghi có nguy cơ tử vong tiếp theo, hoặc ≥ 2 người tử vong do cùng
    nguyên nhân): bệnh viện **báo cáo trước bằng điện thoại trong 01 giờ** kể từ khi phát hiện [1, Điều 5].
    Thời hạn nộp phiếu nội bộ cho sự cố thường (vd trong 24 giờ) do từng bệnh viện tự quy định ⚠.
@@ -93,13 +96,15 @@ Thông tư 19 [2, Điều 7].
 7. QLCL **phân loại** theo 3 tiêu chí: mức độ tổn thương (Phụ lục I), nhóm sự cố (Phụ lục IV mục II), nhóm nguyên nhân
    (Phụ lục IV mục IV); NC3 phân loại thêm theo Phụ lục II [1, Điều 7].
 8. QLCL **phân tích sơ bộ** và báo cáo giám đốc **định kỳ 1 tuần/lần**; với **NC2, NC3 phải báo cáo ngay** [1, Điều 8].
-9. Với sự cố NC2/NC3 (hoặc sự cố lặp lại ⚠), giám đốc **thành lập nhóm chuyên gia** phân tích **nguyên nhân gốc (RCA)**,
+9. Với các sự cố trong **danh sách QLCL đề xuất** [1, Điều 8] (nhóm dự kiến gồm NC2/NC3 và sự cố lặp lại ⚠), giám đốc
+   **thành lập nhóm chuyên gia** phân tích **nguyên nhân gốc (RCA)**,
    xác định nguyên nhân hệ thống hay đơn lẻ; trong **60 ngày** kể từ khi nhận báo cáo phải đề xuất **giải pháp,
    khuyến cáo** [1, Điều 8]. Sự cố NC0/NC1 chỉ phân tích tại khoa / QLCL ⚠.
 
 **D. Khắc phục, phòng ngừa, phản hồi**
 
-10. QLCL tham mưu **kế hoạch khắc phục**; giám đốc phê duyệt khuyến cáo phòng ngừa [1, Điều 10–11].
+10. QLCL tham mưu người đứng đầu xây dựng, trình cấp có thẩm quyền ban hành **kế hoạch** thực hiện giải pháp, khuyến cáo
+    phòng ngừa [1, Điều 11].
 11. Các khoa **triển khai** giải pháp (sửa quy trình, đào tạo lại, thay đổi biểu mẫu, thiết bị…); người chịu trách nhiệm
     chuyên môn **giám sát** việc thực hiện [1, Điều 11].
 12. QLCL **phản hồi cho người báo cáo** tại buổi giao ban [1, Điều 9] và chia sẻ bài học toàn viện ⚠
@@ -128,7 +133,8 @@ Dùng cho BPMN M3 (T33). Mục tiêu rubric: > 7 cổng điều kiện và có c
 4. Hình thức báo cáo? → Tự nguyện / Bắt buộc
 5. Phiếu báo cáo đủ thông tin? → Đủ / Thiếu (yêu cầu bổ sung)
 6. Có đúng là sự cố y khoa (không do diễn biến bệnh)? → Có / Không (đóng hồ sơ)
-7. Cần phân tích nguyên nhân gốc (NC2/NC3 hoặc lặp lại)? → Có (lập nhóm RCA) / Không (xử lý tại khoa)
+7. Sự cố có trong danh sách cần phân tích nguyên nhân gốc do QLCL đề xuất [1, Điều 8]? (dự kiến NC2/NC3 hoặc lặp lại ⚠)
+   → Có (lập nhóm RCA) / Không (xử lý tại khoa)
 8. Nguyên nhân hệ thống hay đơn lẻ? → Hệ thống (cải tiến quy trình toàn viện) / Đơn lẻ (đào tạo, nhắc nhở tại khoa)
 9. Giám đốc phê duyệt khuyến cáo? → Duyệt / Yêu cầu phân tích lại
 10. Sự cố có tái diễn sau khi triển khai giải pháp? → Có (quay lại RCA) / Không (đóng hồ sơ)

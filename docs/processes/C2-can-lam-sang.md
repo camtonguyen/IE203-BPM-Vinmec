@@ -32,7 +32,7 @@ Bảng 1. Ba nhóm cận lâm sàng trong ngoại trú
 |---|---|
 | Xét nghiệm | Phân tích mẫu lấy từ cơ thể (máu, nước tiểu, dịch...) |
 | Chẩn đoán hình ảnh | Tạo hình ảnh bên trong cơ thể (X-quang, siêu âm, CT, MRI) |
-| Thăm dò chức năng | Đo hoạt động của cơ quan (điện tim, nội soi) |
+| Thăm dò chức năng, nội soi | Đánh giá điện học (điện tim, điện cơ, điện não); quan sát hình thái bằng nội soi (hô hấp, tiêu hóa) [1] |
 
 Hai hoạt động chờ đi kèm là **Chờ cận lâm sàng** và **Chờ kết quả**.
 
@@ -78,7 +78,8 @@ Các bước theo sơ đồ quy trình khám chữa bệnh của Vinmec [3]:
 4. **Chỉ định cận lâm sàng** (Bước 3 của Vinmec): bác sĩ chỉ định; người bệnh ký phiếu đồng ý làm xét nghiệm HIV,
    phiếu đồng ý thực hiện chẩn đoán (nếu có) hoặc phiếu từ chối [3].
 5. **Thanh toán chỉ định** (Bước 4 của Vinmec): ký chứng từ thanh toán (2 bảng kê, 1 biên lai thu tiền viện phí);
-   với bảo hiểm tư nhân ký thêm thanh toán bảo hiểm [3][4].
+   với bảo hiểm tư nhân ký thêm thanh toán bảo hiểm [3]. Người bệnh dùng bảo hiểm tư nhân có bảo lãnh đóng tạm ứng theo
+   chỉ định ban đầu; bảo lãnh được xử lý sau khi hoàn tất thăm khám [4].
 6. **Thực hiện cận lâm sàng:** lấy mẫu xét nghiệm, chụp chẩn đoán hình ảnh hoặc thăm dò chức năng. Bước này
    **không được vẽ trong sơ đồ** [3] ⚠.
 7. **Đọc và giải thích kết quả:** người bệnh quay lại bác sĩ. Sau bước này luồng rẽ nhánh (xem Các kết quả có thể).
@@ -92,8 +93,8 @@ làm theo gói khám đã chọn, không cần bác sĩ chỉ định từng h�
 
 1. **Đăng ký lịch:** chọn lịch khám.
 2. **Tiếp đón:** nhân viên tiếp nhận và hướng dẫn người bệnh.
-3. **Lấy mẫu xét nghiệm:** huyết học, sinh hóa máu, tổng phân tích nước tiểu; gói nữ có thêm HPV và tế bào học cổ tử cung,
-   gói nam có thêm PSA (nâng cao và toàn diện).
+3. **Lấy mẫu xét nghiệm:** huyết học, sinh hóa máu, tổng phân tích nước tiểu; gói nữ có xét nghiệm HPV từ gói
+   tiêu chuẩn, thêm tế bào học (Liqui Prep) ở gói nâng cao và toàn diện; gói nam có thêm PSA ở gói nâng cao và toàn diện [5].
 4. **Chẩn đoán hình ảnh:** siêu âm (tuyến giáp, ổ bụng, vú, phụ khoa, tiết niệu), X-quang ngực, điện tim, chụp đáy mắt;
    tùy gói có thêm CT phổi liều thấp hoặc X-quang tuyến vú.
 5. **Khám lâm sàng.**
@@ -137,7 +138,7 @@ Bảng 3. Cổng điều kiện dự kiến của C2
 | 1 | Người bệnh khám theo bác sĩ hay khám sức khỏe tổng quát? | Case 1 / Case 2 |
 | 2 | Bác sĩ có chỉ định cận lâm sàng không? | Có: sang chỉ định / Không: đơn thuốc, ra về |
 | 3 | Người bệnh đồng ý thực hiện chẩn đoán không? | Đồng ý: thanh toán / Từ chối: ký phiếu từ chối |
-| 4 | Chỉ định đã được thanh toán hoặc bảo lãnh chưa? | Rồi: thực hiện / Chưa: quay lại thanh toán |
+| 4 | Chỉ định đã được thanh toán (hoặc đóng tạm ứng, nếu dùng bảo hiểm tư nhân) chưa? [3][4] | Rồi: thực hiện / Chưa: quay lại thanh toán |
 | 5 | Loại chỉ định là xét nghiệm, chẩn đoán hình ảnh hay thăm dò chức năng? | Xét nghiệm / Chẩn đoán hình ảnh / Thăm dò chức năng |
 | 6 | Cần chuẩn bị trước (nhịn ăn, nhịn tiểu) không, và đã đạt chưa? ⚠ | Đạt: thực hiện / Chưa đạt: hẹn lại |
 | 7 | Có đủ kết quả trong ngày không? ⚠ | Đủ: đọc kết quả / Chưa: hẹn trả sau |
@@ -167,5 +168,5 @@ Nguyên nhân dự kiến của lãng phí chờ đợi: khu cận lâm sàng qu
 ## Liên kết với quy trình khác
 
 - **C1 Khám ngoại trú:** C2 là một đoạn của lượt khám, bắt đầu sau khi bác sĩ khám lâm sàng.
-- **C3 Thanh toán, bảo lãnh:** bước thanh toán chỉ định (bước 5) và cổng "đã thanh toán hoặc bảo lãnh chưa".
+- **C3 Thanh toán, bảo lãnh:** bước thanh toán chỉ định (bước 5) và cổng "đã thanh toán hoặc đóng tạm ứng chưa".
 - **M2 Đánh giá KPI:** thời gian chờ cận lâm sàng và chờ kết quả, tỉ lệ làm lại.
