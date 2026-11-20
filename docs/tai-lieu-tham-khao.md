@@ -28,7 +28,7 @@ nhóm, giữ thứ tự theo năm ban hành. Ngày truy cập: 17/11/2026 (mục
    – Dùng ở: C3 (hồ sơ đúng tuyến / không đúng tuyến, Phụ lục 1).
 6. Bộ Y tế (2025). *Thông tư 26/2025/TT-BYT quy định về đơn thuốc và việc kê đơn thuốc hóa dược, sinh phẩm trong điều trị
    ngoại trú tại cơ sở khám bệnh, chữa bệnh* (hiệu lực 01/07/2025; thay thế Thông tư 52/2017/TT-BYT, 18/2018/TT-BYT).
-   https://storage-vnportal.vnpt.vn/gov-lan/5962/FileQuanTriTinTuc/Thông tư quy định về đơn thuốc và kê đơn thuốc trong điều trị ngoại trú kcb.signed.pdf
+   https://storage-vnportal.vnpt.vn/gov-lan/5962/FileQuanTriTinTuc/Th%C3%B4ng%20t%C6%B0%20quy%20%C4%91%E1%BB%8Bnh%20v%E1%BB%81%20%C4%91%C6%A1n%20thu%E1%BB%91c%20v%C3%A0%20k%C3%AA%20%C4%91%C6%A1n%20thu%E1%BB%91c%20trong%20%C4%91i%E1%BB%81u%20tr%E1%BB%8B%20ngo%E1%BA%A1i%20tr%C3%BA%20kcb.signed.pdf
    – Dùng ở: S1 (Điều 13).
 
 ## Quyết định
