@@ -10,7 +10,14 @@
 
 ![Kiến trúc quy trình](architecture.png)
 
+*Hình 1. Kiến trúc quy trình 3 tầng khu khám ngoại trú Vinmec Central Park*
+
+Hình 1 là bức tranh tổng quan (process landscape): chỉ thể hiện 10 quy trình theo 3 tầng và chuỗi cốt lõi C4 → C1
+(C2, C3 là đoạn chi tiết của C1). Liên kết giữa các quy trình không vẽ trên hình mà ghi ở Bảng 2.
+
 ## Danh sách quy trình
+
+**Bảng 1. Danh sách 10 quy trình theo tầng**
 
 | Tầng | Mã | Quy trình | Mô tả |
 |---|---|---|---|
@@ -36,6 +43,8 @@
 ## Liên kết giữa các quy trình
 
 Theo mục "Liên kết với quy trình khác" trong từng mô tả.
+
+**Bảng 2. Liên kết giữa các quy trình**
 
 | Từ | Đến | Nội dung |
 |---|---|---|
