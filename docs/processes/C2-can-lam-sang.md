@@ -137,7 +137,7 @@ Bảng 3. Cổng điều kiện dự kiến của C2
 | 1 | Người bệnh khám theo bác sĩ hay khám sức khỏe tổng quát? | Case 1 / Case 2 |
 | 2 | Bác sĩ có chỉ định cận lâm sàng không? | Có: sang chỉ định / Không: đơn thuốc, ra về |
 | 3 | Người bệnh đồng ý thực hiện chẩn đoán không? | Đồng ý: thanh toán / Từ chối: ký phiếu từ chối |
-| 4 | Chỉ định đã được thanh toán hoặc bảo lãnh chưa? | Rồi: thực hiện / Chưa: quay lại thanh toán |
+| 4 | Chỉ định đã được thanh toán hoặc tạm ứng chưa? | Rồi: thực hiện / Chưa: quay lại thanh toán |
 | 5 | Loại chỉ định là xét nghiệm, chẩn đoán hình ảnh hay thăm dò chức năng? | Xét nghiệm / Chẩn đoán hình ảnh / Thăm dò chức năng |
 | 6 | Cần chuẩn bị trước (nhịn ăn, nhịn tiểu) không, và đã đạt chưa? ⚠ | Đạt: thực hiện / Chưa đạt: hẹn lại |
 | 7 | Có đủ kết quả trong ngày không? ⚠ | Đủ: đọc kết quả / Chưa: hẹn trả sau |
