@@ -18,8 +18,9 @@
   6. Phỏng vấn bác sĩ, điều dưỡng, lễ tân, thu ngân (T24–T26, tuần 2) – *chưa thực hiện*.
 
 > Nguồn [1] là hướng dẫn chung của hệ thống Vinmec, không riêng Vinmec Central Park. Trang gồm một **sơ đồ** (khách hàng
-> cũ, mới, tái khám → đăng ký, mở hồ sơ → bốt điều dưỡng, phòng khám phân loại → bác sĩ khám, tư vấn → thanh toán hoặc
-> chỉ định cận lâm sàng, thủ thuật → thanh toán → bác sĩ đọc, giải thích kết quả → ra về hoặc nhập viện) và danh sách
+> cũ, mới, tái khám → đăng ký, mở hồ sơ; "tổng đài đặt hẹn và cung cấp thông tin" đi thẳng vào bước tiếp theo → bốt điều dưỡng,
+> phòng khám phân loại → bác sĩ khám, tư vấn → thanh toán hoặc chỉ định cận lâm sàng, thủ thuật → thanh toán → bác sĩ đọc,
+> giải thích kết quả → ra về (tái khám quay về bốt điều dưỡng) hoặc nhập viện) và danh sách
 > chứng từ phải ký ở 8 bước đánh số. Sơ đồ **không có** đo sinh hiệu, nhận biết cấp cứu, hội chẩn, chuyển viện, thời gian
 > chờ và nơi thực hiện từng bước. Những phần đó lấy từ kế hoạch mô hình hóa của nhóm và đánh dấu **⚠** (chưa có nguồn
 > công khai), cần xác minh qua phỏng vấn T24–T26 (số câu hỏi ghi ở từng mục).
@@ -28,12 +29,12 @@
 
 | Actor | Vai trò trong quy trình |
 |---|---|
-| Người bệnh / người giám hộ | Đặt lịch hoặc đến trực tiếp, cung cấp giấy tờ, ký phiếu, đi theo chỉ định, thanh toán. Trẻ em đi cùng người giám hộ [1] |
-| Lễ tân (Quầy tiếp đón) | Check-in, mở hồ sơ khách mới, sao chụp giấy tờ và thẻ bảo hiểm, định danh [1] |
+| Người bệnh / người giám hộ | Đặt lịch hoặc đến trực tiếp, cung cấp giấy tờ, ký phiếu, đi theo chỉ định, thanh toán [1]. Trang chỉ nhắc giấy khai sinh với trẻ em, không nhắc người giám hộ ⚠ (câu 8) |
+| Lễ tân (Quầy tiếp đón) | Mở hồ sơ khách mới, sao chụp giấy tờ và thẻ bảo hiểm [1]. Check-in và định danh ⚠ (trang không nói ai định danh; câu 8) |
 | Điều dưỡng | Phân loại, đo sinh hiệu, nhận biết dấu hiệu cấp cứu, hướng dẫn người bệnh đến đúng phòng ⚠ (câu 6, 7) |
 | Bác sĩ | Khám, chỉ định cận lâm sàng, đọc kết quả, kết luận, kê đơn, hẹn tái khám, chỉ định nhập viện hoặc chuyển viện ⚠ (câu 6, 12, 13) |
 | Kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh | Thực hiện cận lâm sàng (chi tiết ở C2) |
-| Thu ngân | Thu tiền, lập bảng kê, biên lai (chi tiết ở C3) [1] |
+| Thu ngân | Thu tiền, lập bảng kê, biên lai (chi tiết ở C3) ⚠ (trang chỉ nêu chứng từ, không nêu người thu; câu 8) |
 | Nhà thuốc bệnh viện | Cấp thuốc theo đơn (chi tiết ở S1) |
 | Khoa chuyên khoa khác, bệnh viện tuyến trên *(bên ngoài C1)* | Nhận người bệnh hội chẩn hoặc chuyển viện ⚠ (câu 22) |
 | Quầy bảo hiểm, công ty bảo hiểm, cơ quan BHXH *(bên ngoài)* | Xác minh và chi trả theo hình thức bảo hiểm (chi tiết ở C3) |
@@ -80,7 +81,7 @@
     hai hạng mục có thể làm **song song** ⚠ (câu 18).
 12. Người bệnh **chờ kết quả**; kết quả trả cho bác sĩ bằng hệ thống, giấy hoặc cả hai ⚠ (câu 3, 18).
 13. Bác sĩ **khám lần 2, đọc và giải thích kết quả** [1]. Nếu kết quả bất thường hoặc cần thêm thông tin: chỉ định bổ sung (quay lại bước 9)
-    hoặc **hội chẩn chuyên khoa khác** ⚠ (câu 22).
+    hoặc **hội chẩn chuyên khoa khác**. Sơ đồ Vinmec không có vòng chỉ định bổ sung lẫn hội chẩn ⚠ (câu 13, 22).
 
 **D. Kết luận**
 
@@ -115,7 +116,8 @@ nêu ⚠ (câu 8, 19).
 ## Các kết quả có thể
 
 - **Ra về, kê đơn điều trị ngoại trú:** bác sĩ kết luận, người bệnh thanh toán, nhận đơn (nếu có) và ra về [1].
-- **Hẹn tái khám:** kết luận kèm lịch hẹn theo kế hoạch điều trị; sơ đồ Vinmec cho khách tái khám quay lại từ đầu [1] (liên kết C4).
+- **Hẹn tái khám:** sơ đồ Vinmec vẽ nhánh "Tái khám" quay về bốt điều dưỡng, phòng khám phân loại người bệnh [1]. Việc đặt lịch
+  hẹn cho lượt sau (liên kết C4) và nội dung lịch hẹn ⚠ (câu 1).
 - **Chỉ định nhập viện:** nhập viện nội khoa hoặc phẫu thuật, thủ thuật [1]; C1 kết thúc, chuyển sang quy trình nội trú (ngoài phạm vi đề tài).
 - **Chuyển chuyên khoa hoặc chuyển viện:** người bệnh cần chuyên khoa khác hoặc tuyến trên ⚠ (câu 22).
 - **Xử trí cấp cứu:** có dấu hiệu cấp cứu khi đo sinh hiệu, thoát khỏi luồng khám thường ⚠ (câu 6, 7).
@@ -124,19 +126,20 @@ nêu ⚠ (câu 8, 19).
 ## Cổng điều kiện dự kiến (nếu mô hình hóa)
 
 Dùng cho BPMN C1 (T32). Mục tiêu rubric: > 7 cổng điều kiện và có cặp split/join song song. 9 cổng dưới đây lấy từ
-kế hoạch mô hình hóa của nhóm, mỗi cổng đặt tên dạng câu hỏi, nhánh ra có điều kiện.
+kế hoạch mô hình hóa của nhóm, mỗi cổng đặt tên dạng câu hỏi, nhánh ra có điều kiện. Cổng 4, 6, 7 (nhánh chuyển viện), 9 chưa có
+nguồn công khai nên đánh ⚠ (số câu hỏi ở từng dòng). Cổng 8 thay cho cổng "cần hội chẩn?" trùng ý với cổng 6, dựa trên phiếu đồng ý, phiếu từ chối ở Bước 3 [1].
 
 | STT | Cổng điều kiện | Nhánh ra |
 |---|---|---|
 | 1 | Có đặt lịch trước? | Có: check-in theo lịch hẹn / Không: lấy số, đăng ký tại quầy ⚠ (câu 1) |
 | 2 | Khách mới hay khách cũ? | Mới: mở hồ sơ / Cũ: dùng hồ sơ có sẵn |
 | 3 | Hình thức chi trả? | Tự chi trả / BHYT / Bảo hiểm tư nhân (chi tiết ở C3) |
-| 4 | Có dấu hiệu cấp cứu khi đo sinh hiệu? | Có: xử trí cấp cứu / Không: chờ khám |
+| 4 | Có dấu hiệu cấp cứu khi đo sinh hiệu? ⚠ (câu 6, 7) | Có: xử trí cấp cứu / Không: chờ khám |
 | 5 | Cần cận lâm sàng? | Có: chỉ định, thanh toán, thực hiện (C2) / Không: kết luận, thanh toán sau khám [1] |
-| 6 | Kết quả có bất thường? | Có: chỉ định bổ sung hoặc hội chẩn / Không: kết luận |
-| 7 | Kết luận là gì? | Kê đơn / Hẹn tái khám / Nhập viện / Chuyển viện |
-| 8 | Cần hội chẩn chuyên khoa khác? | Có: chuyển chuyên khoa / Không: tiếp tục |
-| 9 | Có lấy thuốc tại bệnh viện? | Có: lĩnh thuốc (S1) / Không: ra về |
+| 6 | Kết quả có bất thường hoặc cần hội chẩn? ⚠ (câu 13, 22) | Có: chỉ định bổ sung hoặc chuyển chuyên khoa / Không: kết luận |
+| 7 | Kết luận là gì? | Ra về, kê đơn / Tái khám / Nhập viện [1] / Chuyển viện ⚠ (không có trên trang; câu 22) |
+| 8 | Người bệnh đồng ý thực hiện chỉ định? | Đồng ý: thanh toán chỉ định / Từ chối: ký phiếu từ chối, về bước kết luận [1] |
+| 9 | Có lấy thuốc tại bệnh viện? ⚠ (câu 6, 7) | Có: lĩnh thuốc (S1) / Không: ra về (sơ đồ chỉ có "đơn thuốc (nếu có)") |
 
 **Song song (split/join):** khi bác sĩ chỉ định nhiều cận lâm sàng, *thực hiện xét nghiệm* ∥ *thực hiện chẩn đoán hình
 ảnh* → join khi đủ kết quả, rồi mới sang *đọc kết quả* ⚠ (câu 18). Cổng tách và cổng gộp cùng là cổng song song (AND).
