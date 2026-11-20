@@ -4,18 +4,22 @@
 - **Phạm vi:** `C1`–`C4`, `M1`–`M3`, `S1`–`S3` trong `docs/processes/`.
 - **Cách review:** mở từng nguồn mà chính file trích (trang Vinmec, văn bản pháp luật, Bộ Y tế; ảnh sơ đồ trên trang Vinmec),
   đối chiếu từng ý. Chỉ ghi "sai" khi đã đọc nguồn. Phần nào nguồn không mở được thì ghi ở mục "Chưa kiểm được".
-- **C3, C4 do người review viết:** đã được đối chiếu độc lập, nhưng vẫn cần một thành viên khác review.
-- Số dòng tính theo file trên `main` tại commit trên.
+- **C3, C4 do người review viết** và phần sửa nằm ở PR #80: cần **Nguyễn Quang Hòa** review C3, C4 bản sau khi #80 merge.
+  Người review: ____________, ngày: __/__/2026.
+- **Số dòng** tính theo `main` commit `78316bf`, **trước** khi PR #80 merge. Sau khi #80 merge, số dòng trong các file sẽ lệch
+  vài dòng; tìm theo nội dung được trích.
 
 ## 1. Tiêu chí
 
-Không tìm thấy file rubric của giảng viên trong repo và Drive, nên tiêu chí lấy từ những gì nhóm đã thống nhất:
+Rubric hạng mục 1 (Liệt kê quy trình) yêu cầu **≥ 3 quy trình quản lý, ≥ 3 cốt lõi, ≥ 3 hỗ trợ; mỗi quy trình có actor, các
+bước, khách hàng, kết quả** (yêu cầu do nhóm trưởng nêu khi review PR #79). Nhóm có 3 quản lý (M1–M3), 4 cốt lõi (C1–C4),
+3 hỗ trợ (S1–S3): **đạt số lượng**. Từng mô tả được review theo các tiêu chí:
 
 | # | Tiêu chí | Căn cứ |
 |---|---|---|
-| 1 | Đủ các mục: Loại, Người phụ trách viết, Nguồn bằng chứng, Actor, Khách hàng, Các bước, Các kết quả có thể, Cổng điều kiện | `docs/processes/_template.md`; công việc T11 trong file phân công |
+| 1 | Có actor, các bước, khách hàng, kết quả; đủ các mục còn lại của mẫu (Loại, Người phụ trách viết, Nguồn bằng chứng, Cổng điều kiện) | Rubric hạng mục 1; `docs/processes/_template.md` |
 | 2 | Nguồn có link và ngày truy cập; mở được | `_template.md` (Nguồn bằng chứng); quy ước ghi nguồn |
-| 3 | Ý gắn nguồn đúng với nguồn; ý chưa có nguồn đánh ⚠ hoặc ghi là giả định | Quy ước nhóm (CLAUDE.md, các file C1–C4) |
+| 3 | Ý gắn nguồn đúng với nguồn; ý chưa có nguồn đánh ⚠ hoặc ghi là giả định | Quy ước nhóm (các file C1–C4) |
 | 4 | > 7 cổng điều kiện, có cặp split/join (để vẽ BPMN) | Checklist trong `.github/pull_request_template.md`; CONTRIBUTING mục 4 |
 | 5 | Không có tên, chẩn đoán, ảnh người bệnh | Quy tắc bảo mật y tế trong file phân công |
 
@@ -47,8 +51,9 @@ Ký hiệu: ✓ đạt · △ đạt một phần · ✗ chưa đạt.
 
 **Đúng nguồn:** mô tả sơ đồ (dòng 20–24, 94–96) và bảng đối chiếu 8 bước (dòng 104–111) khớp ảnh sơ đồ Vinmec.
 
-**Gợi ý:** C1 dẫn câu 22 cho hội chẩn, chuyển viện (dòng 39, 84, 89, 122, 140). Nhưng câu 22 trong
-`interviews/questions.md` hỏi số ca chuyển **nhập viện**. Nên thêm câu hỏi riêng về hội chẩn, chuyển viện.
+**Gợi ý:** C1 dẫn câu 22 cho hội chẩn, chuyển viện (dòng 39, 84, 89, 122, 140). Câu 22 trong `interviews/questions.md` là
+câu dự phòng, chỉ hỏi số ca chuyển **nhập viện**. Cần thêm câu hỏi riêng về hội chẩn, chuyển viện (Tường Vy, T18), sau đó
+C1 cập nhật lại số câu.
 
 ### C2 – Cận lâm sàng
 
@@ -180,7 +185,7 @@ nói về sự cố y khoa, không phải khiếu nại.
 
 **Gợi ý:** mục 8 thiếu kết thúc khi người bệnh không đồng thuận hoặc chuyển cấp cao (cổng 8).
 
-## 4. Đã sửa theo nguồn trong PR này
+## 4. Đã sửa theo nguồn ở PR #80
 
 Người review đã sửa các chỗ **lệch nguồn** ở mục 3 (đã đọc nguồn), chỉ đổi câu chữ và trích dẫn, không đổi cấu trúc:
 C1 (dòng 32, 33, 58, 141), C2 (bảng thuật ngữ, bước 5, gói khám, cổng 4, liên kết C3), C3 (Actor, bước 6, 10, ghi chú BHYT, mức hưởng,
@@ -191,8 +196,6 @@ Phần **thiếu [n] / ⚠**, **chưa kiểm được** và **gợi ý** ở m�
 
 ## 5. Việc cần làm
 
-| Người viết | Quy trình | Việc chính |
-|---|---|---|
 Các việc còn lại sau khi đã sửa ở mục 4:
 
 | Người viết | Quy trình | Việc còn lại |
@@ -200,5 +203,24 @@ Các việc còn lại sau khi đã sửa ở mục 4:
 | Hoàng Phát | S1, S2, S3 | Thêm link và ngày truy cập cho nguồn; bổ sung căn cứ pháp lý về khiếu nại (S3); gắn ⚠ hoặc chuyển vào "Giả định" các chi tiết chưa có nguồn; bổ sung kết quả không thành công |
 | Quang Hòa | M1, M2, M3 | Gắn [n] / ⚠ cho các dòng ở mục 3; chốt mẫu và cỡ mẫu khảo sát (QĐ 3869 / QĐ 56) |
 | Tú Phương | C2 | Gắn [n] / ⚠ cho bảng Actor và kết quả |
-| Cẩm Tố | C1 | Thêm câu hỏi phỏng vấn riêng cho hội chẩn, chuyển viện |
-| Duy Phúc | C3, C4 | Gắn [n] / ⚠ cho các cổng; nhờ một thành viên khác review |
+| Tường Vy | T18 (bộ câu hỏi) | Thêm câu hỏi phỏng vấn về hội chẩn, chuyển viện |
+| Cẩm Tố | C1 | Cập nhật số câu hỏi ở dòng 39, 84, 89, 122, 140 sau khi Tường Vy thêm câu hỏi |
+| Duy Phúc | C3, C4 | Gắn [n] / ⚠ cho các cổng; nhờ Quang Hòa review bản sau #80 và ghi tên, ngày ở đầu file |
+
+## 6. Nguồn đã đối chiếu
+
+Các văn bản mà PR #80 dẫn đều đã mở và đọc toàn văn điều được trích (truy cập 20/11/2026):
+
+| Văn bản | Điều đã đọc | Nguồn công khai |
+|---|---|---|
+| Luật Khám bệnh, chữa bệnh 15/2023/QH15 | Điều 8 (người đại diện của người bệnh), Điều 10 (tôn trọng danh dự, bí mật riêng tư), Điều 14 (kiến nghị và bồi thường) | https://hethongphapluat.com/luat-kham-benh-chua-benh-2023/dieu-8, `/dieu-10`, `/dieu-14` |
+| Luật Khám bệnh, chữa bệnh 15/2023/QH15 | Điều 70 (trực khám bệnh, chữa bệnh) | Văn bản hợp nhất 26/VBHN-VPQH: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf |
+| Bộ luật Lao động 45/2019/QH14 | Điều 25 (thời gian thử việc) | https://hethongphapluat.com/bo-luat-lao-dong-2019/dieu-25 |
+| Thông tư 19/2013/TT-BYT | Điều 10 (hệ thống QLCL, Giám đốc làm chủ tịch hội đồng), Điều 11 khoản 2 điểm a, d (Hội đồng đề xuất đề án với Giám đốc; đề án do Giám đốc phê duyệt), Điều 15 (nhiệm vụ mạng lưới QLCL) | https://caselaw.vn/van-ban-phap-luat/265779-thong-tu-19-2013-tt-byt-huong-dan-thuc-hien-quan-ly-chat-luong-dich-vu-kham-chua-benh-tai-benh-vien-do-bo-truong-bo-y-te-ban-hanh |
+| Thông tư 43/2018/TT-BYT | Điều 2, 3, 5, 8, 11, 12, Phụ lục I | Link gốc trên thuvienphapluat chặn truy cập tự động; đã đọc bản toàn văn tại https://docs.google.com/document/d/1F8_12ASslAz3bTrAuVNFadGVZX9fWlul (cần mở link gốc để xác nhận) |
+| Thông tư 26/2025/TT-BYT | Điều 13 (hiệu lực, thay thế Thông tư 52/2017, 18/2018; lộ trình kê đơn điện tử) | Bản ký số (xem `docs/tai-lieu-tham-khao.md`, mục 6) |
+| Thông tư 01/2025/TT-BYT | Tên văn bản, ngày ban hành | https://caselaw.vn/van-ban-phap-luat/413093-thong-tu-so-01-2025-tt-byt-ngay-01-01-2025-cua-bo-truong-bo-y-te-huong-dan-luat-bao-hiem-y-te |
+| JCI Accreditation Standards for Hospitals, 5th ed. | IPSG.1 (trang mẫu công khai) | https://digitalassets.jointcommission.org/api/public/content/assets/1/14/jcih14_sample_pages.pdf |
+| Trang Vinmec | Quy trình khám chữa bệnh (kèm ảnh sơ đồ), Thủ tục thanh toán bảo hiểm, Câu hỏi thường gặp BHYT, Dịch vụ Sức khỏe tổng quát, Xét nghiệm cận lâm sàng là gì | Link ở mục Nguồn bằng chứng của từng file |
+
+Danh mục chung: `docs/tai-lieu-tham-khao.md` (đã bổ sung Bộ luật Lao động 2019, Thông tư 01/2025, Thông tư 26/2025, JCI, sách Dumas).
