@@ -22,7 +22,7 @@ Phần bổ sung đối chiếu các vị trí xuất hiện trong tin tuyển d
 
 *Hình 1\. Sơ đồ chi tiết tổ chức Bệnh viện ĐKQT Vinmec Central Park (theo \[1\])*
 
- ![T06-org-chart-T06-Hình-2-SĐ-Tổng-Thể-Phòng-Ban][image2]
+ ![T06-Hình-2-SĐ-Tổng-Thể-Phòng-Ban][image2]
 
 *Hình 2\. Tổng thể phòng ban, khoa và người đứng đầu (theo \[1\])*
 
