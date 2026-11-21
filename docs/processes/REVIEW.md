@@ -15,6 +15,8 @@ Rubric hạng mục 1 (Liệt kê quy trình) yêu cầu **≥ 3 quy trình qu�
 bước, khách hàng, kết quả** (yêu cầu do nhóm trưởng nêu khi review PR #79). Nhóm có 3 quản lý (M1–M3), 4 cốt lõi (C1–C4),
 3 hỗ trợ (S1–S3): **đạt số lượng**. Từng mô tả được review theo các tiêu chí:
 
+**Bảng 1. Tiêu chí review**
+
 | # | Tiêu chí | Căn cứ |
 |---|---|---|
 | 1 | Có actor, các bước, khách hàng, kết quả; đủ các mục còn lại của mẫu (Loại, Người phụ trách viết, Nguồn bằng chứng, Cổng điều kiện) | Rubric hạng mục 1; `docs/processes/_template.md` |
@@ -26,6 +28,8 @@ bước, khách hàng, kết quả** (yêu cầu do nhóm trưởng nêu khi rev
 ## 2. Bảng tổng hợp
 
 Ký hiệu: ✓ đạt · △ đạt một phần · ✗ chưa đạt.
+
+**Bảng 2. Kết quả review 10 mô tả quy trình**
 
 | Mã | Người viết | 1. Đủ mục | 2. Nguồn | 3. Đúng nguồn / ⚠ | 4. Cổng | Split/join | 5. Bảo mật | Kết luận |
 |---|---|---|---|---|---|---|---|---|
@@ -198,6 +202,8 @@ Phần **thiếu [n] / ⚠**, **chưa kiểm được** và **gợi ý** ở m�
 
 Các việc còn lại sau khi đã sửa ở mục 4:
 
+**Bảng 3. Việc còn lại của từng người viết**
+
 | Người viết | Quy trình | Việc còn lại |
 |---|---|---|
 | Hoàng Phát | S1, S2, S3 | Thêm link và ngày truy cập cho nguồn; bổ sung căn cứ pháp lý về khiếu nại (S3); gắn ⚠ hoặc chuyển vào "Giả định" các chi tiết chưa có nguồn; bổ sung kết quả không thành công |
@@ -210,6 +216,8 @@ Các việc còn lại sau khi đã sửa ở mục 4:
 ## 6. Nguồn đã đối chiếu
 
 Các văn bản mà PR #80 dẫn đều đã mở và đọc toàn văn điều được trích (truy cập 20/11/2026):
+
+**Bảng 4. Văn bản pháp luật, tiêu chuẩn và trang web đã đối chiếu**
 
 | Văn bản | Điều đã đọc | Nguồn công khai |
 |---|---|---|
