@@ -26,7 +26,7 @@
 | Actor | Vai trò trong quy trình |
 |---|---|
 | Người bệnh / người nhà | Chọn kênh, chọn cơ sở – chuyên khoa – bác sĩ – giờ khám, đến khám hoặc báo đổi lịch |
-| Tổng đài đặt hẹn / CSKH | Nhận cuộc gọi, đặt hẹn chuyên khoa, liên hệ lại khách gửi form tư vấn, sắp xếp lịch khác khi khách báo không đến được [1] |
+| Tổng đài đặt hẹn / CSKH | Nhận cuộc gọi, đặt hẹn chuyên khoa, sắp xếp lịch khác khi khách báo không đến được [1]; liên hệ lại khách gửi form tư vấn ⚠ ([1] chỉ ghi "chúng tôi sẽ liên hệ") |
 | Hệ thống đặt lịch (online.vinmec.com, ứng dụng MyVinmec) | Hiển thị cơ sở, chuyên khoa, bác sĩ và khung giờ trống; ghi nhận lịch hẹn; thông báo đặt thành công; nhắc lịch [2][4] |
 | Quầy tiếp đón | Check-in theo lịch hẹn / mã đăng ký; mở hồ sơ cho khách mới; định danh người bệnh [3][5] |
 | Bác sĩ, khoa khám bệnh | Lịch làm việc của bác sĩ là đầu vào cho khung giờ trống (từ M1) |
@@ -43,7 +43,7 @@
 1. Người bệnh chọn **kênh đặt lịch** [1]:
    - **Tổng đài** của từng bệnh viện (Central Park: 028 3622 1166);
    - **Website** online.vinmec.com;
-   - **Ứng dụng MyVinmec**;
+   - **Ứng dụng MyVinmec** [4];
    - **Form tư vấn** trên vinmec.com (chỉ là yêu cầu liên hệ, không phải đặt lịch trực tiếp);
    - Đến trực tiếp, không hẹn trước ⚠ (nguồn không mô tả; có trong lựa chọn câu hỏi 1).
 2. **Kênh website** [2]: vào online.vinmec.com → chọn **cơ sở** → chọn **chuyên khoa** hoặc **bác sĩ cụ thể**

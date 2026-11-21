@@ -28,7 +28,7 @@
 
 ### 2.2. Giả định nghiệp vụ (Business Assumptions)
 - **Giả định 1**: Kế hoạch định biên nhân sự được lập định kỳ hàng năm; các yêu cầu tuyển dụng phát sinh ngoài kế hoạch phải có tờ trình phê duyệt bổ sung của Ban Giám đốc Bệnh viện.
-- **Giả định 2**: Thời gian thử việc là 60 ngày đối với bác sĩ/dược sĩ đại học và 30 ngày đối với điều dưỡng/kỹ thuật viên theo đúng Bộ luật Lao động Việt Nam.
+- **Giả định 2**: Thời gian thử việc do hai bên thỏa thuận, tối đa **60 ngày** với công việc yêu cầu trình độ từ cao đẳng trở lên (bác sĩ, dược sĩ, điều dưỡng, kỹ thuật viên có bằng cao đẳng/đại học) và tối đa **30 ngày** với trình độ trung cấp (Bộ luật Lao động 2019, Điều 25). Số ngày thử việc thực tế tại Vinmec ⚠.
 - **Giả định 3**: Việc đào tạo mô phỏng lâm sàng được phối hợp thực hiện với Trung tâm Mô phỏng Y khoa (thuộc Khối Khoa học Sức khỏe VinUni / Hệ sinh thái Vingroup).
 
 ---

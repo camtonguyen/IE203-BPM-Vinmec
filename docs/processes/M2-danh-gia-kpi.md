@@ -20,7 +20,7 @@
   5. Luật sư Việt Nam – *Hệ thống y tế Vinmec: Vị thế mới cho Việt Nam trên bản đồ y tế thế giới* (10/11/2025; Vinmec đo PROM,
      đo hài lòng tại nhiều điểm chạm, mô hình y học dựa trên giá trị):
      https://lsvn.vn/he-thong-y-te-vinmec-vi-the-moi-cho-viet-nam-tren-ban-do-y-te-the-gioi-a165812.html
-  6. Vinmec – *Tầm nhìn và sứ mệnh* (công bố NES 85%; bản lưu 25/01/2026):
+  6. Vinmec – *Tầm nhìn và sứ mệnh* (công bố NES 85%; trang không ghi ngày cập nhật):
      https://www.vinmec.com/vie/tam-nhin-va-su-menh
   7. Pháp luật TP.HCM – *Vinmec Central Park … chứng chỉ JCI lần thứ 3* (01/04/2024; chỉ số nhiễm khuẩn, sai sót thuốc):
      https://plo.vn/vinmec-central-park-xuat-sac-dat-dau-vang-chat-luong-chung-chi-jci-lan-thu-3-post783150.html
@@ -58,9 +58,9 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 | Actor | Vai trò trong quy trình |
 |---|---|
 | Phòng / Tổ Quản lý chất lượng | Đầu mối: xây dựng bộ chỉ số, thu thập, tổng hợp, phân tích, báo cáo [1, Điều 5, 12] |
-| Hội đồng QLCL (Giám đốc làm chủ tịch) | Xem xét kết quả, phê duyệt mục tiêu và đề án cải tiến [1, Điều 10–11] |
+| Hội đồng QLCL (Giám đốc làm chủ tịch [1, Điều 10]) | Xem xét kết quả, đề xuất mục tiêu và đề án cải tiến với Giám đốc; Giám đốc phê duyệt [1, Điều 11] |
 | Trưởng khoa khám bệnh, các trưởng khoa liên quan | Cung cấp dữ liệu, giải trình chỉ số không đạt, thực hiện kế hoạch cải tiến ⚠ |
-| Mạng lưới QLCL ở các khoa | Thu thập số liệu tại khoa, phát phiếu khảo sát ⚠ [1, Điều 10] |
+| Mạng lưới QLCL ở các khoa | Thực hiện nhiệm vụ QLCL tại khoa [1, Điều 15]; thu thập số liệu, phát phiếu khảo sát ⚠ |
 | Phòng CNTT / hệ thống HIS | Trích xuất dữ liệu thời gian, lượt khám, doanh thu [1, Điều 5] ⚠ |
 | CSKH | Khảo sát hài lòng, tổng hợp phản hồi, khiếu nại ⚠ |
 | Người bệnh | Trả lời phiếu khảo sát hài lòng [4] |
@@ -83,8 +83,9 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 **B. Thu thập dữ liệu** (song song)
 
 3. Trích xuất **dữ liệu hệ thống** (HIS, đặt lịch, thu ngân): lượt khám, thời gian từng phân đoạn, doanh thu ⚠.
-4. **Khảo sát hài lòng** người bệnh ngoại trú theo mẫu và cỡ mẫu quy định [3][4][9]
-   (500–4.999 lượt/ngày → ≥ 200 phiếu; 100–499 lượt/ngày → ≥ 100 phiếu [4]).
+4. **Khảo sát hài lòng** người bệnh ngoại trú theo mẫu và cỡ mẫu quy định. QĐ 3869 quy định cỡ mẫu 500–4.999 lượt/ngày
+   → ≥ 200 phiếu; 100–499 lượt/ngày → ≥ 100 phiếu [4]; nhưng đợt đánh giá 2024–2025 khảo sát người bệnh ngoại trú theo
+   phương pháp của QĐ 56 [3][9], nên mẫu và cỡ mẫu áp dụng cần thống nhất ⚠.
 5. Lấy **số liệu sự cố** từ M3 và **khiếu nại** từ S3.
 
 **C. Phân tích, đánh giá**
@@ -96,7 +97,7 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 **D. Báo cáo, cải tiến**
 
 9. QLCL lập **báo cáo** gửi Hội đồng QLCL / Ban giám đốc; công khai thời gian chờ [2] ⚠.
-10. Hội đồng **quyết định**: duy trì, hoặc giao **kế hoạch / đề án cải tiến** (PDCA) cho khoa [1, Điều 11] ⚠.
+10. Hội đồng **đề xuất** duy trì hoặc **đề án cải tiến** (PDCA), Giám đốc phê duyệt [1, Điều 11]; giao khoa thực hiện ⚠.
 11. Khoa **thực hiện cải tiến**; QLCL **theo dõi** ở kỳ sau (quay lại bước 3).
 12. Định kỳ: nộp kết quả **tự đánh giá chất lượng** và khảo sát hài lòng cho Bộ Y tế / Sở Y tế [3].
 
