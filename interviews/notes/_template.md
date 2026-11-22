@@ -1,10 +1,10 @@
 **Mẫu biên bản phỏng vấn**
 
-IE203 – Phân tích quy trình khám ngoại trú tại Bệnh viện Vinmec \| Task T18 \| 20/11/2026
+IE203 – Phân tích quy trình khám ngoại trú tại Bệnh viện Vinmec
 
 Mỗi buổi điền một biên bản. Mã buổi theo cú pháp PV-\[đối tượng\]-\[số thứ tự\], ví dụ PV-ĐD-02.
 
-Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu hỏi định lượng, DP01–DP10 là câu hỏi dự phòng (lấy từ bộ câu hỏi phỏng vấn). Vai trò: BS = bác sĩ, ĐD = điều dưỡng/lễ tân, TN = thu ngân/bảo hiểm, NB = người bệnh/người nhà.
+Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu hỏi định lượng, DP01–DP02 là câu hỏi dự phòng (lấy từ bộ câu hỏi phỏng vấn), QLHC01-QLHC10 là câu hỏi hội chẩn - chuyển viện định tính, QNHC01-QNHC10 là câu hỏi hội chẩn - chuyển viện định lượng. Vai trò: BS = bác sĩ, ĐD = điều dưỡng, BN = người bệnh/người nhà, LT = nhân viên tiếp đón/thu ngân, CLS = kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh, DS = Dược sĩ nhà thuốc, QL = quản lý.
 
 ### **1\. Thông tin chung**
 
@@ -39,7 +39,8 @@ Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu 
 | QN\_\_ |  |  |  |  | ☐ Nhớ ☐ Đo ☐ Báo cáo | ☐ Cao ☐ TB ☐ Thấp |
 | QN\_\_ |  |  |  |  | ☐ Nhớ ☐ Đo ☐ Báo cáo | ☐ Cao ☐ TB ☐ Thấp |
 
-Với câu thang điểm (QN19, QN20), ghi điểm từng mục vào cột "Thường gặp".
+
+Với câu thang điểm (QN09, QN10), ghi điểm từng mục vào cột "Thường gặp".
 
 ### **4\. Quy trình As-Is do người được phỏng vấn mô tả**
 

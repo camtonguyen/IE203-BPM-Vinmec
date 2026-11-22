@@ -1,72 +1,72 @@
 # Bộ câu hỏi phỏng vấn
 
-Đối tượng: BS = bác sĩ, ĐD = điều dưỡng/lễ tân, TN = thu ngân/bảo hiểm, NB = người bệnh/người nhà.
+Đối tượng: BS = bác sĩ, ĐD = điều dưỡng, BN = người bệnh/người nhà, LT = nhân viên tiếp đón/thu ngân, BH = nhân viên bảo hiểm, CLS = kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh, DS = Dược sĩ nhà thuốc, QL = quản lý.
 Rubric: ≥ 20 câu = 0,5đ; 10 định tính + 10 định lượng, mỗi loại 5 cấu trúc + 5 không cấu trúc.
 
 ## Định tính – có cấu trúc
-1. Anh/chị đặt lịch khám qua kênh nào? (Hotline / Website / App My Vinmec / Đến trực tiếp) – NB
-2. Hướng dẫn di chuyển giữa các phòng khám, xét nghiệm có rõ ràng không? (Rõ / Chưa rõ / Không có) – NB
-3. Kết quả cận lâm sàng được trả cho bác sĩ bằng cách nào? (Tự động trên hệ thống / Bệnh nhân mang giấy / Cả hai) – BS, ĐD
-4. Khi bảo hiểm tư nhân từ chối bảo lãnh, bộ phận xử lý thế nào? (Thu tiền và hướng dẫn tự bồi thường / Chờ bổ sung hồ sơ / Khác) – TN
-5. Anh/chị hài lòng ở mức nào với tổng thời gian khám? (1–5) – NB
+QL01. Anh/chị đặt lịch khám qua kênh nào? (Hotline / Website / App My Vinmec / Đến trực tiếp) – BN
+QL02. Hướng dẫn di chuyển giữa các phòng khám, xét nghiệm có rõ ràng không? (Rõ / Chưa rõ / Không có) – BN
+QL03. Kết quả cận lâm sàng được trả cho bác sĩ bằng cách nào? (Tự động trên hệ thống / Bệnh nhân mang giấy / Cả hai) – BS, ĐD
+QL04. Khi bảo hiểm tư nhân từ chối bảo lãnh, bộ phận xử lý thế nào? (Thu tiền và hướng dẫn tự bồi thường / Chờ bổ sung hồ sơ / Khác) – BH
+QL05. Anh/chị hài lòng ở mức nào với tổng thời gian khám? (1–5) – BN
 
 ## Định tính – không cấu trúc
-6. Anh/chị mô tả lại một ca làm việc điển hình tại khu khám ngoại trú? – BS, ĐD
-7. Khâu nào trong hành trình khám hay gây ùn tắc nhất, vì sao? – ĐD, NB
-8. Quy trình định danh người bệnh và các phiếu cần ký được thực hiện thế nào trong thực tế? – ĐD
-9. Tình huống nào khiến bảo lãnh bảo hiểm bị chậm hoặc phát sinh tranh chấp? – TN
-10. Nếu được thay đổi một điều trong quy trình khám hiện tại, anh/chị sẽ thay đổi gì? – Tất cả
+QL06. Anh/chị mô tả lại một ca làm việc điển hình tại khu khám ngoại trú? – BS, ĐD
+QL07. Khâu nào trong hành trình khám hay gây ùn tắc nhất, vì sao? – ĐD, BN
+QL08. Quy trình định danh người bệnh và các phiếu cần ký được thực hiện thế nào trong thực tế? – ĐD
+QL09. Tình huống nào khiến bảo lãnh bảo hiểm bị chậm hoặc phát sinh tranh chấp? – BH
+QL10. Nếu được thay đổi một điều trong quy trình khám hiện tại, anh/chị sẽ thay đổi gì? – Tất cả
 
 ## Định lượng – có cấu trúc
-11. Mỗi bác sĩ khám bao nhiêu lượt ngoại trú một ngày? (<15 / 15–25 / 25–40 / >40) – BS
-12. Thời gian bác sĩ khám trung bình một lượt? (<10 / 10–15 / 15–20 / >20 phút) – BS
-13. Bao nhiêu % lượt khám có chỉ định cận lâm sàng? (<30% / 30–50% / 50–70% / >70%) – BS
-14. Thời gian chờ duyệt bảo lãnh bảo hiểm tư nhân? (<15 / 15–30 / 30–60 / >60 phút) – TN
-15. Tỉ lệ khách đặt lịch nhưng không đến? (<5% / 5–10% / 10–20% / >20%) – ĐD
+QN01. Mỗi bác sĩ khám bao nhiêu lượt ngoại trú một ngày? (<15 / 15–25 / 25–40 / >40) – BS
+QN02. Thời gian bác sĩ khám trung bình một lượt? (<10 / 10–15 / 15–20 / >20 phút) – BS
+QN03. Bao nhiêu % lượt khám có chỉ định cận lâm sàng? (<30% / 30–50% / 50–70% / >70%) – BS
+QN04. Thời gian chờ duyệt bảo lãnh bảo hiểm tư nhân? (<15 / 15–30 / 30–60 / >60 phút) – BH
+QN05. Tỉ lệ khách đặt lịch nhưng không đến? (<5% / 5–10% / 10–20% / >20%) – ĐD
 
 ## Định lượng – không cấu trúc
-16. Khung giờ nào đông nhất và lúc đó có khoảng bao nhiêu người bệnh chờ? – ĐD
-17. Mỗi tháng có khoảng bao nhiêu phản hồi, khiếu nại và chủ yếu về vấn đề gì? – ĐD, TN
-18. Kết quả xét nghiệm máu thông thường có sau bao lâu? Chẩn đoán hình ảnh mất bao lâu? – BS, ĐD
-19. Tổng chi phí một lượt khám của anh/chị là bao nhiêu, bảo hiểm chi trả khoảng bao nhiêu %? – NB
-20. Từ lúc đến đến lúc rời bệnh viện, anh/chị ở đó tổng cộng bao lâu, chờ bao lâu? – NB
+QN06. Khung giờ nào đông nhất và lúc đó có khoảng bao nhiêu người bệnh chờ? – ĐD
+QN07. Mỗi tháng có khoảng bao nhiêu phản hồi, khiếu nại và chủ yếu về vấn đề gì? – ĐD, LT
+QN08. Kết quả xét nghiệm máu thông thường có sau bao lâu? Chẩn đoán hình ảnh mất bao lâu? – BS, ĐD
+QN09. Tổng chi phí một lượt khám của anh/chị là bao nhiêu, bảo hiểm chi trả khoảng bao nhiêu %? – BN
+QN10. Từ lúc đến đến lúc rời bệnh viện, anh/chị ở đó tổng cộng bao lâu, chờ bao lâu? – BN
 
 ## Dự phòng (để luôn ≥ 20 câu)
-21. Anh/chị có dùng app My Vinmec để xem kết quả không? Vì sao? – NB
-22. Một ngày có bao nhiêu trường hợp phải chuyển nhập viện từ khu ngoại trú? – BS
+DP01. Anh/chị có dùng app My Vinmec để xem kết quả không? Vì sao? – BN
+DP02. Một ngày có bao nhiêu trường hợp phải chuyển nhập viện từ khu ngoại trú? – BS
 
 
-## Hội chẩn và chuyển viện 
+## Hội chẩn và chuyển viện
 
-Hỏi theo tình huống chung hoặc ca gần nhất đã ẩn danh; không hỏi và không ghi tên người bệnh, chẩn đoán hay thông tin y tế cá nhân. Câu 22 (chuyển nhập viện) ở nhóm dự phòng trên cũng thuộc chủ đề này.
+Hỏi theo tình huống chung hoặc ca gần nhất đã ẩn danh; không hỏi và không ghi tên người bệnh, chẩn đoán hay thông tin y tế cá nhân. Câu DP02 (chuyển nhập viện) ở nhóm dự phòng trên cũng thuộc chủ đề này.
 
 ### Hội chẩn, chuyển viện – định tính – có cấu trúc
-23. Khi bác sĩ cần hội chẩn hoặc xin thêm ý kiến, anh/chị có được giải thích rõ lý do và bước tiếp theo không? (Rõ / Một phần / Không / Chưa gặp trường hợp này) – NB
-24. Kết luận hội chẩn thường được thông báo cho người bệnh bằng cách nào? (Bác sĩ nói trực tiếp / Điều dưỡng thông báo / Qua hệ thống hoặc app / Không thông báo riêng) – BS, ĐD
-25. Hội chẩn ở khu ngoại trú thường được tổ chức dưới hình thức nào? (Trực tiếp tại phòng khám / Họp nhóm tại chỗ / Trực tuyến / Trao đổi qua hồ sơ) – BS
-26. Khi chuyển người bệnh sang bệnh viện khác, phương tiện vận chuyển thường dùng là gì? (Xe cấp cứu của bệnh viện / Xe cấp cứu bên ngoài / Người nhà tự đưa đi / Khác) – BS, ĐD
-27. Khi được chuyển nhập viện hoặc chuyển viện, anh/chị có được giải thích rõ lý do và việc cần làm tiếp theo không? (Rõ / Một phần / Không / Chưa gặp trường hợp này) – NB
+QLHC01. Khi bác sĩ cần hội chẩn hoặc xin thêm ý kiến, anh/chị có được giải thích rõ lý do và bước tiếp theo không? (Rõ / Một phần / Không / Chưa gặp trường hợp này) – BN
+QLHC02. Kết luận hội chẩn thường được thông báo cho người bệnh bằng cách nào? (Bác sĩ nói trực tiếp / Điều dưỡng thông báo / Qua hệ thống hoặc app / Không thông báo riêng) – BS, ĐD
+QLHC03. Hội chẩn ở khu ngoại trú thường được tổ chức dưới hình thức nào? (Trực tiếp tại phòng khám / Họp nhóm tại chỗ / Trực tuyến / Trao đổi qua hồ sơ) – BS
+QLHC04. Khi chuyển người bệnh sang bệnh viện khác, phương tiện vận chuyển thường dùng là gì? (Xe cấp cứu của bệnh viện / Xe cấp cứu bên ngoài / Người nhà tự đưa đi / Khác) – BS, ĐD
+QLHC05. Khi được chuyển nhập viện hoặc chuyển viện, anh/chị có được giải thích rõ lý do và việc cần làm tiếp theo không? (Rõ / Một phần / Không / Chưa gặp trường hợp này) – BN
 
 ### Hội chẩn, chuyển viện – định tính – không cấu trúc
-28. Khi một ca ngoại trú cần hội chẩn (liên chuyên khoa hoặc xin ý kiến bác sĩ nơi khác), ai đề xuất, hội chẩn diễn ra ở đâu, với những ai và bằng cách nào? – BS
-29. Trong lúc chờ hội chẩn, người bệnh và hồ sơ được xử lý thế nào? – BS, ĐD
-30. Khi cần chuyển người bệnh từ khu ngoại trú nhập viện hoặc sang bệnh viện khác, các bước thực hiện là gì (quyết định, hồ sơ, liên hệ nơi nhận, vận chuyển, giấy tờ cần ký) và ai chịu trách nhiệm từng bước? – BS, ĐD
-31. Với ca chuyển nhập viện hoặc chuyển viện, phần thanh toán và bảo hiểm của lượt khám ngoại trú được xử lý thế nào, có khác ca bình thường không? – TN
-32. Tình huống nào khiến việc hội chẩn hoặc chuyển viện bị chậm hoặc phải làm lại? – BS, ĐD, TN
+QLHC06. Khi một ca ngoại trú cần hội chẩn (liên chuyên khoa hoặc xin ý kiến bác sĩ nơi khác), ai đề xuất, hội chẩn diễn ra ở đâu, với những ai và bằng cách nào? – BS
+QLHC07. Trong lúc chờ hội chẩn, người bệnh và hồ sơ được xử lý thế nào? – BS, ĐD
+QLHC08. Khi cần chuyển người bệnh từ khu ngoại trú nhập viện hoặc sang bệnh viện khác, các bước thực hiện là gì (quyết định, hồ sơ, liên hệ nơi nhận, vận chuyển, giấy tờ cần ký) và ai chịu trách nhiệm từng bước? – BS, ĐD
+QLHC09. Với ca chuyển nhập viện hoặc chuyển viện, phần thanh toán và bảo hiểm của lượt khám ngoại trú được xử lý thế nào, có khác ca bình thường không? – LT, BH
+QLHC10. Tình huống nào khiến việc hội chẩn hoặc chuyển viện bị chậm hoặc phải làm lại? – BS, ĐD, LT
 
 ### Hội chẩn, chuyển viện – định lượng – có cấu trúc
-33. Hội chẩn trong khám ngoại trú xảy ra thường xuyên đến mức nào? (Hằng ngày / Hằng tuần / Hằng tháng / Hiếm) – BS
-34. Từ lúc quyết định chuyển nhập viện hoặc chuyển viện đến lúc người bệnh rời khu ngoại trú mất bao lâu? (<30 / 30–60 / 60–120 / >120 phút) – BS, ĐD
-35. Bao nhiêu % lượt khám ngoại trú cần hội chẩn? (<1% / 1–3% / 3–5% / >5%) – BS
-36. Một lần hội chẩn thường có bao nhiêu bác sĩ hoặc chuyên khoa tham gia? (1–2 / 3–4 / 5 trở lên) – BS
-37. Với ca chuyển nhập viện hoặc chuyển viện, duyệt bảo hiểm hoặc hoàn tất thanh toán mất bao lâu? (<15 / 15–30 / 30–60 / >60 phút) – TN
+QNHC01. Hội chẩn trong khám ngoại trú xảy ra thường xuyên đến mức nào? (Hằng ngày / Hằng tuần / Hằng tháng / Hiếm) – BS
+QNHC02. Từ lúc quyết định chuyển nhập viện hoặc chuyển viện đến lúc người bệnh rời khu ngoại trú mất bao lâu? (<30 / 30–60 / 60–120 / >120 phút) – BS, ĐD
+QNHC03. Bao nhiêu % lượt khám ngoại trú cần hội chẩn? (<1% / 1–3% / 3–5% / >5%) – BS
+QNHC04. Một lần hội chẩn thường có bao nhiêu bác sĩ hoặc chuyên khoa tham gia? (1–2 / 3–4 / 5 trở lên) – BS
+QNHC05. Với ca chuyển nhập viện hoặc chuyển viện, duyệt bảo hiểm hoặc hoàn tất thanh toán mất bao lâu? (<15 / 15–30 / 30–60 / >60 phút) – LT, BH
 
 ### Hội chẩn, chuyển viện – định lượng – không cấu trúc
-38. Từ lúc quyết định hội chẩn đến lúc có kết luận mất bao lâu (nhanh nhất / thường gặp / lâu nhất)? – BS, ĐD
-39. Một tuần có khoảng bao nhiêu trường hợp chuyển sang bệnh viện khác (khác với câu 22 là chuyển nhập viện nội trú)? – BS
-40. Một tuần có khoảng bao nhiêu ca cần hội chẩn ở khu ngoại trú, và có bao nhiêu ca phải hẹn quay lại vì chờ hội chẩn? – BS
-41. Từ lúc được báo cần hội chẩn hoặc chuyển viện đến lúc được xử lý tiếp, anh/chị đã chờ bao lâu? – NB
-42. Từ lúc quyết định chuyển viện đến lúc người bệnh được nơi đến tiếp nhận mất bao lâu, và có bao nhiêu phần trăm ca phải chờ giường hoặc chờ nơi nhận? – BS, ĐD
+QNHC06. Từ lúc quyết định hội chẩn đến lúc có kết luận mất bao lâu (nhanh nhất / thường gặp / lâu nhất)? – BS, ĐD
+QNHC07. Một tuần có khoảng bao nhiêu trường hợp chuyển sang bệnh viện khác (khác với câu 22 là chuyển nhập viện nội trú)? – BS
+QNHC08. Một tuần có khoảng bao nhiêu ca cần hội chẩn ở khu ngoại trú, và có bao nhiêu ca phải hẹn quay lại vì chờ hội chẩn? – BS
+QNHC09. Từ lúc được báo cần hội chẩn hoặc chuyển viện đến lúc được xử lý tiếp, anh/chị đã chờ bao lâu? – BN
+QNHC10. Từ lúc quyết định chuyển viện đến lúc người bệnh được nơi đến tiếp nhận mất bao lâu, và có bao nhiêu phần trăm ca phải chờ giường hoặc chờ nơi nhận? – BS, ĐD
 
 ## Kịch bản phỏng vấn
 ### **1. Quy trình tham chiếu (giả định, cần xác nhận tại hiện trường)**
@@ -86,7 +86,7 @@ Hỏi theo tình huống chung hoặc ca gần nhất đã ẩn danh; không h�
 
 Thứ tự B5–B7 có thể khác nhau tùy chuyên khoa (thanh toán trước hay sau cận lâm sàng). Hãy hỏi người được phỏng vấn để chỉnh lại bảng này.
 
-### **1.2. Đối tượng phỏng vấn**
+### **2. Đối tượng phỏng vấn**
 
 **Bảng 2\. Các đối tượng sẽ phỏng vấn**
 
@@ -102,24 +102,23 @@ Thứ tự B5–B7 có thể khác nhau tùy chuyên khoa (thanh toán trước 
 
 Số lượng chỉ là gợi ý. Nhóm cần điều chỉnh theo thời gian được bệnh viện cho phép và theo mức độ bão hòa thông tin.
 
-### **1.3. Cách chọn câu hỏi cho từng buổi**
+### **3. Cách chọn câu hỏi cho từng buổi**
 
 * Mỗi buổi chọn 8–12 câu phù hợp với đối tượng (cột Đối tượng ở mục 3). Với bệnh nhân chỉ hỏi 5–7 câu.  
 * Ưu tiên câu định tính trước để hiểu bối cảnh, sau đó hỏi các câu định lượng để lấy con số.  
 * Câu dự phòng dùng khi người trả lời ngắn gọn, khi cần đào sâu hoặc khi hết giờ mà còn thiếu dữ liệu.  
 * Với câu định lượng, nếu người trả lời không nhớ chính xác, ghi khoảng giá trị (thấp nhất, thường gặp, cao nhất) và đánh dấu là ước lượng. Sau đó đối chiếu với số liệu đo trực tiếp hoặc báo cáo của bệnh viện.
 
-## **2\. Kịch bản phỏng vấn**
+### **4\. Kịch bản phỏng vấn**
 
-### **2.1. Chuẩn bị (trước buổi phỏng vấn)**
 
 1. Xin giấy giới thiệu hoặc văn bản chấp thuận của bệnh viện, thông qua Phòng Quản lý chất lượng hoặc Phòng Kế hoạch tổng hợp.  
 2. Đặt lịch hẹn, tránh giờ cao điểm của người được phỏng vấn.  
-3. Chuẩn bị: bộ câu hỏi đã chọn, mẫu biên bản (mục 4), phiếu chấp thuận miệng, bút, đồng hồ bấm giờ. Chỉ ghi âm khi người được hỏi đồng ý.  
+3. Chuẩn bị: bộ câu hỏi đã chọn, mẫu biên bản (interviews/notes/_template.md), phiếu chấp thuận miệng, bút, đồng hồ bấm giờ. Chỉ ghi âm khi người được hỏi đồng ý.  
 4. Phân vai: 1 người hỏi, 1 người ghi biên bản. Họp thống nhất trước 15 phút.  
 5. Với bệnh nhân: phỏng vấn sau khi người bệnh đã hoàn tất khám, tuyệt đối không làm chậm hoặc cản trở việc khám chữa bệnh.
 
-### **2.2. Mở đầu (khoảng 3 phút)**
+#### **4.1. Mở đầu (khoảng 3 phút)**
 
 *Xin chào anh/chị. Em/mình là \[họ tên\], sinh viên/nhóm nghiên cứu môn Hệ Thống Quy Trình Nghiệp Vụ của Trường Đại Học Công Nghệ Thông Tin. Nhóm đang thực hiện đề tài phân tích quy trình khám ngoại trú tại Bệnh viện Vinmec để tìm cách giảm thời gian chờ và làm quy trình thuận tiện hơn.*
 
@@ -129,7 +128,7 @@ Số lượng chỉ là gợi ý. Nhóm cần điều chỉnh theo thời gian �
 
 Ghi lại câu trả lời đồng ý vào biên bản (mục Chấp thuận).
 
-### **2.3. Thân buổi phỏng vấn**
+#### **4.2. Thân buổi phỏng vấn**
 
 **Bảng 3\. Nội dung thân buổi phỏng vấn**
 
@@ -141,7 +140,7 @@ Ghi lại câu trả lời đồng ý vào biên bản (mục Chấp thuận).
 | Đào sâu | 5 phút | Dùng câu hỏi dò (xem 2.4) và câu dự phòng. |
 | Tổng kết | 2 phút | Nhắc lại các ý chính để xác nhận. |
 
-### **2.4. Câu hỏi dò dùng chung**
+#### **4.3. Câu hỏi dò dùng chung**
 
 * Anh/chị có thể kể một ví dụ gần nhất không?  
 * Việc đó thường mất bao lâu? Lúc nhanh nhất và lúc chậm nhất là bao lâu?  
@@ -149,11 +148,11 @@ Ghi lại câu trả lời đồng ý vào biên bản (mục Chấp thuận).
 * Sau bước đó thì chuyện gì xảy ra tiếp theo? Ai làm?  
 * Có khác nhau giữa ngày thường và ngày cao điểm không?
 
-### **2.4.1. Nguyên tắc hỏi**
+#### **4.4. Nguyên tắc hỏi**
 
 Hỏi câu mở trước, câu đóng sau. Không gợi ý đáp án, không phê bình cách làm hiện tại, không so sánh với người khác. Nếu người trả lời nói về một vấn đề mới, ghi lại và quay về câu hỏi chính sau.
 
-### **2.5. Kết thúc (khoảng 2 phút)**
+#### **4.5. Kết thúc (khoảng 2 phút)**
 
 *Em/mình xin tóm tắt lại: \[3–4 ý chính\]. Anh/chị thấy em/mình hiểu đúng chưa? Còn điều gì anh/chị muốn bổ sung mà em/mình chưa hỏi không? Cảm ơn anh/chị đã dành thời gian. Nếu cần làm rõ thêm, em/mình có thể liên hệ lại qua \[kênh liên hệ\] được không?*
 
