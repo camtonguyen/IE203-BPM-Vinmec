@@ -119,12 +119,12 @@ cần ⚠.
 
 **Thiếu [n] hoặc ⚠:** dòng 52–54 (KPI hiệu suất, tài chính để trống căn cứ); dòng 5–6 (kỳ đánh giá).
 
-**Chưa kiểm được:** dòng 51 (RCA 60 ngày, Thông tư 43/2018 không có trong danh sách nguồn của M2); dòng 47 (cách tính theo QĐ 56,
+**Chưa kiểm được:** dòng 51 (RCA 60 ngày: đúng theo Thông tư 43/2018 Điều 8.1c, nhưng văn bản này không có trong danh sách nguồn của M2, cần thêm); dòng 47 (cách tính theo QĐ 56,
 nguồn [9] chỉ là bài báo). Nguồn [6] ghi "bản lưu 25/01/2026" nhưng link trỏ tới trang đang chạy.
 
 ### M3 – Quản lý sự cố y khoa
 
-Nguồn [1] (Thông tư 43/2018) bị chặn khi truy cập tự động. Link công khai gốc: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx (mở bằng trình duyệt để xác nhận).
+Nguồn [1] (Thông tư 43/2018): đã đọc toàn văn trên trang gốc https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx qua trình duyệt (truy cập 23/11/2026); các điểm dưới đây khớp văn bản.
 
 **Lệch nguồn:**
 - Dòng 83–84: theo Điều 5.3a, **trưởng khoa** báo cáo lãnh đạo cơ sở. File ghi QLCL báo giám đốc.
@@ -226,7 +226,7 @@ Các văn bản mà PR #80 dẫn đều đã mở và đọc toàn văn điều 
 | Luật Khám bệnh, chữa bệnh 15/2023/QH15 | Điều 70 (trực khám bệnh, chữa bệnh) | Văn bản hợp nhất 26/VBHN-VPQH: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf |
 | Bộ luật Lao động 45/2019/QH14 | Điều 25 (thời gian thử việc) | https://hethongphapluat.com/bo-luat-lao-dong-2019/dieu-25 |
 | Thông tư 19/2013/TT-BYT | Điều 10 (hệ thống QLCL, Giám đốc làm chủ tịch hội đồng), Điều 11 khoản 2 điểm a, d (Hội đồng đề xuất đề án với Giám đốc; đề án do Giám đốc phê duyệt), Điều 15 (nhiệm vụ mạng lưới QLCL) | https://caselaw.vn/van-ban-phap-luat/265779-thong-tu-19-2013-tt-byt-huong-dan-thuc-hien-quan-ly-chat-luong-dich-vu-kham-chua-benh-tai-benh-vien-do-bo-truong-bo-y-te-ban-hanh |
-| Thông tư 43/2018/TT-BYT | Điều 2, 3, 5, 8, 11, 12, Phụ lục I | https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx (trang chặn truy cập tự động, mở bằng trình duyệt) |
+| Thông tư 43/2018/TT-BYT | Điều 2, 3, 5, 8, 11, 12, Phụ lục I | https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx (đọc toàn văn qua trình duyệt, 23/11/2026; trang chặn truy cập tự động) |
 | Thông tư 26/2025/TT-BYT | Điều 13 (hiệu lực, thay thế Thông tư 52/2017, 18/2018; lộ trình kê đơn điện tử) | Bản ký số (xem `docs/tai-lieu-tham-khao.md`, mục 6) |
 | Thông tư 01/2025/TT-BYT | Tên văn bản, ngày ban hành | https://caselaw.vn/van-ban-phap-luat/413093-thong-tu-so-01-2025-tt-byt-ngay-01-01-2025-cua-bo-truong-bo-y-te-huong-dan-luat-bao-hiem-y-te |
 | JCI Accreditation Standards for Hospitals, 5th ed. | IPSG.1 (trang mẫu công khai) | https://digitalassets.jointcommission.org/api/public/content/assets/1/14/jcih14_sample_pages.pdf |
