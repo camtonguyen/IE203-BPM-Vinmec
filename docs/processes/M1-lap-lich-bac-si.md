@@ -37,7 +37,7 @@
   cận lâm sàng, hậu cần; người đứng đầu phải **phân công người trực** và bảo đảm báo cáo mỗi phiên trực [1, Điều 70].
   → Bác sĩ vừa khám ngoại trú vừa trực/mổ, nên lịch ngoại trú phải tránh trùng ca trực, lịch mổ ⚠.
 - **Thời gian chờ** là tiêu chí chất lượng: bệnh viện phải công khai cam kết thời gian chờ, theo dõi theo tuần/tháng [6]
-  → số bác sĩ mỗi khung giờ cần đủ so với nhu cầu dự kiến.
+  → số bác sĩ mỗi khung giờ cần đủ so với nhu cầu dự kiến ⚠.
 
 ## Actor
 
@@ -75,13 +75,13 @@
 
 7. **Nhập lịch vào hệ thống đặt lịch**: hệ thống chia buổi khám thành các khung giờ theo thời lượng khám dự kiến mỗi
    lượt, mở cho người bệnh đặt trên website / MyVinmec / tổng đài [2][3] ⚠ (thời lượng mỗi khung chưa rõ).
-8. Song song: **thông báo lịch** cho bác sĩ, điều dưỡng trưởng (bố trí điều dưỡng, phòng khám) và tổng đài.
+8. Song song: **thông báo lịch** cho bác sĩ, điều dưỡng trưởng (bố trí điều dưỡng, phòng khám) và tổng đài ⚠.
 
 **C. Điều chỉnh đột xuất**
 
 9. Khi bác sĩ **báo nghỉ / đổi ca** (ốm, ca mổ cấp cứu, công tác): trưởng khoa tìm **bác sĩ thay thế** cùng chuyên khoa ⚠.
 10. Kiểm tra buổi khám đó **đã có người bệnh đặt hẹn** chưa ⚠.
-    - Có bác sĩ thay → cập nhật hệ thống; tổng đài báo người bệnh đổi bác sĩ, người bệnh đồng ý hoặc đổi ngày.
+    - Có bác sĩ thay → cập nhật hệ thống; tổng đài báo người bệnh đổi bác sĩ, người bệnh đồng ý hoặc đổi ngày ⚠.
     - Không có bác sĩ thay → **đóng khung giờ**; tổng đài gọi từng người bệnh sắp xếp lịch khác (C4) ⚠.
 11. Cập nhật lịch chính thức; ghi nhận số lần thay đổi để theo dõi (đầu vào M2) ⚠.
 
