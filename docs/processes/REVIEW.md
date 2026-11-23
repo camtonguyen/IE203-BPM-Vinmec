@@ -124,7 +124,7 @@ nguồn [9] chỉ là bài báo). Nguồn [6] ghi "bản lưu 25/01/2026" nhưng
 
 ### M3 – Quản lý sự cố y khoa
 
-Nguồn [1] (Thông tư 43/2018) bị chặn khi truy cập tự động. Toàn văn được đối chiếu qua bản sao khác, cần mở lại link gốc để xác nhận.
+Nguồn [1] (Thông tư 43/2018) bị chặn khi truy cập tự động. Link công khai gốc: https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx (mở bằng trình duyệt để xác nhận).
 
 **Lệch nguồn:**
 - Dòng 83–84: theo Điều 5.3a, **trưởng khoa** báo cáo lãnh đạo cơ sở. File ghi QLCL báo giám đốc.
@@ -200,6 +200,8 @@ Phần **thiếu [n] / ⚠**, **chưa kiểm được** và **gợi ý** ở m�
 
 ## 5. Việc cần làm
 
+Bộ câu hỏi `interviews/questions.md` đã đổi sang mã `QL01–QL10`, `QN01–QN10`, `DP01–DP02` và có thêm nhóm hội chẩn, chuyển viện `QLHC01–QLHC10`, `QNHC01–QNHC10` (PR #81, đã merge). Các file `docs/processes/` vẫn trích câu theo số cũ 1–22. Quy đổi: câu 1–5 → `QL01`–`QL05`; 6–10 → `QL06`–`QL10`; 11–15 → `QN01`–`QN05`; 16–20 → `QN06`–`QN10`; 21–22 → `DP01`–`DP02`.
+
 Các việc còn lại sau khi đã sửa ở mục 4:
 
 **Bảng 3. Việc còn lại của từng người viết**
@@ -207,11 +209,10 @@ Các việc còn lại sau khi đã sửa ở mục 4:
 | Người viết | Quy trình | Việc còn lại |
 |---|---|---|
 | Hoàng Phát | S1, S2, S3 | Thêm link và ngày truy cập cho nguồn; bổ sung căn cứ pháp lý về khiếu nại (S3); gắn ⚠ hoặc chuyển vào "Giả định" các chi tiết chưa có nguồn; bổ sung kết quả không thành công |
-| Quang Hòa | M1, M2, M3 | Gắn [n] / ⚠ cho các dòng ở mục 3; chốt mẫu và cỡ mẫu khảo sát (QĐ 3869 / QĐ 56) |
+| Quang Hòa | M1, M2, M3 | Gắn [n] / ⚠ cho các dòng ở mục 3; chốt mẫu và cỡ mẫu khảo sát (QĐ 3869 / QĐ 56); đổi "câu n" ở M1, M2 sang mã mới |
 | Tú Phương | C2 | Gắn [n] / ⚠ cho bảng Actor và kết quả |
-| Tường Vy | T18 (bộ câu hỏi) | Thêm câu hỏi phỏng vấn về hội chẩn, chuyển viện |
-| Cẩm Tố | C1 | Cập nhật số câu hỏi ở dòng 39, 84, 89, 122, 140 sau khi Tường Vy thêm câu hỏi |
-| Duy Phúc | C3, C4 | Gắn [n] / ⚠ cho các cổng; nhờ Quang Hòa review bản sau #80 và ghi tên, ngày ở đầu file |
+| Cẩm Tố | C1 | Đổi các tham chiếu "câu n" sang mã mới (xem quy đổi trên). Các dòng ⚠ "câu 22" về hội chẩn, chuyển viện (liên chuyên khoa, chuyển viện, kết luận) dẫn sang `QLHC06`–`QLHC10`, `QNHC02`, `QNHC07` |
+| Duy Phúc | C3, C4 | Gắn [n] / ⚠ cho các cổng; đổi "câu n" ở C3, C4 sang mã mới; nhờ Quang Hòa review bản sau #80 và ghi tên, ngày ở đầu file |
 
 ## 6. Nguồn đã đối chiếu
 
@@ -225,7 +226,7 @@ Các văn bản mà PR #80 dẫn đều đã mở và đọc toàn văn điều 
 | Luật Khám bệnh, chữa bệnh 15/2023/QH15 | Điều 70 (trực khám bệnh, chữa bệnh) | Văn bản hợp nhất 26/VBHN-VPQH: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf |
 | Bộ luật Lao động 45/2019/QH14 | Điều 25 (thời gian thử việc) | https://hethongphapluat.com/bo-luat-lao-dong-2019/dieu-25 |
 | Thông tư 19/2013/TT-BYT | Điều 10 (hệ thống QLCL, Giám đốc làm chủ tịch hội đồng), Điều 11 khoản 2 điểm a, d (Hội đồng đề xuất đề án với Giám đốc; đề án do Giám đốc phê duyệt), Điều 15 (nhiệm vụ mạng lưới QLCL) | https://caselaw.vn/van-ban-phap-luat/265779-thong-tu-19-2013-tt-byt-huong-dan-thuc-hien-quan-ly-chat-luong-dich-vu-kham-chua-benh-tai-benh-vien-do-bo-truong-bo-y-te-ban-hanh |
-| Thông tư 43/2018/TT-BYT | Điều 2, 3, 5, 8, 11, 12, Phụ lục I | Link gốc trên thuvienphapluat chặn truy cập tự động; đã đọc bản toàn văn tại https://docs.google.com/document/d/1F8_12ASslAz3bTrAuVNFadGVZX9fWlul (cần mở link gốc để xác nhận) |
+| Thông tư 43/2018/TT-BYT | Điều 2, 3, 5, 8, 11, 12, Phụ lục I | https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-43-2018-TT-BYT-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx (trang chặn truy cập tự động, mở bằng trình duyệt) |
 | Thông tư 26/2025/TT-BYT | Điều 13 (hiệu lực, thay thế Thông tư 52/2017, 18/2018; lộ trình kê đơn điện tử) | Bản ký số (xem `docs/tai-lieu-tham-khao.md`, mục 6) |
 | Thông tư 01/2025/TT-BYT | Tên văn bản, ngày ban hành | https://caselaw.vn/van-ban-phap-luat/413093-thong-tu-so-01-2025-tt-byt-ngay-01-01-2025-cua-bo-truong-bo-y-te-huong-dan-luat-bao-hiem-y-te |
 | JCI Accreditation Standards for Hospitals, 5th ed. | IPSG.1 (trang mẫu công khai) | https://digitalassets.jointcommission.org/api/public/content/assets/1/14/jcih14_sample_pages.pdf |
