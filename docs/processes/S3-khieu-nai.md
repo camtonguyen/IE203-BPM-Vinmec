@@ -12,7 +12,7 @@
 - Tiếp nhận, lắng nghe, phân loại và giải quyết 100% các thắc mắc, phản ánh không hài lòng, khiếu nại của người bệnh và thân nhân một cách kịp thời, thấu cảm, công bằng và bảo mật.
 - Tuân thủ tuyệt đối các chuẩn mực quốc tế **JCI**: Chương *Patient and Family Rights (PFR)* quy định người bệnh có quyền bày tỏ khiếu nại mà không bị phân biệt đối xử; Chương *Quality Improvement and Patient Safety (QPS)* yêu cầu sử dụng khiếu nại làm đầu vào để cải tiến chất lượng bệnh viện.
 - Phân tích nguyên nhân gốc rễ (*Root Cause Analysis - RCA*) đối với các sự cố/khiếu nại nghiêm trọng, từ đó đề ra hành động khắc phục và phòng ngừa (*CAPA*), ngăn chặn sự cố lặp lại.
-- Cam kết thời gian phản hồi ban đầu trong vòng 2 giờ và thời hạn giải quyết dứt điểm không quá 24h đối với sự cố dịch vụ thông thường, không quá 72h đối với tranh chấp viện phí/bảo hiểm và không quá 07 ngày làm việc đối với sự cố chuyên môn y khoa phức tạp.
+- Mục tiêu đề xuất của nhóm, chưa có nguồn ⚠: thời gian phản hồi ban đầu trong vòng 2 giờ và thời hạn giải quyết dứt điểm không quá 24h đối với sự cố dịch vụ thông thường, không quá 72h đối với tranh chấp viện phí/bảo hiểm và không quá 07 ngày làm việc đối với sự cố chuyên môn y khoa phức tạp.
 
 ### 1.2. Phạm vi
 - Áp dụng đối với mọi phản hồi từ người bệnh/thân nhân liên quan đến: Thái độ phục vụ của nhân viên, thời gian chờ khám/chữa bệnh kéo dài, chi phí viện phí và bảo lãnh bảo hiểm tư nhân, chất lượng cơ sở vật chất, và các nghi ngại về kết quả chẩn đoán/điều trị ngoại trú.
@@ -23,10 +23,10 @@
 ## 2. Nguồn bằng chứng & Giả định nghiệp vụ
 
 ### 2.1. Nguồn bằng chứng công khai & Cơ sở pháp lý (Evidence-based)
-1. **Luật Khám bệnh, chữa bệnh năm 2023** (Luật số 15/2023/QH15): Điều 8 quy định quyền được tôn trọng danh dự, bảo vệ sức khỏe và quyền khiếu nại, tố cáo của người bệnh.
+1. **Luật Khám bệnh, chữa bệnh năm 2023** (Luật số 15/2023/QH15): Điều 10 quy định quyền được tôn trọng danh dự, bảo vệ sức khỏe và tôn trọng bí mật riêng tư; Điều 14 quy định quyền kiến nghị về tồn tại, bất cập trong khám bệnh, chữa bệnh và quyền được bồi thường. Luật không dùng cụm "khiếu nại, tố cáo" ở các điều về quyền người bệnh (Điều 9–15); căn cứ pháp lý cho thủ tục khiếu nại cần bổ sung ⚠.
 2. **Thông tư 43/2018/TT-BYT** của Bộ Y tế: Hướng dẫn phòng ngừa sự cố y khoa trong các cơ sở khám bệnh, chữa bệnh; quy định quy trình báo cáo và xử lý sự cố y khoa tự nguyện và bắt buộc.
 3. **Tiêu chuẩn JCI (Chương PFR.2 & QPS.7)**: Quy định bệnh viện phải thiết lập quy trình giải quyết khiếu nại chính thức, niêm yết công khai cho người bệnh, có đầu mối phụ trách độc lập và định kỳ báo cáo Ban Giám đốc phân tích xu hướng khiếu nại.
-4. **Cổng thông tin & Ứng dụng MyVinmec**: Sau mỗi lượt khám ngoại trú hoàn tất, hệ thống tự động gửi thông báo khảo sát độ hài lòng (CSAT) và trường văn bản để người bệnh phản ánh trực tiếp đến Ban Quản lý Trải nghiệm Khách hàng.
+4. **Cổng thông tin & Ứng dụng MyVinmec** ⚠ (chưa có link nguồn): Sau mỗi lượt khám ngoại trú hoàn tất, hệ thống tự động gửi thông báo khảo sát độ hài lòng (CSAT) và trường văn bản để người bệnh phản ánh trực tiếp đến Ban Quản lý Trải nghiệm Khách hàng.
 
 ### 2.2. Giả định nghiệp vụ (Business Assumptions)
 - **Giả định 1**: Phản ánh của người bệnh được phân chia làm 3 mức độ (Mức 1: Nhẹ - Thái độ/Tiện ích; Mức 2: Trung bình - Viện phí/Thời gian chờ; Mức 3: Nghiêm trọng - Nghi ngờ sai sót lâm sàng hoặc nguy cơ pháp lý/truyền thông).

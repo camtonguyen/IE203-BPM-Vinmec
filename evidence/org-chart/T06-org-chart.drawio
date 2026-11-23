@@ -1,0 +1,1056 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="T06-Hình-1-SĐ-Chi-Tiết-Tổ-Chức" id="0">
+    <mxGraphModel dx="2575" dy="1405" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yXX6LDqNtk7k9lEVayHH-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="244" />
+            </Array>
+            <mxPoint x="1011" y="244" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" value="GIÁM ĐỐC BỆNH VIỆN&lt;br&gt;LÊ QUAN ANH TUẤN" vertex="1">
+          <mxGeometry height="60" width="210" x="906" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#e1d5e7;strokeColor=#9673a6;" value="THƯ KÝ" vertex="1">
+          <mxGeometry height="60" width="150" x="1152" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="c2" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="243" as="sourcePoint" />
+            <mxPoint x="1011" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG KẾ HOẠCH TỔNG HỢP&lt;br&gt;Trưởng: Trần Nguyên" vertex="1">
+          <mxGeometry height="64" width="150" x="116" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="191" y="293" as="sourcePoint" />
+            <mxPoint x="191" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV KHTH" vertex="1">
+          <mxGeometry height="26" width="130" x="126" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="c5" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="NV HSBA" vertex="1">
+          <mxGeometry height="26" width="130" x="126" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="c7" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV KSNK" vertex="1">
+          <mxGeometry height="26" width="130" x="126" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c9" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG QUẢN LÝ CHẤT LƯỢNG&lt;br&gt;Trưởng: Phạm Thị Yến" vertex="1">
+          <mxGeometry height="64" width="150" x="280" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="293" as="sourcePoint" />
+            <mxPoint x="355" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV QLCL" vertex="1">
+          <mxGeometry height="26" width="130" x="290" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="c13" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG NHÂN SỰ&lt;br&gt;Trưởng: Đỗ Văn Minh Điền" vertex="1">
+          <mxGeometry height="64" width="150" x="444" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="293" as="sourcePoint" />
+            <mxPoint x="519" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV Nhân sự" vertex="1">
+          <mxGeometry height="26" width="130" x="454" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" edge="1" parent="1" source="c17" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG QUẢN LÝ DỊCH VỤ&lt;br&gt;Trưởng: Trịnh Phan Hồng Minh" vertex="1">
+          <mxGeometry height="64" width="150" x="608" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683" y="293" as="sourcePoint" />
+            <mxPoint x="683" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV Hành chính/ TKCM Phiên dịch/ CV HCTH/ Lái xe cấp cứu" vertex="1">
+          <mxGeometry height="54" width="130" x="618" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" edge="1" parent="1" source="c21" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="BP BẾP ĂN: Bếp trưởng → Tổ trưởng Bếp_Tạp vụ/Phục vụ phòng → Đầu bếp/ NV Bếp_Phụ bếp/ Tạp vụ/ Phục vụ phòng" vertex="1">
+          <mxGeometry height="96" width="130" x="618" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" edge="1" parent="1" source="c23" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="BP GIẶT LÀ: Tổ trưởng → NV Giặt là" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" edge="1" parent="1" source="c25" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="BP HÀNH CHÍNH: Tổ trưởng" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="647" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG KẾ TOÁN&lt;br&gt;Trưởng: Nguyễn Ngô Bảo Linh" vertex="1">
+          <mxGeometry height="64" width="150" x="772" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847" y="293" as="sourcePoint" />
+            <mxPoint x="847" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c33" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV Kế toán" vertex="1">
+          <mxGeometry height="26" width="130" x="782" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" edge="1" parent="1" source="c31" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG QUAN HỆ KHÁCH HÀNG&lt;br&gt;Trưởng: Trần Duy My" vertex="1">
+          <mxGeometry height="64" width="150" x="936" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="293" as="sourcePoint" />
+            <mxPoint x="1011" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c37" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV Thu ngân" vertex="1">
+          <mxGeometry height="26" width="130" x="946" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" edge="1" parent="1" source="c35" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG THIẾT BỊ Y TẾ&lt;br&gt;Trưởng: Nguyễn Đăng Tài" vertex="1">
+          <mxGeometry height="64" width="150" x="1100" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c40" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="293" as="sourcePoint" />
+            <mxPoint x="1175" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Kỹ sư Thiết bị y tế" vertex="1">
+          <mxGeometry height="26" width="130" x="1110" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c42" edge="1" parent="1" source="c39" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c43" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG VẬT TƯ Y TẾ&lt;br&gt;Trưởng: Lê Thị Thảo Em" vertex="1">
+          <mxGeometry height="64" width="150" x="1264" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c44" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1339" y="293" as="sourcePoint" />
+            <mxPoint x="1339" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c45" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Nhân viên Kho" vertex="1">
+          <mxGeometry height="26" width="130" x="1274" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c46" edge="1" parent="1" source="c43" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c47" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG KỸ THUẬT&lt;br&gt;Trưởng: Trần Văn Lực" vertex="1">
+          <mxGeometry height="64" width="150" x="1428" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c48" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1503" y="293" as="sourcePoint" />
+            <mxPoint x="1503" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c49" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Nhân viên Kỹ thuật" vertex="1">
+          <mxGeometry height="26" width="130" x="1438" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c50" edge="1" parent="1" source="c47" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c51" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG BẢO VỆ&lt;br&gt;Trưởng: Nguyễn Quốc Anh Khoa" vertex="1">
+          <mxGeometry height="64" width="150" x="1592" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c52" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1667" y="293" as="sourcePoint" />
+            <mxPoint x="1667" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c53" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Nhân viên Bảo vệ" vertex="1">
+          <mxGeometry height="26" width="130" x="1602" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c54" edge="1" parent="1" source="c51" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c55" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" value="PHÒNG ĐIỀU DƯỠNG&lt;br&gt;Trưởng: Phạm Thúy Trinh" vertex="1">
+          <mxGeometry height="64" width="150" x="1756" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="c56" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1831" y="293" as="sourcePoint" />
+            <mxPoint x="1831" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c57" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="ĐIỀU DƯỠNG/ HỘ SINH/ KTV TRƯỞNG" vertex="1">
+          <mxGeometry height="40" width="130" x="1766" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="c58" edge="1" parent="1" source="c55" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="293" as="sourcePoint" />
+            <mxPoint x="1831" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c60" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA NGOẠI THẦN KINH&lt;br&gt;Trưởng: Trần Hoàng Ngọc Anh" vertex="1">
+          <mxGeometry height="64" width="150" x="116" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c61" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="191" y="721" as="sourcePoint" />
+            <mxPoint x="191" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c62" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="126" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c63" edge="1" parent="1" source="c60" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c64" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Lê Thị Trường Anh" vertex="1">
+          <mxGeometry height="40" width="130" x="126" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c65" edge="1" parent="1" source="c62" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c66" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng TN/ Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="54" width="130" x="126" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c67" edge="1" parent="1" source="c64" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c68" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA TIM MẠCH&lt;br&gt;Trưởng: Hồ Thượng Dũng" vertex="1">
+          <mxGeometry height="64" width="150" x="280" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c69" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="721" as="sourcePoint" />
+            <mxPoint x="355" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c70" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="290" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c71" edge="1" parent="1" source="c68" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c72" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Đỗ Thị Út Tâm" vertex="1">
+          <mxGeometry height="40" width="130" x="290" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c73" edge="1" parent="1" source="c70" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c74" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ NV Vận chuyển; Điều dưỡng TN/ Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="68" width="130" x="290" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c75" edge="1" parent="1" source="c72" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c76" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA UNG BƯỚU&lt;br&gt;Trưởng: Nông Ngọc Sơn" vertex="1">
+          <mxGeometry height="64" width="150" x="444" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c77" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="721" as="sourcePoint" />
+            <mxPoint x="519" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c78" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="454" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c79" edge="1" parent="1" source="c76" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c80" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Đoàn Minh Sang" vertex="1">
+          <mxGeometry height="40" width="130" x="454" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c81" edge="1" parent="1" source="c78" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c82" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV trưởng nhóm/ KTV_Xạ trị; Kỹ sư Xạ trị; Điều dưỡng viên/ HTCS/ CVYT_Tâm lý" vertex="1">
+          <mxGeometry height="68" width="130" x="454" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c83" edge="1" parent="1" source="c80" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c84" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA NGOẠI TỔNG HỢP&lt;br&gt;Trưởng: Trương Văn Trí" vertex="1">
+          <mxGeometry height="64" width="150" x="608" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c85" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683" y="721" as="sourcePoint" />
+            <mxPoint x="683" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c86" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="618" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c87" edge="1" parent="1" source="c84" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c88" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Nguyễn Lan Anh" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c89" edge="1" parent="1" source="c86" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c90" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng TN/ Điều dưỡng viên" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c91" edge="1" parent="1" source="c88" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c92" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA NỘI TỔNG HỢP&lt;br&gt;Trưởng: Nguyễn Xuân Thắng" vertex="1">
+          <mxGeometry height="64" width="150" x="772" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c93" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847" y="721" as="sourcePoint" />
+            <mxPoint x="847" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c94" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="782" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c95" edge="1" parent="1" source="c92" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c96" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Nguyễn Thị Lam" vertex="1">
+          <mxGeometry height="40" width="130" x="782" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c97" edge="1" parent="1" source="c94" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c98" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ HTCS" vertex="1">
+          <mxGeometry height="26" width="130" x="782" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c99" edge="1" parent="1" source="c96" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c100" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA KHÁM BỆNH&lt;br&gt;Trưởng: Trương Ngọc Hải" vertex="1">
+          <mxGeometry height="64" width="150" x="936" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c101" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="721" as="sourcePoint" />
+            <mxPoint x="1011" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c102" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="946" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c103" edge="1" parent="1" source="c100" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c104" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Nguyễn Thị Tuyết Sương" vertex="1">
+          <mxGeometry height="54" width="130" x="946" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c105" edge="1" parent="1" source="c102" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c106" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng TN/ Điều dưỡng viên/ NV Đánh máy" vertex="1">
+          <mxGeometry height="54" width="130" x="946" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="c107" edge="1" parent="1" source="c104" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c108" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA CẤP CỨU&lt;br&gt;Trưởng: Nguyễn Xuân Ninh" vertex="1">
+          <mxGeometry height="64" width="150" x="1100" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c109" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="721" as="sourcePoint" />
+            <mxPoint x="1175" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c110" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1110" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c111" edge="1" parent="1" source="c108" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c112" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Võ Thị Kim Thanh" vertex="1">
+          <mxGeometry height="40" width="130" x="1110" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c113" edge="1" parent="1" source="c110" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c114" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ NV HTCS" vertex="1">
+          <mxGeometry height="40" width="130" x="1110" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c115" edge="1" parent="1" source="c112" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c116" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA HỒI SỨC TÍCH CỰC&lt;br&gt;Trưởng: Khổng Trọng Thắng" vertex="1">
+          <mxGeometry height="64" width="150" x="1264" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c117" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1339" y="721" as="sourcePoint" />
+            <mxPoint x="1339" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c118" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1274" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c119" edge="1" parent="1" source="c116" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c120" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Vũ Thị Thu Hoài" vertex="1">
+          <mxGeometry height="40" width="130" x="1274" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c121" edge="1" parent="1" source="c118" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c122" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng TN/ Điều dưỡng viên/ NV HTCS" vertex="1">
+          <mxGeometry height="40" width="130" x="1274" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c123" edge="1" parent="1" source="c120" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c124" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA SẢN PHỤ KHOA&lt;br&gt;Trưởng: Nguyễn Chí Quang" vertex="1">
+          <mxGeometry height="64" width="150" x="1428" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c125" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1503" y="721" as="sourcePoint" />
+            <mxPoint x="1503" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c126" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1438" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c127" edge="1" parent="1" source="c124" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c128" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Hộ sinh trưởng Khoa: Hồ Thị Thùy Sang" vertex="1">
+          <mxGeometry height="40" width="130" x="1438" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c129" edge="1" parent="1" source="c126" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c130" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="HS trưởng nhóm/ Hộ sinh/ Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="54" width="130" x="1438" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c131" edge="1" parent="1" source="c128" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c132" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA NHI&lt;br&gt;Trưởng: Huỳnh Thoại Loan" vertex="1">
+          <mxGeometry height="64" width="150" x="1592" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="c133" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1667" y="721" as="sourcePoint" />
+            <mxPoint x="1667" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c134" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1602" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="c135" edge="1" parent="1" source="c132" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c136" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Nguyễn Thị Lệ Nga" vertex="1">
+          <mxGeometry height="40" width="130" x="1602" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="c137" edge="1" parent="1" source="c134" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c138" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="40" width="130" x="1602" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="c139" edge="1" parent="1" source="c136" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c140" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="721" as="sourcePoint" />
+            <mxPoint x="1667" y="721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c141" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA SƠ SINH&lt;br&gt;Trưởng: Đặng Thị Ngọc Chương" vertex="1">
+          <mxGeometry height="64" width="150" x="116" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c142" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="191" y="1039" as="sourcePoint" />
+            <mxPoint x="191" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c143" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="126" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c144" edge="1" parent="1" source="c141" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c145" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Đặng Thị Thanh Thúy" vertex="1">
+          <mxGeometry height="54" width="130" x="126" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c146" edge="1" parent="1" source="c143" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c147" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="40" width="130" x="126" y="1269" as="geometry" />
+        </mxCell>
+        <mxCell id="c148" edge="1" parent="1" source="c145" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c149" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA XÉT NGHIỆM&lt;br&gt;Trưởng: Võ Thị Thùy Nga" vertex="1">
+          <mxGeometry height="64" width="150" x="280" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c150" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1039" as="sourcePoint" />
+            <mxPoint x="355" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c151" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="290" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c152" edge="1" parent="1" source="c149" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c153" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV trưởng khoa: Võ Vũ Linh" vertex="1">
+          <mxGeometry height="40" width="130" x="290" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c154" edge="1" parent="1" source="c151" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c155" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Kỹ thuật viên_Xét nghiệm" vertex="1">
+          <mxGeometry height="40" width="130" x="290" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="c156" edge="1" parent="1" source="c153" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c157" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA CHẨN ĐOÁN HÌNH ẢNH&lt;br&gt;Trưởng: Tôn Nữ Trà My" vertex="1">
+          <mxGeometry height="64" width="150" x="444" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c158" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="1039" as="sourcePoint" />
+            <mxPoint x="519" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c159" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="454" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c160" edge="1" parent="1" source="c157" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c161" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV trưởng khoa: Phạm Thanh Bắc" vertex="1">
+          <mxGeometry height="40" width="130" x="454" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c162" edge="1" parent="1" source="c159" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c163" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Kỹ thuật viên_CĐHA/ Điều dưỡng viên/ NV Đánh máy" vertex="1">
+          <mxGeometry height="54" width="130" x="454" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="c164" edge="1" parent="1" source="c161" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c165" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA PHỤC HỒI CHỨC NĂNG&lt;br&gt;Trưởng: Phạm Quốc Văn" vertex="1">
+          <mxGeometry height="64" width="150" x="608" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c166" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683" y="1039" as="sourcePoint" />
+            <mxPoint x="683" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c167" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="618" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c168" edge="1" parent="1" source="c165" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c169" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV trưởng khoa: Trịnh Ngọc Tú" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c170" edge="1" parent="1" source="c167" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c171" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV_Phục hồi chức năng" vertex="1">
+          <mxGeometry height="40" width="130" x="618" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="c172" edge="1" parent="1" source="c169" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c173" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA LIÊN CHUYÊN KHOA&lt;br&gt;Trưởng: Đặng Thị Thùy Trang" vertex="1">
+          <mxGeometry height="64" width="150" x="772" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c174" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847" y="1039" as="sourcePoint" />
+            <mxPoint x="847" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c175" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="782" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c176" edge="1" parent="1" source="c173" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c177" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng viên/ NV HTCS/ NV Đánh máy" vertex="1">
+          <mxGeometry height="40" width="130" x="782" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c178" edge="1" parent="1" source="c175" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c179" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA DƯỢC&lt;br&gt;Trưởng: Trần Xái" vertex="1">
+          <mxGeometry height="64" width="150" x="936" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c180" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c179">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="1039" as="sourcePoint" />
+            <mxPoint x="1011" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c181" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Tổ trưởng Dược: Nhà thuốc/ Cấp phát/ Lâm sàng" vertex="1">
+          <mxGeometry height="54" width="130" x="946" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c182" edge="1" parent="1" source="c179" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c183" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Dược sĩ/ Dược sĩ LS/ Dược Cao đẳng" vertex="1">
+          <mxGeometry height="40" width="130" x="946" y="1229" as="geometry" />
+        </mxCell>
+        <mxCell id="c184" edge="1" parent="1" source="c181" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c185" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ĐƠN NGUYÊN DINH DƯỠNG&lt;br&gt;Dương Thị Kim Loan (Trưởng Đơn nguyên)" vertex="1">
+          <mxGeometry height="64" width="150" x="1100" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c186" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="1039" as="sourcePoint" />
+            <mxPoint x="1175" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c187" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1110" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c188" edge="1" parent="1" source="c185" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c189" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV Tiết chế dinh dưỡng" vertex="1">
+          <mxGeometry height="40" width="130" x="1110" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c190" edge="1" parent="1" source="c187" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c191" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA GÂY MÊ PHẪU THUẬT&lt;br&gt;Trưởng: Bùi Ngọc Uyên Chi" vertex="1">
+          <mxGeometry height="64" width="150" x="1264" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c192" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c191">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1339" y="1039" as="sourcePoint" />
+            <mxPoint x="1339" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c193" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Bác sĩ" vertex="1">
+          <mxGeometry height="26" width="130" x="1274" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c194" edge="1" parent="1" source="c191" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c195" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng trưởng Khoa: Lê Ngọc Huấn" vertex="1">
+          <mxGeometry height="40" width="130" x="1274" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="c196" edge="1" parent="1" source="c193" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c197" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="Điều dưỡng TN/ Điều dưỡng viên" vertex="1">
+          <mxGeometry height="40" width="130" x="1274" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="c198" edge="1" parent="1" source="c195" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c199" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="KHOA KIỂM SOÁT NHIỄM KHUẨN&lt;br&gt;Trưởng: Nguyễn Thị Thu Hương" vertex="1">
+          <mxGeometry height="64" width="150" x="1428" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="c200" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1503" y="1039" as="sourcePoint" />
+            <mxPoint x="1503" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c201" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="KTV trưởng khoa: Phan Ngọc Gương" vertex="1">
+          <mxGeometry height="40" width="130" x="1438" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="c202" edge="1" parent="1" source="c199" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c203" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontColor=#000000;" value="CV KSNK" vertex="1">
+          <mxGeometry height="26" width="130" x="1438" y="1215" as="geometry" />
+        </mxCell>
+        <mxCell id="c204" edge="1" parent="1" source="c201" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" target="c203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c205" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="1039" as="sourcePoint" />
+            <mxPoint x="1503" y="1039" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c206" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="293" as="sourcePoint" />
+            <mxPoint x="76" y="1039" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMjJsMGVCgFAQYoosfQt-3" edge="1" parent="1" source="yXX6LDqNtk7k9lEVayHH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="112" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXX6LDqNtk7k9lEVayHH-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#000000;fillColor=light-dark(#7EA6E0,#7EA6E0);strokeColor=light-dark(#0066CC,#0066CC);fontSize=13;" value="TỔNG GIÁM ĐỐC" vertex="1">
+          <mxGeometry height="60" width="210" x="906" y="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DcE4m2Uufe5AjiCHxmjb" name="T06-Hình-2-SĐ-Tổng-Thể-Phòng-Ban">
+    <mxGraphModel dx="715" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gygXLesGlDQ52xVmysSF-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#7EA6E0;strokeColor=#3A66B0;fontSize=13;strokeWidth=1.5;" value="&lt;b&gt;TỔNG GIÁM ĐỐC&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="450" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F8CECC;strokeColor=#B85450;fontSize=13;strokeWidth=1.5;" value="&lt;b&gt;GIÁM ĐỐC BỆNH VIỆN&lt;/b&gt;&lt;br&gt;Lê Quan Anh Tuấn" vertex="1">
+          <mxGeometry height="60" width="280" x="410" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;strokeWidth=1.5;" value="&lt;b&gt;THƯ KÝ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="750" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-4" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-1" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;" target="gygXLesGlDQ52xVmysSF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-5" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-2" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;strokeWidth=1.5;" value="&lt;b&gt;KHỐI PHÒNG CHỨC NĂNG&lt;/b&gt;&lt;br&gt;(11 đơn vị, gồm 3 bộ phận trực thuộc Phòng Quản lý dịch vụ)" vertex="1">
+          <mxGeometry height="48" width="300" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-7" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-2" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="gygXLesGlDQ52xVmysSF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG KẾ HOẠCH TỔNG HỢP&lt;/b&gt;&lt;br&gt;Trưởng: Trần Nguyên" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-9" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG QUẢN LÝ CHẤT LƯỢNG&lt;/b&gt;&lt;br&gt;Trưởng: Phạm Thị Yến" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-11" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG NHÂN SỰ&lt;/b&gt;&lt;br&gt;Trưởng: Đỗ Văn Minh Điền" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-13" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG QUẢN LÝ DỊCH VỤ&lt;/b&gt;&lt;br&gt;Trưởng: Trịnh Phan Hồng Minh&lt;br&gt;&lt;i&gt;Trực thuộc: Bếp ăn, Giặt là, Hành chính&lt;/i&gt;" vertex="1">
+          <mxGeometry height="56" width="270" x="110" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-15" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG KẾ TOÁN&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Ngô Bảo Linh" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-17" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG QUAN HỆ KHÁCH HÀNG&lt;/b&gt;&lt;br&gt;Trưởng: Trần Duy My" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-19" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG THIẾT BỊ Y TẾ&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Đăng Tài" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-21" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG VẬT TƯ Y TẾ&lt;/b&gt;&lt;br&gt;Trưởng: Lê Thị Thảo Em" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="714" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-23" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG KỸ THUẬT&lt;/b&gt;&lt;br&gt;Trưởng: Trần Văn Lực" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-25" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG BẢO VỆ&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Quốc Anh Khoa" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-27" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;PHÒNG ĐIỀU DƯỠNG&lt;/b&gt;&lt;br&gt;Trưởng: Phạm Thúy Trinh" vertex="1">
+          <mxGeometry height="40" width="270" x="110" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-29" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#82B366;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;strokeWidth=1.5;" value="&lt;b&gt;KHỐI LÂM SÀNG&lt;/b&gt;&lt;br&gt;(13 đơn vị)" vertex="1">
+          <mxGeometry height="48" width="300" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-31" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-2" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="gygXLesGlDQ52xVmysSF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA NGOẠI THẦN KINH&lt;/b&gt;&lt;br&gt;Trưởng: Trần Hoàng Ngọc Anh" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-33" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA TIM MẠCH&lt;/b&gt;&lt;br&gt;Trưởng: Hồ Thượng Dũng" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-35" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA UNG BƯỚU&lt;/b&gt;&lt;br&gt;Trưởng: Nông Ngọc Sơn" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-37" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA NGOẠI TỔNG HỢP&lt;/b&gt;&lt;br&gt;Trưởng: Trương Văn Trí" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-39" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA NỘI TỔNG HỢP&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Xuân Thắng" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-41" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA KHÁM BỆNH&lt;/b&gt;&lt;br&gt;Trưởng: Trương Ngọc Hải" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-43" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA CẤP CỨU&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Xuân Ninh" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-45" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA HỒI SỨC TÍCH CỰC&lt;/b&gt;&lt;br&gt;Trưởng: Khổng Trọng Thắng" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-47" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA SẢN PHỤ KHOA&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Chí Quang" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="748" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-49" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA NHI&lt;/b&gt;&lt;br&gt;Trưởng: Huỳnh Thoại Loan" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-51" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA SƠ SINH&lt;/b&gt;&lt;br&gt;Trưởng: Đặng Thị Ngọc Chương" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-53" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA GÂY MÊ PHẪU THUẬT&lt;/b&gt;&lt;br&gt;Trưởng: Bùi Ngọc Uyên Chi" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="898" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-55" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA LIÊN CHUYÊN KHOA&lt;/b&gt;&lt;br&gt;Trưởng: Đặng Thị Thùy Trang" vertex="1">
+          <mxGeometry height="40" width="270" x="430" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-57" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-30" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#6C8EBF;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;strokeWidth=1.5;" value="&lt;b&gt;KHỐI CẬN LÂM SÀNG &amp; HỖ TRỢ CHUYÊN MÔN&lt;/b&gt;&lt;br&gt;(6 đơn vị)" vertex="1">
+          <mxGeometry height="48" width="300" x="720" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-59" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-2" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="gygXLesGlDQ52xVmysSF-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA XÉT NGHIỆM&lt;/b&gt;&lt;br&gt;Trưởng: Võ Thị Thùy Nga" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-61" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA CHẨN ĐOÁN HÌNH ẢNH&lt;/b&gt;&lt;br&gt;Trưởng: Tôn Nữ Trà My" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-63" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA PHỤC HỒI CHỨC NĂNG&lt;/b&gt;&lt;br&gt;Trưởng: Phạm Quốc Văn" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-65" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA DƯỢC&lt;/b&gt;&lt;br&gt;Trưởng: Trần Xái" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-67" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;ĐƠN NGUYÊN DINH DƯỠNG&lt;/b&gt;&lt;br&gt;Trưởng đơn nguyên: Dương Thị Kim Loan" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-69" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=10;align=left;spacingLeft=8;strokeWidth=1.5;" value="&lt;b&gt;KHOA KIỂM SOÁT NHIỄM KHUẨN&lt;/b&gt;&lt;br&gt;Trưởng: Nguyễn Thị Thu Hương" vertex="1">
+          <mxGeometry height="40" width="270" x="750" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="gygXLesGlDQ52xVmysSF-71" edge="1" parent="1" source="gygXLesGlDQ52xVmysSF-58" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;strokeColor=#D79B00;exitX=0.05;exitY=1;entryX=0;entryY=0.5;" target="gygXLesGlDQ52xVmysSF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bcohx9fg2rkIaZoAU38m" name="T06-Hình-3-SĐ-Theo-Tin-Tuyển-Dụng">
+    <mxGraphModel dx="2395" dy="1307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#F8CECC;strokeColor=#B85450;fontSize=13;" value="&lt;b&gt;GIÁM ĐỐC BỆNH VIỆN&lt;/b&gt;&lt;br&gt;Lê Quan Anh Tuấn" vertex="1">
+          <mxGeometry height="80" width="340" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;" value="&lt;b&gt;THƯ KÝ&lt;/b&gt;&lt;br&gt;Thư ký Giám đốc BV;&lt;br&gt;Thư ký chuyên môn tiếng Anh" vertex="1">
+          <mxGeometry height="90" width="340" x="650" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-3" edge="1" parent="1" source="YoXQ0U5qQGrF4uyuaY8E-1" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="YoXQ0U5qQGrF4uyuaY8E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#F3FAF1;strokeColor=#82B366;fontSize=13;verticalAlign=top;align=left;spacingLeft=20;spacingTop=12;" value="&lt;b&gt;KHỐI PHÒNG CHỨC NĂNG&lt;/b&gt;" vertex="1">
+          <mxGeometry height="270" width="880" x="105" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-5" parent="YoXQ0U5qQGrF4uyuaY8E-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;" value="&lt;b&gt;Chuyên viên đào tạo*&lt;/b&gt;&lt;br&gt;Phòng Nhân sự" vertex="1">
+          <mxGeometry height="90" width="270" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-6" parent="YoXQ0U5qQGrF4uyuaY8E-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;" value="&lt;b&gt;Chuyên viên Quản lý chất lượng&lt;/b&gt;&lt;br&gt;Phòng Quản lý chất lượng" vertex="1">
+          <mxGeometry height="90" width="270" x="305" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-7" parent="YoXQ0U5qQGrF4uyuaY8E-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;" value="&lt;b&gt;Chuyên viên thu ngân&lt;/b&gt;&lt;br&gt;Phòng Quan hệ khách hàng" vertex="1">
+          <mxGeometry height="90" width="270" x="590" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-8" parent="YoXQ0U5qQGrF4uyuaY8E-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;" value="&lt;b&gt;Giám sát Chăm sóc khách hàng&lt;/b&gt;&lt;br&gt;Phòng Quan hệ khách hàng (mảng bảo hiểm)" vertex="1">
+          <mxGeometry height="90" width="270" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-9" parent="YoXQ0U5qQGrF4uyuaY8E-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;" value="&lt;b&gt;Chuyên viên kinh doanh B2B*&lt;/b&gt;&lt;br&gt;Phòng Quan hệ khách hàng" vertex="1">
+          <mxGeometry height="90" width="270" x="305" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-10" edge="1" parent="1" source="YoXQ0U5qQGrF4uyuaY8E-1" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="YoXQ0U5qQGrF4uyuaY8E-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="170" />
+              <mxPoint x="60" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#F3F8FE;strokeColor=#6C8EBF;fontSize=13;verticalAlign=top;align=left;spacingLeft=20;spacingTop=12;" value="&lt;b&gt;KHỐI LÂM SÀNG&lt;/b&gt;" vertex="1">
+          <mxGeometry height="270" width="880" x="105" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-12" parent="YoXQ0U5qQGrF4uyuaY8E-11" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;" value="&lt;b&gt;Bác sĩ&lt;/b&gt;&lt;br&gt;Nhi - Sơ sinh và Vaccine" vertex="1">
+          <mxGeometry height="90" width="270" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-13" parent="YoXQ0U5qQGrF4uyuaY8E-11" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;" value="&lt;b&gt;Điều dưỡng trưởng khoa&lt;/b&gt;&lt;br&gt;Khoa Ngoại thần kinh" vertex="1">
+          <mxGeometry height="90" width="270" x="305" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-14" parent="YoXQ0U5qQGrF4uyuaY8E-11" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;" value="&lt;b&gt;Điều dưỡng viên&lt;/b&gt;&lt;br&gt;Hồi sức cấp cứu, Khám bệnh và Nội" vertex="1">
+          <mxGeometry height="90" width="270" x="590" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-15" parent="YoXQ0U5qQGrF4uyuaY8E-11" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;" value="&lt;b&gt;Nhân viên trợ giúp chăm sóc&lt;/b&gt;&lt;br&gt;Các khoa lâm sàng" vertex="1">
+          <mxGeometry height="90" width="270" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-16" parent="YoXQ0U5qQGrF4uyuaY8E-11" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;" value="&lt;b&gt;Nhân viên hành chính khoa&lt;/b&gt;&lt;br&gt;Thư ký hành chánh, đánh máy" vertex="1">
+          <mxGeometry height="90" width="270" x="305" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-17" edge="1" parent="1" source="YoXQ0U5qQGrF4uyuaY8E-1" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="YoXQ0U5qQGrF4uyuaY8E-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="170" />
+              <mxPoint x="60" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#FFF8EF;strokeColor=#D79B00;fontSize=13;verticalAlign=top;align=left;spacingLeft=20;spacingTop=12;" value="&lt;b&gt;KHỐI CẬN LÂM SÀNG &amp; HỖ TRỢ CHUYÊN MÔN&lt;/b&gt;" vertex="1">
+          <mxGeometry height="165" width="880" x="105" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-19" parent="YoXQ0U5qQGrF4uyuaY8E-18" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;" value="&lt;b&gt;Kỹ thuật viên trưởng khoa&lt;/b&gt;&lt;br&gt;Khoa Chẩn đoán hình ảnh, Khoa Xét nghiệm" vertex="1">
+          <mxGeometry height="90" width="270" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-20" parent="YoXQ0U5qQGrF4uyuaY8E-18" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;" value="&lt;b&gt;Dược sĩ cao đẳng&lt;/b&gt;&lt;br&gt;Khoa Dược" vertex="1">
+          <mxGeometry height="90" width="270" x="305" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-21" parent="YoXQ0U5qQGrF4uyuaY8E-18" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeWidth=1.5;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;" value="&lt;b&gt;Kỹ thuật viên CSSD*&lt;/b&gt;&lt;br&gt;Khoa Kiểm soát nhiễm khuẩn" vertex="1">
+          <mxGeometry height="90" width="270" x="590" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YoXQ0U5qQGrF4uyuaY8E-22" edge="1" parent="1" source="YoXQ0U5qQGrF4uyuaY8E-1" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="YoXQ0U5qQGrF4uyuaY8E-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="170" />
+              <mxPoint x="60" y="962.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

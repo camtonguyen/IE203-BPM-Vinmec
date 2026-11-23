@@ -44,10 +44,10 @@
 |---|---|
 | Trưởng khoa / trưởng chuyên khoa | Lập lịch khám ngoại trú của bác sĩ trong khoa, cân đối với lịch trực, lịch mổ ⚠ |
 | Bác sĩ | Đăng ký ngày nghỉ, nguyện vọng ca; xác nhận lịch; báo nghỉ đột xuất ⚠ |
-| Phòng Kế hoạch tổng hợp / Ban giám đốc chuyên môn | Ban hành lịch trực theo Điều 70 [1]; phê duyệt lịch, điều phối bác sĩ giữa các khoa ⚠ |
+| Giám đốc (người đứng đầu cơ sở); Phòng Kế hoạch tổng hợp | Người đứng đầu cơ sở phân công người trực [1, Điều 70]; Phòng KHTH ban hành, phê duyệt lịch, điều phối bác sĩ giữa các khoa ⚠ (Điều 70 không nhắc Phòng KHTH) |
 | Điều dưỡng trưởng khu khám | Bố trí điều dưỡng, phòng khám theo lịch bác sĩ ⚠ |
-| Hệ thống đặt lịch (online.vinmec.com, MyVinmec) | Nhận lịch bác sĩ, sinh khung giờ trống cho người bệnh đặt [2][3] |
-| Tổng đài / CSKH | Báo cho người bệnh đã đặt hẹn khi bác sĩ thay đổi lịch, sắp xếp lại (C4) [2] ⚠ |
+| Hệ thống đặt lịch (online.vinmec.com, MyVinmec) | Hiển thị lịch làm việc của bác sĩ và khung giờ còn trống cho người bệnh đặt [2][3]; việc sinh khung giờ từ lịch bác sĩ ⚠ |
+| Tổng đài / CSKH | Báo cho người bệnh đã đặt hẹn khi bác sĩ thay đổi lịch, sắp xếp lại (C4) ⚠ |
 | Người bệnh *(gián tiếp)* | Chọn bác sĩ, khung giờ dựa trên lịch được công bố [3] |
 
 ## Khách hàng của quy trình
@@ -81,7 +81,7 @@
 9. Khi bác sĩ **báo nghỉ / đổi ca** (ốm, ca mổ cấp cứu, công tác): trưởng khoa tìm **bác sĩ thay thế** cùng chuyên khoa ⚠.
 10. Kiểm tra buổi khám đó **đã có người bệnh đặt hẹn** chưa ⚠.
     - Có bác sĩ thay → cập nhật hệ thống; tổng đài báo người bệnh đổi bác sĩ, người bệnh đồng ý hoặc đổi ngày.
-    - Không có bác sĩ thay → **đóng khung giờ**; tổng đài gọi từng người bệnh sắp xếp lịch khác (C4) [2] ⚠.
+    - Không có bác sĩ thay → **đóng khung giờ**; tổng đài gọi từng người bệnh sắp xếp lịch khác (C4) ⚠.
 11. Cập nhật lịch chính thức; ghi nhận số lần thay đổi để theo dõi (đầu vào M2) ⚠.
 
 **D. Theo dõi**
