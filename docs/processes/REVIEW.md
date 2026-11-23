@@ -4,8 +4,8 @@
 - **Phạm vi:** `C1`–`C4`, `M1`–`M3`, `S1`–`S3` trong `docs/processes/`.
 - **Cách review:** mở từng nguồn mà chính file trích (trang Vinmec, văn bản pháp luật, Bộ Y tế; ảnh sơ đồ trên trang Vinmec),
   đối chiếu từng ý. Chỉ ghi "sai" khi đã đọc nguồn. Phần nào nguồn không mở được thì ghi ở mục "Chưa kiểm được".
-- **C3, C4 do người review viết** và phần sửa nằm ở PR #80: cần **Nguyễn Quang Hòa** review C3, C4 bản sau khi #80 merge.
-  Người review: ____________, ngày: __/__/2026.
+- **C3, C4 do người review viết** và phần sửa nằm ở PR #80: cần một thành viên khác review bản sau khi #80 merge.
+  Người review: Nguyễn Thị Cẩm Tố, ngày: 23/11/2026 (đối chiếu các nguồn Vinmec của C3, C4 qua trình duyệt; kết quả ở cuối mục C3, C4). Quang Hòa có thể xem thêm nếu muốn review độc lập.
 - **Số dòng** tính theo `main` commit `78316bf`, **trước** khi PR #80 merge. Sau khi #80 merge, số dòng trong các file sẽ lệch
   vài dòng; tìm theo nội dung được trích.
 
@@ -91,6 +91,8 @@ C1 cập nhật lại số câu.
 **Thiếu [n] hoặc ⚠:** dòng 101–103, 107 (các kết quả); các cổng 1–3, 5–7, 11. Cổng 7 (thu thêm / hoàn / vừa đủ) là suy luận,
 cần ⚠.
 
+**Đối chiếu bản sau #80 (Cẩm Tố, 23/11/2026, đọc trực tiếp nguồn [1]–[3]):** khớp nguồn: thời gian bảo lãnh 15–45 phút, Vinmec liên hệ công ty bảo hiểm (không nêu quầy bảo hiểm), tạm ứng theo chi phí dự kiến, không chờ bảo lãnh thì tự nộp hồ sơ bồi thường, bệnh viện hoàn tạm ứng sau khấu trừ [1]; thủ tục BHYT đúng tuyến và trái tuyến, nhận lại tiền tại Quầy bảo hiểm [2]; mức hưởng 100/95/80%, giờ 8h–17h, trái tuyến ngoại trú 50% hoặc 100% theo cấp cơ sở [3]. Còn lại: (1) [3] ghi mức 50% ngoại trú trái tuyến áp dụng **từ 01/7/2026**, file chưa nêu mốc này; (2) "BHYT không được chi trả khi khám ngoài giờ bệnh viện không tổ chức khám BHYT" là suy ra từ [3] (trang chỉ nói được thanh toán nếu bệnh viện có tổ chức), nên gắn ⚠; (3) tên các bước "Tạm ứng nhập viện", "Thanh toán ra viện" của sơ đồ [4] nằm trong ảnh, không kiểm được bằng văn bản.
+
 ### C4 – Đặt lịch khám
 
 **Lệch nguồn (nhỏ):**
@@ -98,6 +100,8 @@ cần ⚠.
 - Dòng 43–51: kênh MyVinmec gắn [1] dựa vào phần chân trang của [1]; nên dẫn [4] là chính.
 
 **Thiếu ⚠:** cổng 4 nhánh "Không (chọn lại)" (bước 6 đã có ⚠); cổng 5 nhánh "Sửa lại". Nguồn [2] chỉ có bước "xác nhận".
+
+**Đối chiếu bản sau #80 (Cẩm Tố, 23/11/2026, đọc trực tiếp nguồn [1], [5]):** khớp nguồn: mỗi lượt khám khoảng 30 phút, đến sớm 10–15 phút, đến muộn phải chờ sắp xếp lại, báo tổng đài khi không đến được [1]; giấy tờ mở hồ sơ và định danh bằng ít nhất 2 thông số (họ tên, ngày sinh, mã PID nếu cần) [5]. Còn lại: (1) câu "liên hệ lại trong thời gian sớm nhất" gắn [1] (bước 5) không có trong văn bản trang [1] (form chỉ có các ô điền thông tin); cần nguồn khác hoặc gắn ⚠; (2) số tổng đài Central Park 028 3622 1166 không hiện trong văn bản trang [1] (phần danh sách số điện thoại không tải được), cần mở lại bằng mắt để xác nhận; (3) "đến sớm 10–15 phút" ở bước 10 có trong [1], nên dẫn [1] thay vì [2][3].
 
 ### M1 – Lập lịch bác sĩ
 
