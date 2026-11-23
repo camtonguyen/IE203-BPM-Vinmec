@@ -101,7 +101,7 @@ cần ⚠.
 
 **Thiếu ⚠:** cổng 4 nhánh "Không (chọn lại)" (bước 6 đã có ⚠); cổng 5 nhánh "Sửa lại". Nguồn [2] chỉ có bước "xác nhận".
 
-**Đối chiếu bản sau #80 (Cẩm Tố, 23/11/2026, đọc trực tiếp nguồn [1], [5]):** khớp nguồn: mỗi lượt khám khoảng 30 phút, đến sớm 10–15 phút, đến muộn phải chờ sắp xếp lại, báo tổng đài khi không đến được [1]; giấy tờ mở hồ sơ và định danh bằng ít nhất 2 thông số (họ tên, ngày sinh, mã PID nếu cần) [5]. Còn lại: (1) câu "liên hệ lại trong thời gian sớm nhất" gắn [1] (bước 5) không có trong văn bản trang [1] (form chỉ có các ô điền thông tin); cần nguồn khác hoặc gắn ⚠; (2) số tổng đài Central Park 028 3622 1166 không hiện trong văn bản trang [1] (phần danh sách số điện thoại không tải được), cần mở lại bằng mắt để xác nhận; (3) "đến sớm 10–15 phút" ở bước 10 có trong [1], nên dẫn [1] thay vì [2][3].
+**Đối chiếu bản sau #80 (Cẩm Tố, 23/11/2026, đọc trực tiếp nguồn [1], [5]):** khớp nguồn: mỗi lượt khám khoảng 30 phút, đến sớm 10–15 phút, đến muộn phải chờ sắp xếp lại, báo tổng đài khi không đến được [1]; giấy tờ mở hồ sơ và định danh bằng ít nhất 2 thông số (họ tên, ngày sinh, mã PID nếu cần) [5]. Đã kiểm lại trên trang [1] (23/11/2026): số tổng đài Vinmec Central Park 028 3622 1166 đúng; câu "chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất" có trong thông báo sau khi gửi form tư vấn, nên gắn [1] là đúng. Còn lại: "đến sớm 10–15 phút" ở bước 10 có trong [1], nên dẫn [1] thay vì [2][3].
 
 ### M1 – Lập lịch bác sĩ
 
