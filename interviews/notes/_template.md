@@ -4,7 +4,7 @@ IE203 – Phân tích quy trình khám ngoại trú tại Bệnh viện Vinmec
 
 Mỗi buổi điền một biên bản. Mã buổi theo cú pháp PV-\[đối tượng\]-\[số thứ tự\], ví dụ PV-ĐD-02.
 
-Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu hỏi định lượng, DP01–DP02 là câu hỏi dự phòng (lấy từ bộ câu hỏi phỏng vấn), QLHC01-QLHC10 là câu hỏi hội chẩn - chuyển viện định tính, QNHC01-QNHC10 là câu hỏi hội chẩn - chuyển viện định lượng. Vai trò: BS = bác sĩ, ĐD = điều dưỡng, BN = người bệnh/người nhà, LT = nhân viên tiếp đón/thu ngân, CLS = kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh, DS = Dược sĩ nhà thuốc, QL = quản lý.
+Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu hỏi định lượng, DP01–DP02 là câu hỏi dự phòng (lấy từ bộ câu hỏi phỏng vấn), QLHC01-QLHC10 là câu hỏi hội chẩn - chuyển viện định tính, QNHC01-QNHC10 là câu hỏi hội chẩn - chuyển viện định lượng. Vai trò: BS = bác sĩ, ĐD = điều dưỡng, BN = người bệnh/người nhà, LT = nhân viên tiếp đón/thu ngân, BH = nhân viên bảo hiểm, CLS = kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh, DS = Dược sĩ nhà thuốc, QL = quản lý.
 
 ### **1\. Thông tin chung**
 
@@ -15,7 +15,7 @@ Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu 
 | Ngày, giờ bắt đầu – kết thúc | \_\_/\_\_/\_\_\_\_ ; \_\_:\_\_ – \_\_:\_\_ |
 | Địa điểm / hình thức | ☐ Trực tiếp ☐ Trực tuyến ☐ Điện thoại |
 | Người hỏi / Người ghi | \_\_\_\_\_\_\_\_\_\_\_\_ / \_\_\_\_\_\_\_\_\_\_\_\_ |
-| Vai trò người được phỏng vấn (không ghi tên) | ☐ BN ☐ LT ☐ ĐD ☐ BS ☐ CLS ☐ DS ☐ QL |
+| Vai trò người được phỏng vấn (không ghi tên) | ☐ BN ☐ LT ☐ BH ☐ ĐD ☐ BS ☐ CLS ☐ DS ☐ QL |
 | Đơn vị / bộ phận | \_\_\_\_\_\_\_\_\_\_\_\_ |
 | Thâm niên (năm) hoặc số lần khám tại Vinmec | \_\_\_\_ |
 | Chấp thuận tham gia | ☐ Đồng ý ☐ Không đồng ý |
@@ -40,7 +40,7 @@ Chú thích mã: QL01–QL10 là câu hỏi định tính, QN01–QN10 là câu 
 | QN\_\_ |  |  |  |  | ☐ Nhớ ☐ Đo ☐ Báo cáo | ☐ Cao ☐ TB ☐ Thấp |
 
 
-Với câu thang điểm (QN09, QN10), ghi điểm từng mục vào cột "Thường gặp".
+Với câu thang điểm (QL05), ghi điểm từng mục vào cột "Thường gặp".
 
 ### **4\. Quy trình As-Is do người được phỏng vấn mô tả**
 

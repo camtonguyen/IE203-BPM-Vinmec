@@ -63,7 +63,7 @@ QNHC05. Với ca chuyển nhập viện hoặc chuyển viện, duyệt bảo hi
 
 ### Hội chẩn, chuyển viện – định lượng – không cấu trúc
 QNHC06. Từ lúc quyết định hội chẩn đến lúc có kết luận mất bao lâu (nhanh nhất / thường gặp / lâu nhất)? – BS, ĐD
-QNHC07. Một tuần có khoảng bao nhiêu trường hợp chuyển sang bệnh viện khác (khác với câu 22 là chuyển nhập viện nội trú)? – BS
+QNHC07. Một tuần có khoảng bao nhiêu trường hợp chuyển sang bệnh viện khác (khác với DP02 là chuyển nhập viện nội trú)? – BS
 QNHC08. Một tuần có khoảng bao nhiêu ca cần hội chẩn ở khu ngoại trú, và có bao nhiêu ca phải hẹn quay lại vì chờ hội chẩn? – BS
 QNHC09. Từ lúc được báo cần hội chẩn hoặc chuyển viện đến lúc được xử lý tiếp, anh/chị đã chờ bao lâu? – BN
 QNHC10. Từ lúc quyết định chuyển viện đến lúc người bệnh được nơi đến tiếp nhận mất bao lâu, và có bao nhiêu phần trăm ca phải chờ giường hoặc chờ nơi nhận? – BS, ĐD
@@ -94,6 +94,7 @@ Thứ tự B5–B7 có thể khác nhau tùy chuyên khoa (thanh toán trước 
 | ----- | ----- | ----- | ----- | ----- |
 | BN | Bệnh nhân hoặc người nhà vừa khám xong | Người bệnh tại Khoa Khám bệnh | 15–20 | 10–15 phút |
 | LT | Nhân viên tiếp đón, thu ngân | Phòng Quan hệ khách hàng (Trưởng phòng Trần Duy My) | 3–4 | 30–40 phút |
+| BH | Nhân viên bảo hiểm, bảo lãnh viện phí | Phòng Quan hệ khách hàng | 1–2 | 30 phút |
 | ĐD | Điều dưỡng | Điều dưỡng trưởng Khoa Khám bệnh (Nguyễn Thị Tuyết Sương) | 3–4 | 30–40 phút |
 | BS | Bác sĩ khám ngoại trú | Khoa Khám bệnh (Trưởng khoa Trương Ngọc Hải) | 2–3 | 30 phút |
 | CLS | Kỹ thuật viên xét nghiệm, chẩn đoán hình ảnh | Khoa Xét nghiệm, Khoa Chẩn đoán hình ảnh | 2–3 | 30 phút |
@@ -104,7 +105,7 @@ Số lượng chỉ là gợi ý. Nhóm cần điều chỉnh theo thời gian �
 
 ### **3. Cách chọn câu hỏi cho từng buổi**
 
-* Mỗi buổi chọn 8–12 câu phù hợp với đối tượng (cột Đối tượng ở mục 3). Với bệnh nhân chỉ hỏi 5–7 câu.  
+* Mỗi buổi chọn 8–12 câu phù hợp với đối tượng (thẻ đối tượng ở cuối mỗi câu hỏi). Với bệnh nhân chỉ hỏi 5–7 câu.  
 * Ưu tiên câu định tính trước để hiểu bối cảnh, sau đó hỏi các câu định lượng để lấy con số.  
 * Câu dự phòng dùng khi người trả lời ngắn gọn, khi cần đào sâu hoặc khi hết giờ mà còn thiếu dữ liệu.  
 * Với câu định lượng, nếu người trả lời không nhớ chính xác, ghi khoảng giá trị (thấp nhất, thường gặp, cao nhất) và đánh dấu là ước lượng. Sau đó đối chiếu với số liệu đo trực tiếp hoặc báo cáo của bệnh viện.
