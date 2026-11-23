@@ -12,7 +12,8 @@
      https://medpro.vn/tin-tuc/huong-dan-dat-lich-kham-vinmec-nhanh-chong-va-tien-loi
   3. Vinmec – *Hướng dẫn đặt lịch khám Vinmec trên website Online Vinmec* (cập nhật 28/10/2026; xem thêm C4):
      https://www.vinmec.com/vie/bai-viet/huong-dan-dat-lich-kham-vinmec-tren-website-online-vinmec
-  4. HelloBacsi – *Vinmec Central Park – Đặt lịch khám tại BV Vinmec* (giờ làm việc):
+  4. HelloBacsi – *Vinmec Central Park – Đặt lịch khám tại BV Vinmec* (chỉ dùng cho ý thứ Bảy một số chuyên khoa mở khám;
+     giờ làm việc lấy theo [5]):
      https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-quoc-te-vinmec-central-park-386/
   5. Vinmec – *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec* (cập nhật 19/10/2026):
      https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi
@@ -25,7 +26,7 @@
 > Vinmec không công bố quy trình lập lịch nội bộ. Từ phía người bệnh có thể thấy: người bệnh chọn **bác sĩ cụ thể** và
 > **xem lịch làm việc** của bác sĩ khi đặt trên website [3]; giờ khám đặt "chỉ là thời gian dự kiến", tư vấn viên gọi lại
 > xác nhận khung giờ [2] → nghĩa là bên trong phải có một lịch bác sĩ được lập trước và mở thành khung giờ.
-> Các bước nội bộ là suy luận theo thực hành chung, đánh dấu **⚠**, cần xác minh ở T24 (câu 6, 11, 12, 16 trong
+> Các bước nội bộ là suy luận theo thực hành chung, đánh dấu **⚠**, cần xác minh ở T24 (`QL06`, `QN01`, `QN02`, `QN06` trong
 > `interviews/questions.md` và câu đề xuất ở cuối file).
 
 ## Ràng buộc đầu vào
