@@ -187,6 +187,7 @@ Sau buổi phỏng vấn: hoàn thiện biên bản trong vòng 24 giờ, để 
 
 **Câu 5. Hình thức thanh toán của anh/chị: \***
 - ☐ Tự thanh toán
+- ☐ Bảo hiểm y tế (BHYT)
 - ☐ Bảo hiểm có bảo lãnh trực tiếp
 - ☐ Bảo hiểm, thanh toán trước rồi yêu cầu hoàn
 - ☐ Khác
