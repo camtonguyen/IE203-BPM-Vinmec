@@ -71,23 +71,23 @@ khu Vinhomes Central Park, quận Bình Thạnh (cũ), TP. Hồ Chí Minh [8][9]
 | Chứng nhận | JCI lần 1 (2017, 9,84/10), lần 2 (2021, 9,96/10), lần 3 (2024, 9,92/10) |
 | Tổng đài đặt hẹn | 028 3622 1166 |
 
-*Nguồn: [8][10][11][12][13][15].*
+*Nguồn: [5][8][10][11][12][14].*
 
 ### 1.2.2. Chất lượng và an toàn người bệnh
 
 Năm 2017, chỉ sau 15 tháng hoạt động, Vinmec Central Park trở thành bệnh viện thứ tư tại Việt Nam đạt chứng nhận JCI
-với điểm 9,84/10, đáp ứng 285 tiêu chuẩn và 1.166 tiêu chí, theo tiêu chí hoạt động "lấy khách hàng làm trung tâm" [10].
+với điểm 9,84/10, đáp ứng 285 tiêu chuẩn và 1.166 tiêu chí, theo tiêu chí hoạt động "lấy khách hàng làm trung tâm" [5].
 Bệnh viện được tái thẩm định năm 2021 theo bộ tiêu chuẩn JCI phiên bản 7, đạt 9,96/10 trên 1.271 tiêu chí; mô hình chăm
-sóc theo đội nhóm áp dụng cho 100% người bệnh [11]. Lần thứ ba (2024) đạt 9,92/10, áp dụng sớm một số tiêu chí phiên bản 8;
-đoàn thẩm định ghi nhận "văn hóa an toàn, văn hóa báo cáo", khuyến khích báo cáo cả những sai sót nhỏ chưa gây hậu quả [12].
+sóc theo đội nhóm áp dụng cho 100% người bệnh [10]. Lần thứ ba (2024) đạt 9,92/10, áp dụng sớm một số tiêu chí phiên bản 8;
+đoàn thẩm định ghi nhận "văn hóa an toàn, văn hóa báo cáo", khuyến khích báo cáo cả những sai sót nhỏ chưa gây hậu quả [11].
 
 ### 1.2.3. Hoạt động khám ngoại trú
 
 Theo lịch làm việc chính thức của Vinmec (cập nhật 19/10/2026), khu khám ngoại trú Vinmec Central Park làm việc từ
-thứ Hai đến thứ Bảy, sáng 07:30–12:00, chiều 13:00–16:30; dịch vụ cấp cứu phục vụ 24 giờ [15]. Thứ Bảy chỉ một số
+thứ Hai đến thứ Bảy, sáng 07:30–12:00, chiều 13:00–16:30; dịch vụ cấp cứu phục vụ 24 giờ [14]. Thứ Bảy chỉ một số
 chuyên khoa mở khám, người bệnh cần gọi tổng đài để biết lịch cụ thể [9]. Người bệnh có thể đặt lịch
 qua tổng đài của bệnh viện, website và ứng dụng MyVinmec; giờ khám chọn khi đặt là giờ dự kiến, tư vấn viên sẽ gọi lại xác
-nhận [13]. Với khoảng 130.000 lượt khám mỗi năm [8], trung bình khu ngoại trú tiếp nhận khoảng 400–500 lượt mỗi ngày làm
+nhận [12]. Với khoảng 130.000 lượt khám mỗi năm [8], trung bình khu ngoại trú tiếp nhận khoảng 400–500 lượt mỗi ngày làm
 việc (ước tính của nhóm), nên thời gian chờ và sự phối hợp giữa các khâu là vấn đề quản trị quan trọng.
 
 ## 1.3. Lý do chọn đề tài
@@ -96,7 +96,7 @@ việc (ước tính của nhóm), nên thời gian chờ và sự phối hợp 
    thu ngân, bảo hiểm, nhà thuốc. Người bệnh đi qua nhiều điểm chạm, dễ phát sinh thời gian chờ và lãng phí – phù hợp để áp
    dụng các phương pháp mô hình hóa, phân tích và cải tiến quy trình của môn học.
 2. **Có yêu cầu đo lường rõ ràng:** Bộ tiêu chí chất lượng bệnh viện Việt Nam yêu cầu cải tiến quy trình khám bệnh, đánh
-   giá và công khai thời gian chờ [14]; Vinmec đo hài lòng tại từng điểm chạm [6]. Do đó có sẵn chỉ số để đánh giá as-is
+   giá và công khai thời gian chờ [13]; Vinmec đo hài lòng tại từng điểm chạm [6]. Do đó có sẵn chỉ số để đánh giá as-is
    và to-be.
 3. **Có nguồn thông tin công khai tương đối đầy đủ:** Vinmec công bố hướng dẫn quy trình khám, đặt lịch, thanh toán bảo
    hiểm trên website; nhóm có thể kết hợp với phỏng vấn và ghi nhận thời gian thực tế.
@@ -119,7 +119,7 @@ việc (ước tính của nhóm), nên thời gian chờ và sự phối hợp 
 | Khía cạnh | Trong phạm vi | Ngoài phạm vi |
 |---|---|---|
 | Địa điểm khảo sát | Vinmec Central Park, TP. Hồ Chí Minh | Các bệnh viện, phòng khám khác của hệ thống (chỉ dùng tài liệu chung) |
-| Loại hình | Khám chữa bệnh **ngoại trú** cho người lớn | Nội trú, cấp cứu, phẫu thuật, khám sức khỏe theo gói, tiêm chủng |
+| Loại hình | Khám chữa bệnh **ngoại trú** cho người lớn và trẻ em (thủ tục qua người giám hộ, theo C1); khám sức khỏe tổng quát theo gói chỉ ở mức mô tả (C2, Case 2) | Nội trú, cấp cứu, phẫu thuật, tiêm chủng; mô hình hóa, phân tích gói khám sức khỏe |
 | Quy trình phân tích sâu | C1 Khám ngoại trú (trọng tâm), C3 Thanh toán – bảo lãnh bảo hiểm | – |
 | Quy trình mô hình hóa | C1, C3, M1, M3, S1, S3 (as-is); C1, C3 (to-be) | Mô hình hóa chi tiết các quy trình còn lại |
 | Quy trình liệt kê, mô tả | 10 quy trình M1–M3, C1–C4, S1–S3 | |
@@ -157,20 +157,19 @@ Truy cập lần cuối: 18/11/2026.
 7. Medpro. *Hệ thống bệnh viện Vinmec có tốt không? Review chi tiết* (28/09/2026). https://medpro.vn/tin-tuc/review-benh-vien-vinmec-co-tot-khong
 8. Đại biểu Nhân dân. *10 năm Vinmec Central Park: Từ bệnh viện quốc tế đến khát vọng kiến tạo mô hình "y học dựa trên giá trị"* (25/12/2025). https://daibieunhandan.vn/10-nam-vinmec-central-park-tu-benh-vien-quoc-te-den-khat-vong-kien-tao-mo-hinh-y-hoc-dua-tren-gia-tri-10401759.html
 9. HelloBacsi. *Vinmec Central Park – Đặt lịch khám tại BV Vinmec*. https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-quoc-te-vinmec-central-park-386/
-10. Thanh Tra. *Vinmec Central Park đạt chuẩn y tế toàn cầu* (26/06/2017) – xem [5].
-11. Sài Gòn Giải Phóng. *Bệnh viện Vinmec Central Park TPHCM nhận chứng chỉ quốc tế JCI lần II* (19/03/2021). https://www.sggp.org.vn/benh-vien-vinmec-central-park-tphcm-nhan-chung-chi-quoc-te-jci-lan-ii-post587586.html
-12. Pháp luật TP.HCM. *Vinmec Central Park xuất sắc đạt "Dấu vàng" chất lượng chứng chỉ JCI lần thứ 3* (01/04/2024). https://plo.vn/vinmec-central-park-xuat-sac-dat-dau-vang-chat-luong-chung-chi-jci-lan-thu-3-post783150.html
-13. Medpro. *3 cách đặt lịch khám Vinmec online dễ dàng, nhanh chóng* (cập nhật 05/11/2026). https://medpro.vn/tin-tuc/huong-dan-dat-lich-kham-vinmec-nhanh-chong-va-tien-loi
-14. Bộ Y tế. *Quyết định 6858/QĐ-BYT ngày 18/11/2016 ban hành Bộ tiêu chí chất lượng bệnh viện Việt Nam*. https://caselaw.vn/van-ban-phap-luat/138727-quyet-dinh-6858-qd-byt-nam-2016-ve-bo-tieu-chi-chat-luong-benh-vien-viet-nam-do-bo-truong-bo-y-te-ban-hanh
-15. Vinmec. *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec* (cập nhật 19/10/2026). https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi
+10. Sài Gòn Giải Phóng. *Bệnh viện Vinmec Central Park TPHCM nhận chứng chỉ quốc tế JCI lần II* (19/03/2021). https://www.sggp.org.vn/benh-vien-vinmec-central-park-tphcm-nhan-chung-chi-quoc-te-jci-lan-ii-post587586.html
+11. Pháp luật TP.HCM. *Vinmec Central Park xuất sắc đạt "Dấu vàng" chất lượng chứng chỉ JCI lần thứ 3* (01/04/2024). https://plo.vn/vinmec-central-park-xuat-sac-dat-dau-vang-chat-luong-chung-chi-jci-lan-thu-3-post783150.html
+12. Medpro. *3 cách đặt lịch khám Vinmec online dễ dàng, nhanh chóng* (cập nhật 05/11/2026). https://medpro.vn/tin-tuc/huong-dan-dat-lich-kham-vinmec-nhanh-chong-va-tien-loi
+13. Bộ Y tế. *Quyết định 6858/QĐ-BYT ngày 18/11/2016 ban hành Bộ tiêu chí chất lượng bệnh viện Việt Nam*. https://caselaw.vn/van-ban-phap-luat/138727-quyet-dinh-6858-qd-byt-nam-2016-ve-bo-tieu-chi-chat-luong-benh-vien-viet-nam-do-bo-truong-bo-y-te-ban-hanh
+14. Vinmec. *Giờ làm việc tại các Bệnh viện Đa khoa Quốc tế Vinmec* (cập nhật 19/10/2026). https://www.vinmec.com/vie/bai-viet/gio-lam-viec-tai-cac-benh-vien-da-khoa-quoc-te-vinmec-vi
 
 ## Ghi chú chốt số liệu (theo review T21)
 
 - **Vốn đầu tư Central Park:** chốt **1.200 tỷ đồng** theo [8] (Đại biểu Nhân dân, 25/12/2025 – bài tổng kết 10 năm, mới
   nhất). Bài Thanh Tra 2017 [5] ghi "tổng vốn đầu tư 2.000 tỷ đồng" nhưng không giải thích cách tính, nên không dùng.
-- **Giờ làm việc:** chốt **07:30–12:00, 13:00–16:30** theo trang chính thức của Vinmec [15] (cập nhật 19/10/2026).
+- **Giờ làm việc:** chốt **07:30–12:00, 13:00–16:30** theo trang chính thức của Vinmec [14] (cập nhật 19/10/2026).
   Bảng giờ 08:00–11:30 trên HelloBacsi [9] là nguồn thứ cấp, mâu thuẫn ngay với phần mô tả của chính trang đó, nên bỏ.
 - **Bảng 1.1:** đã mở lại trang [1] ngày 18/11/2026, cập nhật 17 bệnh viện và phòng khám, 8,8 triệu khách hàng,
   5,7 triệu lượt ngoại trú; trang không ghi thời điểm số liệu.
-- Còn lại: trang [15] vẫn ghi địa chỉ "Phường 22, Q. Bình Thạnh"; báo cáo ghi "quận Bình Thạnh (cũ)" để tránh sai tên
+- Còn lại: trang [14] vẫn ghi địa chỉ "Phường 22, Q. Bình Thạnh"; báo cáo ghi "quận Bình Thạnh (cũ)" để tránh sai tên
   phường sau sắp xếp đơn vị hành chính 2025.

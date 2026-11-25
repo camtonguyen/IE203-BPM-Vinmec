@@ -39,7 +39,7 @@ Dùng đúng tên dưới đây. Cần thêm hoạt động mới thì bổ sung
 | Tiếp đón - mở hồ sơ | C1 / C4 | Check-in lịch hẹn hoặc mở hồ sơ khách mới |
 | Chờ đo sinh hiệu | C1 | |
 | Đo sinh hiệu | C1 | Mạch, huyết áp, cân nặng… |
-| Chờ khám | C1 | Từ lúc ngồi chờ đến lúc được gọi vào phòng khám |
+| Chờ khám | C1 | Từ lúc ngồi chờ (sau đo sinh hiệu) đến lúc được gọi vào phòng khám. KPI *Thời gian chờ khám* của M2 tính rộng hơn: hết *Tiếp đón - mở hồ sơ* → bắt đầu *Khám lần 1* |
 | Khám lần 1 | C1 | Bác sĩ khám, chỉ định |
 | Thanh toán | C3 | Tạm ứng / quyết toán / bảo lãnh – ghi ở `note` |
 | Chờ bảo lãnh | C3 | Chờ công ty bảo hiểm phản hồi |

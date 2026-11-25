@@ -3,7 +3,7 @@
 - **Loại:** Quản lý
 - **Người phụ trách viết:** Nguyễn Quang Hòa (26410042)
 - **Phạm vi:** đo lường, đánh giá và cải tiến các chỉ số hiệu suất (KPI) của khu khám ngoại trú theo kỳ (tháng / quý /
-  6 tháng): từ thu thập dữ liệu đến báo cáo, so sánh mục tiêu và giao kế hoạch cải tiến. KPI ở đây là **chỉ số chất lượng
+  6 tháng ⚠, Vinmec không công bố kỳ đánh giá nội bộ): từ thu thập dữ liệu đến báo cáo, so sánh mục tiêu và giao kế hoạch cải tiến. KPI ở đây là **chỉ số chất lượng
   dịch vụ của khoa/bệnh viện**; đánh giá KPI cá nhân nhân viên Vinmec không có nguồn công khai nên chỉ nêu ở mức ⚠.
 - **Nguồn bằng chứng** (truy cập 17/11/2026):
   1. Thông tư 19/2013/TT-BYT – quản lý chất lượng dịch vụ khám chữa bệnh tại bệnh viện (Điều 5: xây dựng và đo lường bộ
@@ -28,11 +28,14 @@
   9. Quyết định 56/QĐ-BYT ngày 08/01/2024 – hướng dẫn phương pháp đo lường hài lòng của người dân đối với dịch vụ y tế
      công giai đoạn 2024–2030 (thay mẫu khảo sát người bệnh của QĐ 3869; QĐ 3652 áp dụng cho cả bệnh viện tư nhân [3]):
      https://lsvn.vn/bo-y-te-huong-dan-do-luong-hai-long-cua-nguoi-dan-ve-dich-vu-y-te-cong-1705192506-a139943.html
+  10. Thông tư 43/2018/TT-BYT ngày 26/12/2018 – hướng dẫn phòng ngừa sự cố y khoa (Điều 8: nhóm chuyên gia phân tích
+      nguyên nhân gốc, đề xuất giải pháp trong 60 ngày; xem M3):
+      https://thuvienphapluat.vn/van-ban/the-thao-y-te/thong-tu-43-2018-tt-byt-huong-dan-phong-ngua-su-co-y-khoa-trong-co-so-kham-benh-chua-benh-366845.aspx
 
 > Danh mục tài liệu tham khảo chung của nhóm: [`docs/tai-lieu-tham-khao.md`](../tai-lieu-tham-khao.md).
 
 > Mục đánh dấu **⚠** là suy luận theo khung Thông tư 19 / QĐ 6858, cần xác minh qua phỏng vấn
-> (câu 5, 15, 16, 17, 20 trong `interviews/questions.md`).
+> (`QL05`, `QN05`, `QN06`, `QN07`, `QN10` trong `interviews/questions.md`).
 
 ## Bộ KPI đề xuất cho khu khám ngoại trú
 
@@ -40,18 +43,18 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 
 | Nhóm | KPI | Cách tính | Nguồn dữ liệu | Căn cứ |
 |---|---|---|---|---|
-| Thời gian | Thời gian chờ khám | Từ tiếp đón đến khi được gọi vào khám (phút) | Event log / HIS | [2] A1.3, A1.5 |
-| Thời gian | Tổng thời gian một lượt khám | Từ tiếp đón đến khi rời bệnh viện (phút) | Event log | [2] A1.3 |
-| Thời gian | Thời gian trả kết quả cận lâm sàng | Từ lấy mẫu đến có kết quả (phút) | LIS / RIS ⚠ | [2] |
+| Thời gian | Thời gian chờ khám | Từ tiếp đón đến khi được gọi vào khám (phút), gồm cả đo sinh hiệu. Từ event log: `end_time` của *Tiếp đón - mở hồ sơ* → `start_time` của *Khám lần 1* (không phải độ dài riêng hoạt động *Chờ khám*) | Event log / HIS | [2] A1.3, A1.5 |
+| Thời gian | Tổng thời gian một lượt khám | Từ tiếp đón đến khi rời bệnh viện (phút): `start_time` hoạt động đầu → `end_time` hoạt động cuối của lượt | Event log | [2] A1.3 |
+| Thời gian | Thời gian trả kết quả cận lâm sàng | Từ khi làm xong cận lâm sàng đến khi có kết quả (phút), khớp hoạt động *Chờ kết quả* trong event log | Event log; LIS / RIS ⚠ | [2] |
 | Thời gian | Thời gian chờ duyệt bảo lãnh | Từ gửi yêu cầu đến có phản hồi (phút) | Quầy bảo hiểm | C3 |
 | Hài lòng | Tỉ lệ hài lòng người bệnh ngoại trú | % phiếu mức 4–5 | Khảo sát theo QĐ 56/2024 | [3][4][9] |
 | Hài lòng | NES (Net Excellence Score) | Theo phương pháp Vinmec ⚠ | Khảo sát Vinmec | [6] |
-| Hài lòng | Số khiếu nại / 1.000 lượt khám | | S3 | [2] |
-| An toàn | Số sự cố y khoa / 1.000 lượt khám, tỉ lệ near-miss | | M3 | [2] D2.2 |
-| An toàn | Tỉ lệ RCA hoàn thành trong 60 ngày | | M3 | TT 43/2018 |
-| Hiệu suất | Số lượt khám / bác sĩ / buổi | | HIS, lịch M1 | |
-| Hiệu suất | Tỉ lệ lấp đầy khung giờ hẹn; tỉ lệ không đến (no-show) | | Hệ thống đặt lịch (C4) | |
-| Tài chính | Doanh thu, chi phí trung bình / lượt khám | | Thu ngân (C3), T48 | |
+| Hài lòng | Số khiếu nại / 1.000 lượt khám | Số khiếu nại trong kỳ ÷ số lượt khám × 1.000 | S3 | [2] |
+| An toàn | Số sự cố y khoa / 1.000 lượt khám, tỉ lệ near-miss | Số sự cố ÷ số lượt khám × 1.000; số near-miss (NC0) ÷ tổng số báo cáo | M3 | [2] D2.2 |
+| An toàn | Tỉ lệ RCA hoàn thành trong 60 ngày | Số sự cố RCA có giải pháp trong 60 ngày ÷ số sự cố cần RCA | M3 | [10, Điều 8] |
+| Hiệu suất | Số lượt khám / bác sĩ / buổi | Số lượt khám ÷ số buổi khám của bác sĩ | HIS, lịch M1 | ⚠ (không có chuẩn công khai; `QN01`) |
+| Hiệu suất | Tỉ lệ lấp đầy khung giờ hẹn; tỉ lệ không đến (no-show) | Khung giờ đã đặt ÷ khung giờ mở; lượt hẹn không đến ÷ lượt hẹn | Hệ thống đặt lịch (C4) | ⚠ (C4; `QN05`) |
+| Tài chính | Doanh thu, chi phí trung bình / lượt khám | Tổng doanh thu (chi phí) ÷ số lượt khám | Thu ngân (C3), T48 | ⚠ (Vinmec không công bố; nhóm ước tính ở T48) |
 
 ## Actor
 
@@ -84,8 +87,11 @@ Bảng 1 dùng làm danh mục chỉ số cho M2 và cho dashboard (T46, T53). M
 
 3. Trích xuất **dữ liệu hệ thống** (HIS, đặt lịch, thu ngân): lượt khám, thời gian từng phân đoạn, doanh thu ⚠.
 4. **Khảo sát hài lòng** người bệnh ngoại trú theo mẫu và cỡ mẫu quy định. QĐ 3869 quy định cỡ mẫu 500–4.999 lượt/ngày
-   → ≥ 200 phiếu; 100–499 lượt/ngày → ≥ 100 phiếu [4]; nhưng đợt đánh giá 2024–2025 khảo sát người bệnh ngoại trú theo
-   phương pháp của QĐ 56 [3][9], nên mẫu và cỡ mẫu áp dụng cần thống nhất ⚠.
+   → ≥ 200 phiếu; 100–499 lượt/ngày → ≥ 100 phiếu [4]. Đợt đánh giá 2024–2025 khảo sát theo phương pháp của QĐ 56 [3][9],
+   nhưng nhóm chưa có toàn văn QĐ 56 nên **chốt dùng ngưỡng cỡ mẫu của QĐ 3869** ⚠. Chương 1 ước khu ngoại trú Central
+   Park tiếp nhận khoảng 400–500 lượt/ngày (130.000 lượt/năm ÷ khoảng 306 ngày làm việc ≈ 425), nên áp dụng mức
+   100–499 lượt/ngày → **≥ 100 phiếu mỗi kỳ** ⚠; nếu số lượt thực tế từ 500/ngày trở lên thì ≥ 200 phiếu. Khảo sát của
+   nhóm (T26, mục tiêu ≥ 30 phản hồi) chỉ để minh họa, không thay cho cỡ mẫu theo quy định.
 5. Lấy **số liệu sự cố** từ M3 và **khiếu nại** từ S3.
 
 **C. Phân tích, đánh giá**
