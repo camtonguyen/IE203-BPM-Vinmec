@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Defs_C1" targetNamespace="https://github.com/camtonguyen/IE203-BPM-Vinmec" exporter="IE203 nhóm" exporterVersion="1.0">
+  <bpmn:collaboration id="Collab_C1">
+    <bpmn:documentation>C1 Khám ngoại trú, mô hình as-is (T32). Nguồn: docs/processes/C1-kham-ngoai-tru.md (T11). Các bước ⚠ là giả định chưa có nguồn công khai, chờ xác minh qua phỏng vấn T24–T26 và số liệu T27.</bpmn:documentation>
+    <bpmn:participant id="P_Vinmec" name="Bệnh viện Vinmec – Khám ngoại trú" processRef="Process_C1" />
+    <bpmn:participant id="P_BaoHiem" name="Công ty bảo hiểm / Cơ quan BHXH" />
+    <bpmn:participant id="P_TuyenTren" name="Khoa chuyên khoa khác / Bệnh viện tuyến trên" />
+    <bpmn:messageFlow id="MF_YeuCau" name="Yêu cầu xác minh" sourceRef="T_XacMinhBHTN" targetRef="P_BaoHiem" />
+    <bpmn:messageFlow id="MF_KetQua" name="Kết quả xác minh" sourceRef="P_BaoHiem" targetRef="T_XacMinhBHTN" />
+    <bpmn:messageFlow id="MF_GiayChuyen" name="Giấy chuyển viện" sourceRef="T_ChuyenVien" targetRef="P_TuyenTren" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_C1" name="C1 Khám ngoại trú (as-is)" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_C1">
+      <bpmn:lane id="Lane_NB" name="Người bệnh">
+        <bpmn:flowNodeRef>Start_Den</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G8_DongY</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_KyTuChoi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G10_TaiKham</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_TaiKham</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_RaVe</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_LT" name="Lễ tân">
+        <bpmn:flowNodeRef>G1_DatLich</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_CheckIn</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_LaySo</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G2_KhachMoi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_MoHoSo</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_TraHoSo</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_DinhDanh</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G3_ChiTra</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_XacMinhBHTN</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_KiemTraBHYT</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_GhiTuChiTra</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_HenTaiKham</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_DD" name="Điều dưỡng">
+        <bpmn:flowNodeRef>T_DoSinhHieu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G4_CapCuu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_ChuyenCapCuu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_CapCuu</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_BS" name="Bác sĩ">
+        <bpmn:flowNodeRef>T_Kham1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G5_CLS</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_ChiDinh</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_DocKQ</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G6_BatThuong</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_KetLuan</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G7_KetLuan</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_NhapVien</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_NoiTru</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_KeDon</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_ChuyenVien</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_ChuyenVien</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_KTV" name="Kỹ thuật viên cận lâm sàng">
+        <bpmn:flowNodeRef>AND_Tach</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_XetNghiem</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_CDHA</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>AND_Gop</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_TN" name="Thu ngân">
+        <bpmn:flowNodeRef>T_TTChiDinh</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>T_TTVienPhi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G9_LayThuoc</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>M7</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_NT" name="Nhà thuốc">
+        <bpmn:flowNodeRef>T_CapThuoc</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_Den" name="Người bệnh đến khám">
+      <bpmn:outgoing>F01</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:exclusiveGateway id="G1_DatLich" name="Có đặt lịch trước?">
+      <bpmn:documentation>Nhánh đến trực tiếp không hẹn: ⚠ câu 1</bpmn:documentation>
+      <bpmn:incoming>F01</bpmn:incoming>
+      <bpmn:outgoing>F02</bpmn:outgoing>
+      <bpmn:outgoing>F03</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_CheckIn" name="Check-in theo lịch hẹn">
+      <bpmn:incoming>F02</bpmn:incoming>
+      <bpmn:outgoing>F04</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_LaySo" name="Lấy số, đăng ký tại quầy">
+      <bpmn:incoming>F03</bpmn:incoming>
+      <bpmn:outgoing>F05</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="M1">
+      <bpmn:incoming>F04</bpmn:incoming>
+      <bpmn:incoming>F05</bpmn:incoming>
+      <bpmn:outgoing>F06</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="G2_KhachMoi" name="Khách mới hay khách cũ?">
+      <bpmn:incoming>F06</bpmn:incoming>
+      <bpmn:outgoing>F07</bpmn:outgoing>
+      <bpmn:outgoing>F08</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_MoHoSo" name="Mở hồ sơ khách mới">
+      <bpmn:incoming>F07</bpmn:incoming>
+      <bpmn:outgoing>F09</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_TraHoSo" name="Tra cứu hồ sơ có sẵn">
+      <bpmn:incoming>F08</bpmn:incoming>
+      <bpmn:outgoing>F10</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="M2">
+      <bpmn:incoming>F09</bpmn:incoming>
+      <bpmn:incoming>F10</bpmn:incoming>
+      <bpmn:outgoing>F11</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_DinhDanh" name="Định danh người bệnh">
+      <bpmn:incoming>F11</bpmn:incoming>
+      <bpmn:outgoing>F12</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G3_ChiTra" name="Hình thức chi trả?">
+      <bpmn:documentation>Chi tiết bảo lãnh, BHYT ở C3</bpmn:documentation>
+      <bpmn:incoming>F12</bpmn:incoming>
+      <bpmn:outgoing>F13</bpmn:outgoing>
+      <bpmn:outgoing>F14</bpmn:outgoing>
+      <bpmn:outgoing>F15</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_XacMinhBHTN" name="Xác minh bảo hiểm tư nhân">
+      <bpmn:incoming>F13</bpmn:incoming>
+      <bpmn:outgoing>F16</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_KiemTraBHYT" name="Kiểm tra thẻ BHYT">
+      <bpmn:incoming>F14</bpmn:incoming>
+      <bpmn:outgoing>F17</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_GhiTuChiTra" name="Ghi nhận tự chi trả">
+      <bpmn:incoming>F15</bpmn:incoming>
+      <bpmn:outgoing>F18</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="M3">
+      <bpmn:incoming>F16</bpmn:incoming>
+      <bpmn:incoming>F17</bpmn:incoming>
+      <bpmn:incoming>F18</bpmn:incoming>
+      <bpmn:outgoing>F19</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_DoSinhHieu" name="Đo sinh hiệu">
+      <bpmn:documentation>⚠ câu 6, 7</bpmn:documentation>
+      <bpmn:incoming>F19</bpmn:incoming>
+      <bpmn:outgoing>F20</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G4_CapCuu" name="Có dấu hiệu cấp cứu?">
+      <bpmn:documentation>⚠ câu 6, 7</bpmn:documentation>
+      <bpmn:incoming>F20</bpmn:incoming>
+      <bpmn:outgoing>F21</bpmn:outgoing>
+      <bpmn:outgoing>F23</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_ChuyenCapCuu" name="Chuyển xử trí cấp cứu">
+      <bpmn:incoming>F21</bpmn:incoming>
+      <bpmn:outgoing>F22</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_CapCuu" name="Đã chuyển cấp cứu">
+      <bpmn:incoming>F22</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="T_Kham1" name="Khám, tư vấn lần 1">
+      <bpmn:incoming>F23</bpmn:incoming>
+      <bpmn:outgoing>F24</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G5_CLS" name="Cần cận lâm sàng?">
+      <bpmn:incoming>F24</bpmn:incoming>
+      <bpmn:outgoing>F25</bpmn:outgoing>
+      <bpmn:outgoing>F26</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="M4">
+      <bpmn:incoming>F25</bpmn:incoming>
+      <bpmn:incoming>F39</bpmn:incoming>
+      <bpmn:outgoing>F27</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_ChiDinh" name="Chỉ định cận lâm sàng">
+      <bpmn:incoming>F27</bpmn:incoming>
+      <bpmn:outgoing>F28</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G8_DongY" name="Người bệnh đồng ý thực hiện chỉ định?">
+      <bpmn:documentation>Nhánh từ chối không có trên sơ đồ Vinmec ⚠</bpmn:documentation>
+      <bpmn:incoming>F28</bpmn:incoming>
+      <bpmn:outgoing>F29</bpmn:outgoing>
+      <bpmn:outgoing>F30</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_KyTuChoi" name="Ký phiếu từ chối">
+      <bpmn:incoming>F30</bpmn:incoming>
+      <bpmn:outgoing>F31</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_TTChiDinh" name="Thanh toán chỉ định">
+      <bpmn:incoming>F29</bpmn:incoming>
+      <bpmn:outgoing>F32</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:parallelGateway id="AND_Tach" name="Thực hiện xét nghiệm và CĐHA song song">
+      <bpmn:incoming>F32</bpmn:incoming>
+      <bpmn:outgoing>F33</bpmn:outgoing>
+      <bpmn:outgoing>F34</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="T_XetNghiem" name="Thực hiện xét nghiệm">
+      <bpmn:documentation>Chi tiết ở C2; song song ⚠ câu 18</bpmn:documentation>
+      <bpmn:incoming>F33</bpmn:incoming>
+      <bpmn:outgoing>F35</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_CDHA" name="Thực hiện chẩn đoán hình ảnh">
+      <bpmn:documentation>Chi tiết ở C2; song song ⚠ câu 18</bpmn:documentation>
+      <bpmn:incoming>F34</bpmn:incoming>
+      <bpmn:outgoing>F36</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:parallelGateway id="AND_Gop">
+      <bpmn:incoming>F35</bpmn:incoming>
+      <bpmn:incoming>F36</bpmn:incoming>
+      <bpmn:outgoing>F37</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="T_DocKQ" name="Đọc, giải thích kết quả">
+      <bpmn:incoming>F37</bpmn:incoming>
+      <bpmn:outgoing>F38</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G6_BatThuong" name="Kết quả bất thường hoặc cần hội chẩn?">
+      <bpmn:documentation>⚠ câu 13, 22</bpmn:documentation>
+      <bpmn:incoming>F38</bpmn:incoming>
+      <bpmn:outgoing>F39</bpmn:outgoing>
+      <bpmn:outgoing>F40</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="M5">
+      <bpmn:incoming>F26</bpmn:incoming>
+      <bpmn:incoming>F31</bpmn:incoming>
+      <bpmn:incoming>F40</bpmn:incoming>
+      <bpmn:outgoing>F41</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_KetLuan" name="Kết luận lượt khám">
+      <bpmn:incoming>F41</bpmn:incoming>
+      <bpmn:outgoing>F42</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G7_KetLuan" name="Kết luận là gì?">
+      <bpmn:documentation>Nhánh chuyển viện ⚠ câu 22</bpmn:documentation>
+      <bpmn:incoming>F42</bpmn:incoming>
+      <bpmn:outgoing>F43</bpmn:outgoing>
+      <bpmn:outgoing>F45</bpmn:outgoing>
+      <bpmn:outgoing>F46</bpmn:outgoing>
+      <bpmn:outgoing>F48</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_NhapVien" name="Lập chỉ định nhập viện">
+      <bpmn:incoming>F43</bpmn:incoming>
+      <bpmn:outgoing>F44</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_NoiTru" name="Chuyển nội trú">
+      <bpmn:incoming>F44</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="T_KeDon" name="Kê đơn thuốc">
+      <bpmn:incoming>F45</bpmn:incoming>
+      <bpmn:outgoing>F49</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="T_ChuyenVien" name="Lập giấy chuyển viện">
+      <bpmn:documentation>⚠ câu 22</bpmn:documentation>
+      <bpmn:incoming>F46</bpmn:incoming>
+      <bpmn:outgoing>F47</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="End_ChuyenVien" name="Đã chuyển viện">
+      <bpmn:incoming>F47</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="T_HenTaiKham" name="Hẹn lịch tái khám">
+      <bpmn:documentation>Người hẹn lịch ⚠ câu 1</bpmn:documentation>
+      <bpmn:incoming>F48</bpmn:incoming>
+      <bpmn:outgoing>F50</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="M6">
+      <bpmn:incoming>F49</bpmn:incoming>
+      <bpmn:incoming>F50</bpmn:incoming>
+      <bpmn:outgoing>F51</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_TTVienPhi" name="Thanh toán viện phí">
+      <bpmn:documentation>Khoản phát sinh sau cận lâm sàng ⚠ câu 19</bpmn:documentation>
+      <bpmn:incoming>F51</bpmn:incoming>
+      <bpmn:outgoing>F52</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="G9_LayThuoc" name="Có lấy thuốc tại bệnh viện?">
+      <bpmn:documentation>⚠ câu 6, 7</bpmn:documentation>
+      <bpmn:incoming>F52</bpmn:incoming>
+      <bpmn:outgoing>F53</bpmn:outgoing>
+      <bpmn:outgoing>F54</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="T_CapThuoc" name="Cấp phát thuốc theo đơn">
+      <bpmn:documentation>Chi tiết ở S1</bpmn:documentation>
+      <bpmn:incoming>F53</bpmn:incoming>
+      <bpmn:outgoing>F55</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="M7">
+      <bpmn:incoming>F54</bpmn:incoming>
+      <bpmn:incoming>F55</bpmn:incoming>
+      <bpmn:outgoing>F56</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="G10_TaiKham" name="Có hẹn tái khám?">
+      <bpmn:incoming>F56</bpmn:incoming>
+      <bpmn:outgoing>F57</bpmn:outgoing>
+      <bpmn:outgoing>F58</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="End_TaiKham" name="Ra về, có hẹn tái khám">
+      <bpmn:incoming>F57</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id="End_RaVe" name="Ra về, điều trị ngoại trú">
+      <bpmn:incoming>F58</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="F01" sourceRef="Start_Den" targetRef="G1_DatLich" />
+    <bpmn:sequenceFlow id="F02" name="Có" sourceRef="G1_DatLich" targetRef="T_CheckIn" />
+    <bpmn:sequenceFlow id="F03" name="Không" sourceRef="G1_DatLich" targetRef="T_LaySo" />
+    <bpmn:sequenceFlow id="F04" sourceRef="T_CheckIn" targetRef="M1" />
+    <bpmn:sequenceFlow id="F05" sourceRef="T_LaySo" targetRef="M1" />
+    <bpmn:sequenceFlow id="F06" sourceRef="M1" targetRef="G2_KhachMoi" />
+    <bpmn:sequenceFlow id="F07" name="Mới" sourceRef="G2_KhachMoi" targetRef="T_MoHoSo" />
+    <bpmn:sequenceFlow id="F08" name="Cũ" sourceRef="G2_KhachMoi" targetRef="T_TraHoSo" />
+    <bpmn:sequenceFlow id="F09" sourceRef="T_MoHoSo" targetRef="M2" />
+    <bpmn:sequenceFlow id="F10" sourceRef="T_TraHoSo" targetRef="M2" />
+    <bpmn:sequenceFlow id="F11" sourceRef="M2" targetRef="T_DinhDanh" />
+    <bpmn:sequenceFlow id="F12" sourceRef="T_DinhDanh" targetRef="G3_ChiTra" />
+    <bpmn:sequenceFlow id="F13" name="Bảo hiểm tư nhân" sourceRef="G3_ChiTra" targetRef="T_XacMinhBHTN" />
+    <bpmn:sequenceFlow id="F14" name="BHYT" sourceRef="G3_ChiTra" targetRef="T_KiemTraBHYT" />
+    <bpmn:sequenceFlow id="F15" name="Tự chi trả" sourceRef="G3_ChiTra" targetRef="T_GhiTuChiTra" />
+    <bpmn:sequenceFlow id="F16" sourceRef="T_XacMinhBHTN" targetRef="M3" />
+    <bpmn:sequenceFlow id="F17" sourceRef="T_KiemTraBHYT" targetRef="M3" />
+    <bpmn:sequenceFlow id="F18" sourceRef="T_GhiTuChiTra" targetRef="M3" />
+    <bpmn:sequenceFlow id="F19" sourceRef="M3" targetRef="T_DoSinhHieu" />
+    <bpmn:sequenceFlow id="F20" sourceRef="T_DoSinhHieu" targetRef="G4_CapCuu" />
+    <bpmn:sequenceFlow id="F21" name="Có" sourceRef="G4_CapCuu" targetRef="T_ChuyenCapCuu" />
+    <bpmn:sequenceFlow id="F22" sourceRef="T_ChuyenCapCuu" targetRef="End_CapCuu" />
+    <bpmn:sequenceFlow id="F23" name="Không" sourceRef="G4_CapCuu" targetRef="T_Kham1" />
+    <bpmn:sequenceFlow id="F24" sourceRef="T_Kham1" targetRef="G5_CLS" />
+    <bpmn:sequenceFlow id="F25" name="Có" sourceRef="G5_CLS" targetRef="M4" />
+    <bpmn:sequenceFlow id="F26" name="Không" sourceRef="G5_CLS" targetRef="M5" />
+    <bpmn:sequenceFlow id="F27" sourceRef="M4" targetRef="T_ChiDinh" />
+    <bpmn:sequenceFlow id="F28" sourceRef="T_ChiDinh" targetRef="G8_DongY" />
+    <bpmn:sequenceFlow id="F29" name="Đồng ý" sourceRef="G8_DongY" targetRef="T_TTChiDinh" />
+    <bpmn:sequenceFlow id="F30" name="Từ chối" sourceRef="G8_DongY" targetRef="T_KyTuChoi" />
+    <bpmn:sequenceFlow id="F31" sourceRef="T_KyTuChoi" targetRef="M5" />
+    <bpmn:sequenceFlow id="F32" sourceRef="T_TTChiDinh" targetRef="AND_Tach" />
+    <bpmn:sequenceFlow id="F33" sourceRef="AND_Tach" targetRef="T_XetNghiem" />
+    <bpmn:sequenceFlow id="F34" sourceRef="AND_Tach" targetRef="T_CDHA" />
+    <bpmn:sequenceFlow id="F35" sourceRef="T_XetNghiem" targetRef="AND_Gop" />
+    <bpmn:sequenceFlow id="F36" sourceRef="T_CDHA" targetRef="AND_Gop" />
+    <bpmn:sequenceFlow id="F37" sourceRef="AND_Gop" targetRef="T_DocKQ" />
+    <bpmn:sequenceFlow id="F38" sourceRef="T_DocKQ" targetRef="G6_BatThuong" />
+    <bpmn:sequenceFlow id="F39" name="Có: chỉ định bổ sung" sourceRef="G6_BatThuong" targetRef="M4" />
+    <bpmn:sequenceFlow id="F40" name="Không" sourceRef="G6_BatThuong" targetRef="M5" />
+    <bpmn:sequenceFlow id="F41" sourceRef="M5" targetRef="T_KetLuan" />
+    <bpmn:sequenceFlow id="F42" sourceRef="T_KetLuan" targetRef="G7_KetLuan" />
+    <bpmn:sequenceFlow id="F43" name="Nhập viện" sourceRef="G7_KetLuan" targetRef="T_NhapVien" />
+    <bpmn:sequenceFlow id="F44" sourceRef="T_NhapVien" targetRef="End_NoiTru" />
+    <bpmn:sequenceFlow id="F45" name="Ra về, kê đơn" sourceRef="G7_KetLuan" targetRef="T_KeDon" />
+    <bpmn:sequenceFlow id="F46" name="Chuyển viện" sourceRef="G7_KetLuan" targetRef="T_ChuyenVien" />
+    <bpmn:sequenceFlow id="F47" sourceRef="T_ChuyenVien" targetRef="End_ChuyenVien" />
+    <bpmn:sequenceFlow id="F48" name="Tái khám" sourceRef="G7_KetLuan" targetRef="T_HenTaiKham" />
+    <bpmn:sequenceFlow id="F49" sourceRef="T_KeDon" targetRef="M6" />
+    <bpmn:sequenceFlow id="F50" sourceRef="T_HenTaiKham" targetRef="M6" />
+    <bpmn:sequenceFlow id="F51" sourceRef="M6" targetRef="T_TTVienPhi" />
+    <bpmn:sequenceFlow id="F52" sourceRef="T_TTVienPhi" targetRef="G9_LayThuoc" />
+    <bpmn:sequenceFlow id="F53" name="Có" sourceRef="G9_LayThuoc" targetRef="T_CapThuoc" />
+    <bpmn:sequenceFlow id="F54" name="Không" sourceRef="G9_LayThuoc" targetRef="M7" />
+    <bpmn:sequenceFlow id="F55" sourceRef="T_CapThuoc" targetRef="M7" />
+    <bpmn:sequenceFlow id="F56" sourceRef="M7" targetRef="G10_TaiKham" />
+    <bpmn:sequenceFlow id="F57" name="Có" sourceRef="G10_TaiKham" targetRef="End_TaiKham" />
+    <bpmn:sequenceFlow id="F58" name="Không" sourceRef="G10_TaiKham" targetRef="End_RaVe" />
+    <bpmn:textAnnotation id="Ann_GiaDinh">
+      <bpmn:text>⚠ Giả định chưa có nguồn công khai: dấu hiệu cấp cứu, nhánh từ chối, hội chẩn/chỉ định bổ sung, chuyển viện, lấy thuốc tại bệnh viện, thanh toán sau cận lâm sàng. Xác minh qua phỏng vấn T24–T26 và số liệu T27.</bpmn:text>
+    </bpmn:textAnnotation>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_C1">
+    <bpmndi:BPMNPlane id="Plane_C1" bpmnElement="Collab_C1">
+      <bpmndi:BPMNShape id="P_BaoHiem_di" bpmnElement="P_BaoHiem" isHorizontal="true"><dc:Bounds x="100" y="20" width="4810" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="P_Vinmec_di" bpmnElement="P_Vinmec" isHorizontal="true"><dc:Bounds x="100" y="140" width="4810" height="1380" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_NB_di" bpmnElement="Lane_NB" isHorizontal="true"><dc:Bounds x="130" y="140" width="4780" height="140" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_LT_di" bpmnElement="Lane_LT" isHorizontal="true"><dc:Bounds x="130" y="280" width="4780" height="280" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_DD_di" bpmnElement="Lane_DD" isHorizontal="true"><dc:Bounds x="130" y="560" width="4780" height="140" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_BS_di" bpmnElement="Lane_BS" isHorizontal="true"><dc:Bounds x="130" y="700" width="4780" height="320" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_KTV_di" bpmnElement="Lane_KTV" isHorizontal="true"><dc:Bounds x="130" y="1020" width="4780" height="220" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_TN_di" bpmnElement="Lane_TN" isHorizontal="true"><dc:Bounds x="130" y="1240" width="4780" height="140" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_NT_di" bpmnElement="Lane_NT" isHorizontal="true"><dc:Bounds x="130" y="1380" width="4780" height="140" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="P_TuyenTren_di" bpmnElement="P_TuyenTren" isHorizontal="true"><dc:Bounds x="100" y="1560" width="4810" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Start_Den_di" bpmnElement="Start_Den"><dc:Bounds x="212" y="192" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G1_DatLich_di" bpmnElement="G1_DatLich" isMarkerVisible="true"><dc:Bounds x="335" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_CheckIn_di" bpmnElement="T_CheckIn"><dc:Bounds x="440" y="320" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_LaySo_di" bpmnElement="T_LaySo"><dc:Bounds x="440" y="440" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M1_di" bpmnElement="M1" isMarkerVisible="true"><dc:Bounds x="595" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G2_KhachMoi_di" bpmnElement="G2_KhachMoi" isMarkerVisible="true"><dc:Bounds x="725" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_MoHoSo_di" bpmnElement="T_MoHoSo"><dc:Bounds x="830" y="320" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_TraHoSo_di" bpmnElement="T_TraHoSo"><dc:Bounds x="830" y="440" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M2_di" bpmnElement="M2" isMarkerVisible="true"><dc:Bounds x="985" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_DinhDanh_di" bpmnElement="T_DinhDanh"><dc:Bounds x="1090" y="380" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G3_ChiTra_di" bpmnElement="G3_ChiTra" isMarkerVisible="true"><dc:Bounds x="1245" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_XacMinhBHTN_di" bpmnElement="T_XacMinhBHTN"><dc:Bounds x="1350" y="290" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_KiemTraBHYT_di" bpmnElement="T_KiemTraBHYT"><dc:Bounds x="1350" y="380" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_GhiTuChiTra_di" bpmnElement="T_GhiTuChiTra"><dc:Bounds x="1350" y="470" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M3_di" bpmnElement="M3" isMarkerVisible="true"><dc:Bounds x="1505" y="395" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_DoSinhHieu_di" bpmnElement="T_DoSinhHieu"><dc:Bounds x="1610" y="590" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G4_CapCuu_di" bpmnElement="G4_CapCuu" isMarkerVisible="true"><dc:Bounds x="1765" y="605" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_ChuyenCapCuu_di" bpmnElement="T_ChuyenCapCuu"><dc:Bounds x="1870" y="590" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_CapCuu_di" bpmnElement="End_CapCuu"><dc:Bounds x="2032" y="612" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_Kham1_di" bpmnElement="T_Kham1"><dc:Bounds x="1870" y="820" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G5_CLS_di" bpmnElement="G5_CLS" isMarkerVisible="true"><dc:Bounds x="2025" y="835" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M4_di" bpmnElement="M4" isMarkerVisible="true"><dc:Bounds x="2155" y="935" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_ChiDinh_di" bpmnElement="T_ChiDinh"><dc:Bounds x="2260" y="920" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G8_DongY_di" bpmnElement="G8_DongY" isMarkerVisible="true"><dc:Bounds x="2415" y="185" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_KyTuChoi_di" bpmnElement="T_KyTuChoi"><dc:Bounds x="2520" y="170" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_TTChiDinh_di" bpmnElement="T_TTChiDinh"><dc:Bounds x="2520" y="1270" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="AND_Tach_di" bpmnElement="AND_Tach"><dc:Bounds x="2675" y="1105" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_XetNghiem_di" bpmnElement="T_XetNghiem"><dc:Bounds x="2780" y="1040" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_CDHA_di" bpmnElement="T_CDHA"><dc:Bounds x="2780" y="1140" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="AND_Gop_di" bpmnElement="AND_Gop"><dc:Bounds x="2935" y="1105" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_DocKQ_di" bpmnElement="T_DocKQ"><dc:Bounds x="3040" y="920" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G6_BatThuong_di" bpmnElement="G6_BatThuong" isMarkerVisible="true"><dc:Bounds x="3195" y="935" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M5_di" bpmnElement="M5" isMarkerVisible="true"><dc:Bounds x="3325" y="835" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_KetLuan_di" bpmnElement="T_KetLuan"><dc:Bounds x="3430" y="820" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G7_KetLuan_di" bpmnElement="G7_KetLuan" isMarkerVisible="true"><dc:Bounds x="3585" y="835" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_NhapVien_di" bpmnElement="T_NhapVien"><dc:Bounds x="3690" y="720" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_NoiTru_di" bpmnElement="End_NoiTru"><dc:Bounds x="3852" y="742" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_KeDon_di" bpmnElement="T_KeDon"><dc:Bounds x="3690" y="820" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_ChuyenVien_di" bpmnElement="T_ChuyenVien"><dc:Bounds x="3690" y="920" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_ChuyenVien_di" bpmnElement="End_ChuyenVien"><dc:Bounds x="3852" y="942" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_HenTaiKham_di" bpmnElement="T_HenTaiKham"><dc:Bounds x="3690" y="380" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M6_di" bpmnElement="M6" isMarkerVisible="true"><dc:Bounds x="3845" y="1285" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_TTVienPhi_di" bpmnElement="T_TTVienPhi"><dc:Bounds x="3950" y="1270" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G9_LayThuoc_di" bpmnElement="G9_LayThuoc" isMarkerVisible="true"><dc:Bounds x="4105" y="1285" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="T_CapThuoc_di" bpmnElement="T_CapThuoc"><dc:Bounds x="4210" y="1410" width="100" height="80" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="M7_di" bpmnElement="M7" isMarkerVisible="true"><dc:Bounds x="4365" y="1285" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="G10_TaiKham_di" bpmnElement="G10_TaiKham" isMarkerVisible="true"><dc:Bounds x="4495" y="185" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_TaiKham_di" bpmnElement="End_TaiKham"><dc:Bounds x="4632" y="157" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_RaVe_di" bpmnElement="End_RaVe"><dc:Bounds x="4632" y="227" width="36" height="36" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Ann_GiaDinh_di" bpmnElement="Ann_GiaDinh"><dc:Bounds x="438" y="165" width="900" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="F01_di" bpmnElement="F01"><di:waypoint x="248" y="210" /><di:waypoint x="292" y="210" /><di:waypoint x="292" y="420" /><di:waypoint x="335" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F02_di" bpmnElement="F02"><di:waypoint x="385" y="420" /><di:waypoint x="412" y="420" /><di:waypoint x="412" y="360" /><di:waypoint x="440" y="360" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F03_di" bpmnElement="F03"><di:waypoint x="385" y="420" /><di:waypoint x="412" y="420" /><di:waypoint x="412" y="480" /><di:waypoint x="440" y="480" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F04_di" bpmnElement="F04"><di:waypoint x="540" y="360" /><di:waypoint x="568" y="360" /><di:waypoint x="568" y="420" /><di:waypoint x="595" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F05_di" bpmnElement="F05"><di:waypoint x="540" y="480" /><di:waypoint x="568" y="480" /><di:waypoint x="568" y="420" /><di:waypoint x="595" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F06_di" bpmnElement="F06"><di:waypoint x="645" y="420" /><di:waypoint x="725" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F07_di" bpmnElement="F07"><di:waypoint x="775" y="420" /><di:waypoint x="802" y="420" /><di:waypoint x="802" y="360" /><di:waypoint x="830" y="360" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F08_di" bpmnElement="F08"><di:waypoint x="775" y="420" /><di:waypoint x="802" y="420" /><di:waypoint x="802" y="480" /><di:waypoint x="830" y="480" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F09_di" bpmnElement="F09"><di:waypoint x="930" y="360" /><di:waypoint x="958" y="360" /><di:waypoint x="958" y="420" /><di:waypoint x="985" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F10_di" bpmnElement="F10"><di:waypoint x="930" y="480" /><di:waypoint x="958" y="480" /><di:waypoint x="958" y="420" /><di:waypoint x="985" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F11_di" bpmnElement="F11"><di:waypoint x="1035" y="420" /><di:waypoint x="1090" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F12_di" bpmnElement="F12"><di:waypoint x="1190" y="420" /><di:waypoint x="1245" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F13_di" bpmnElement="F13"><di:waypoint x="1295" y="420" /><di:waypoint x="1322" y="420" /><di:waypoint x="1322" y="330" /><di:waypoint x="1350" y="330" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F14_di" bpmnElement="F14"><di:waypoint x="1295" y="420" /><di:waypoint x="1350" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F15_di" bpmnElement="F15"><di:waypoint x="1295" y="420" /><di:waypoint x="1322" y="420" /><di:waypoint x="1322" y="510" /><di:waypoint x="1350" y="510" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F16_di" bpmnElement="F16"><di:waypoint x="1450" y="330" /><di:waypoint x="1478" y="330" /><di:waypoint x="1478" y="420" /><di:waypoint x="1505" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F17_di" bpmnElement="F17"><di:waypoint x="1450" y="420" /><di:waypoint x="1505" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F18_di" bpmnElement="F18"><di:waypoint x="1450" y="510" /><di:waypoint x="1478" y="510" /><di:waypoint x="1478" y="420" /><di:waypoint x="1505" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F19_di" bpmnElement="F19"><di:waypoint x="1555" y="420" /><di:waypoint x="1582" y="420" /><di:waypoint x="1582" y="630" /><di:waypoint x="1610" y="630" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F20_di" bpmnElement="F20"><di:waypoint x="1710" y="630" /><di:waypoint x="1765" y="630" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F21_di" bpmnElement="F21"><di:waypoint x="1815" y="630" /><di:waypoint x="1870" y="630" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F22_di" bpmnElement="F22"><di:waypoint x="1970" y="630" /><di:waypoint x="2032" y="630" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F23_di" bpmnElement="F23"><di:waypoint x="1815" y="630" /><di:waypoint x="1842" y="630" /><di:waypoint x="1842" y="860" /><di:waypoint x="1870" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F24_di" bpmnElement="F24"><di:waypoint x="1970" y="860" /><di:waypoint x="2025" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F25_di" bpmnElement="F25"><di:waypoint x="2075" y="860" /><di:waypoint x="2115" y="860" /><di:waypoint x="2115" y="960" /><di:waypoint x="2155" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F26_di" bpmnElement="F26"><di:waypoint x="2075" y="860" /><di:waypoint x="3325" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F27_di" bpmnElement="F27"><di:waypoint x="2205" y="960" /><di:waypoint x="2260" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F28_di" bpmnElement="F28"><di:waypoint x="2360" y="960" /><di:waypoint x="2388" y="960" /><di:waypoint x="2388" y="210" /><di:waypoint x="2415" y="210" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F29_di" bpmnElement="F29"><di:waypoint x="2465" y="210" /><di:waypoint x="2492" y="210" /><di:waypoint x="2492" y="1310" /><di:waypoint x="2520" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F30_di" bpmnElement="F30"><di:waypoint x="2465" y="210" /><di:waypoint x="2520" y="210" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F31_di" bpmnElement="F31"><di:waypoint x="2620" y="210" /><di:waypoint x="2972" y="210" /><di:waypoint x="2972" y="860" /><di:waypoint x="3325" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F32_di" bpmnElement="F32"><di:waypoint x="2620" y="1310" /><di:waypoint x="2648" y="1310" /><di:waypoint x="2648" y="1130" /><di:waypoint x="2675" y="1130" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F33_di" bpmnElement="F33"><di:waypoint x="2725" y="1130" /><di:waypoint x="2752" y="1130" /><di:waypoint x="2752" y="1080" /><di:waypoint x="2780" y="1080" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F34_di" bpmnElement="F34"><di:waypoint x="2725" y="1130" /><di:waypoint x="2752" y="1130" /><di:waypoint x="2752" y="1180" /><di:waypoint x="2780" y="1180" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F35_di" bpmnElement="F35"><di:waypoint x="2880" y="1080" /><di:waypoint x="2908" y="1080" /><di:waypoint x="2908" y="1130" /><di:waypoint x="2935" y="1130" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F36_di" bpmnElement="F36"><di:waypoint x="2880" y="1180" /><di:waypoint x="2908" y="1180" /><di:waypoint x="2908" y="1130" /><di:waypoint x="2935" y="1130" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F37_di" bpmnElement="F37"><di:waypoint x="2985" y="1130" /><di:waypoint x="3012" y="1130" /><di:waypoint x="3012" y="960" /><di:waypoint x="3040" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F38_di" bpmnElement="F38"><di:waypoint x="3140" y="960" /><di:waypoint x="3195" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F39_di" bpmnElement="F39"><di:waypoint x="3220" y="985" /><di:waypoint x="3220" y="1008" /><di:waypoint x="2180" y="1008" /><di:waypoint x="2180" y="985" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F40_di" bpmnElement="F40"><di:waypoint x="3245" y="960" /><di:waypoint x="3285" y="960" /><di:waypoint x="3285" y="860" /><di:waypoint x="3325" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F41_di" bpmnElement="F41"><di:waypoint x="3375" y="860" /><di:waypoint x="3430" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F42_di" bpmnElement="F42"><di:waypoint x="3530" y="860" /><di:waypoint x="3585" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F43_di" bpmnElement="F43"><di:waypoint x="3610" y="835" /><di:waypoint x="3610" y="760" /><di:waypoint x="3690" y="760" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F44_di" bpmnElement="F44"><di:waypoint x="3790" y="760" /><di:waypoint x="3852" y="760" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F45_di" bpmnElement="F45"><di:waypoint x="3635" y="860" /><di:waypoint x="3690" y="860" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F46_di" bpmnElement="F46"><di:waypoint x="3610" y="885" /><di:waypoint x="3610" y="960" /><di:waypoint x="3690" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F47_di" bpmnElement="F47"><di:waypoint x="3790" y="960" /><di:waypoint x="3852" y="960" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F48_di" bpmnElement="F48"><di:waypoint x="3635" y="860" /><di:waypoint x="3662" y="860" /><di:waypoint x="3662" y="420" /><di:waypoint x="3690" y="420" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F49_di" bpmnElement="F49"><di:waypoint x="3790" y="860" /><di:waypoint x="3818" y="860" /><di:waypoint x="3818" y="1310" /><di:waypoint x="3845" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F50_di" bpmnElement="F50"><di:waypoint x="3790" y="420" /><di:waypoint x="3818" y="420" /><di:waypoint x="3818" y="1310" /><di:waypoint x="3845" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F51_di" bpmnElement="F51"><di:waypoint x="3895" y="1310" /><di:waypoint x="3950" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F52_di" bpmnElement="F52"><di:waypoint x="4050" y="1310" /><di:waypoint x="4105" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F53_di" bpmnElement="F53"><di:waypoint x="4155" y="1310" /><di:waypoint x="4182" y="1310" /><di:waypoint x="4182" y="1450" /><di:waypoint x="4210" y="1450" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F54_di" bpmnElement="F54"><di:waypoint x="4155" y="1310" /><di:waypoint x="4365" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F55_di" bpmnElement="F55"><di:waypoint x="4310" y="1450" /><di:waypoint x="4338" y="1450" /><di:waypoint x="4338" y="1310" /><di:waypoint x="4365" y="1310" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F56_di" bpmnElement="F56"><di:waypoint x="4415" y="1310" /><di:waypoint x="4455" y="1310" /><di:waypoint x="4455" y="210" /><di:waypoint x="4495" y="210" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F57_di" bpmnElement="F57"><di:waypoint x="4545" y="210" /><di:waypoint x="4588" y="210" /><di:waypoint x="4588" y="175" /><di:waypoint x="4632" y="175" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F58_di" bpmnElement="F58"><di:waypoint x="4545" y="210" /><di:waypoint x="4588" y="210" /><di:waypoint x="4588" y="245" /><di:waypoint x="4632" y="245" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MF_YeuCau_di" bpmnElement="MF_YeuCau"><di:waypoint x="1380" y="290" /><di:waypoint x="1380" y="100" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MF_KetQua_di" bpmnElement="MF_KetQua"><di:waypoint x="1420" y="100" /><di:waypoint x="1420" y="290" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MF_GiayChuyen_di" bpmnElement="MF_GiayChuyen"><di:waypoint x="3740" y="1000" /><di:waypoint x="3740" y="1560" /></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
