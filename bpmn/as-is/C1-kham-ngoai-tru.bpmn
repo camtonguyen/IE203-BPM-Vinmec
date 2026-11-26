@@ -219,7 +219,7 @@
       <bpmn:outgoing>F38</bpmn:outgoing>
     </bpmn:task>
     <bpmn:exclusiveGateway id="G6_BatThuong" name="Kết quả bất thường hoặc cần hội chẩn?">
-      <bpmn:documentation>⚠ câu 13, 22</bpmn:documentation>
+      <bpmn:documentation>⚠ chờ T24–T26 (câu về hội chẩn chưa có trong T19)</bpmn:documentation>
       <bpmn:incoming>F38</bpmn:incoming>
       <bpmn:outgoing>F39</bpmn:outgoing>
       <bpmn:outgoing>F40</bpmn:outgoing>
@@ -235,7 +235,7 @@
       <bpmn:outgoing>F42</bpmn:outgoing>
     </bpmn:task>
     <bpmn:exclusiveGateway id="G7_KetLuan" name="Kết luận là gì?">
-      <bpmn:documentation>Nhánh chuyển viện ⚠ câu 22</bpmn:documentation>
+      <bpmn:documentation>Nhánh chuyển viện ⚠ chờ T24–T26</bpmn:documentation>
       <bpmn:incoming>F42</bpmn:incoming>
       <bpmn:outgoing>F43</bpmn:outgoing>
       <bpmn:outgoing>F45</bpmn:outgoing>
@@ -254,7 +254,7 @@
       <bpmn:outgoing>F49</bpmn:outgoing>
     </bpmn:task>
     <bpmn:task id="T_ChuyenVien" name="Lập giấy chuyển viện">
-      <bpmn:documentation>⚠ câu 22</bpmn:documentation>
+      <bpmn:documentation>⚠ chờ T24–T26</bpmn:documentation>
       <bpmn:incoming>F46</bpmn:incoming>
       <bpmn:outgoing>F47</bpmn:outgoing>
     </bpmn:task>
