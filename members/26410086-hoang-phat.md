@@ -16,6 +16,7 @@
 | **1** | **T04** | Thiết lập CI GitHub Actions & Docker Camunda | [.github/workflows/check.yml](../.github/workflows/check.yml), [infra/docker-compose.yml](../infra/docker-compose.yml), [scripts/check_bpmn.py](../scripts/check_bpmn.py), [scripts/check_links.py](../scripts/check_links.py) | **Hoàn thành** |
 | **1** | **T07** | Biên soạn Glossary và Bảng từ viết tắt | [docs/glossary.md](../docs/glossary.md) | **Hoàn thành** |
 | **1** | **T16** | Mô tả chi tiết quy trình hỗ trợ S1, S2, S3 | [docs/processes/S1-cap-phat-thuoc.md](../docs/processes/S1-cap-phat-thuoc.md)<br>[docs/processes/S2-tuyen-dung-dao-tao.md](../docs/processes/S2-tuyen-dung-dao-tao.md)<br>[docs/processes/S3-khieu-nai.md](../docs/processes/S3-khieu-nai.md) | **Hoàn thành** |
+| **2** | **T30** | Dựng Camunda local, môi trường Python (PM4Py, SimPy), notebook mẫu | [requirements.txt](../requirements.txt), [scripts/test_env.py](../scripts/test_env.py), [analysis/test_environment.ipynb](../analysis/test_environment.ipynb), [infra/docker-compose.yml](../infra/docker-compose.yml) | **Hoàn thành** |
 
 ---
 
@@ -37,3 +38,10 @@
   + Đảm bảo phân định rõ ràng giữa căn cứ bằng chứng pháp lý (Luật KCB 2023, Thông tư Bộ Y tế, Tiêu chuẩn JCI) và giả định nghiệp vụ khảo sát.
 - **Task T01 (Hỗ trợ cấu trúc repository & README):**
   + Đóng góp rà soát cấu trúc thư mục, chuẩn hóa tài liệu và cập nhật nhật ký thành viên.
+
+### Tuần 2 (23/11/2026 – 29/11/2026): Thiết lập Môi trường Phân tích & Mô phỏng
+- **Task T30 (Camunda local + Python Environment + Notebook mẫu):**
+  + Chuẩn hóa [requirements.txt](../requirements.txt) với các thư viện cốt lõi (`pm4py`, `simpy`, `pandas`, `numpy`, `matplotlib`, `openpyxl`, `requests`).
+  + Xây dựng script kiểm thử tự động [scripts/test_env.py](../scripts/test_env.py) kiểm tra Python runtime, SimPy DES, đọc `data/event_log_template.csv` bằng Pandas, vẽ biểu đồ headless bằng Matplotlib, khám phá DFG và đọc BPMN 2.0 bằng PM4Py, cùng kiểm tra kết nối Camunda Docker local (`http://localhost:8080/engine-rest/version`).
+  + Xây dựng notebook mẫu [analysis/test_environment.ipynb](../analysis/test_environment.ipynb) kiểm thử đầy đủ SimPy, PM4Py (Event Log + BPMN), Matplotlib và Camunda REST API.
+  + Bổ sung thư mục auto-deployment `infra/camunda/deployments/` đồng bộ với [infra/docker-compose.yml](../infra/docker-compose.yml).
