@@ -4,7 +4,7 @@
 - **Người phụ trách viết:** Nguyễn Quang Hòa (26410042)
 - **Phạm vi:** từ lúc nhân viên y tế (hoặc người bệnh) phát hiện một sự cố / tình huống suýt xảy ra sự cố (near-miss)
   trong quá trình khám ngoại trú đến khi sự cố được phân tích, có giải pháp phòng ngừa và phản hồi cho người báo cáo.
-  Không gồm giải quyết bồi thường, tranh chấp pháp lý (Điều 100–102 Luật KBCB) và khiếu nại của người bệnh (S3).
+  Không gồm giải quyết bồi thường, tranh chấp pháp lý (Luật KBCB [3]; số điều chưa đối chiếu ⚠) và khiếu nại của người bệnh (S3).
 - **Nguồn bằng chứng** (truy cập 17/11/2026):
   1. Thông tư 43/2018/TT-BYT ngày 26/12/2018 *Hướng dẫn phòng ngừa sự cố y khoa trong cơ sở khám bệnh, chữa bệnh*
      (hiệu lực 01/03/2019):
@@ -117,13 +117,13 @@ Thông tư 19 [2, Điều 7].
 
 ## Các kết quả có thể
 
-- Near-miss được ghi nhận, phân tích tại khoa, không cần RCA → đóng hồ sơ, đưa vào thống kê.
-- Sự cố NC1 được xử lý, có biện pháp khắc phục tại khoa → đóng hồ sơ.
+- Near-miss được ghi nhận, phân tích tại khoa, không cần RCA → đóng hồ sơ, đưa vào thống kê ⚠.
+- Sự cố NC1 được xử lý, có biện pháp khắc phục tại khoa → đóng hồ sơ ⚠.
 - Sự cố NC2/NC3 được RCA, có khuyến cáo phòng ngừa được triển khai và giám sát.
 - Sự cố NC3 / nghiêm trọng được báo cáo bắt buộc lên Sở Y tế, Bộ Y tế; có thể dẫn đến điều tra của cơ quan quản lý
   [1, Điều 9] hoặc quy trình xác định sai sót chuyên môn (ngoài phạm vi).
 - Phiếu báo cáo không phải sự cố (do diễn biến bệnh lý) → QLCL phân loại lại và đóng ⚠.
-- Giải pháp không hiệu quả, sự cố tái diễn → mở lại phân tích.
+- Giải pháp không hiệu quả, sự cố tái diễn → mở lại phân tích ⚠.
 
 ## Cổng điều kiện dự kiến (nếu mô hình hóa)
 
@@ -138,13 +138,14 @@ Dùng cho BPMN M3 (T33). Mục tiêu rubric: > 7 cổng điều kiện và có c
 7. Sự cố có trong danh sách cần phân tích nguyên nhân gốc do QLCL đề xuất [1, Điều 8]? (dự kiến NC2/NC3 hoặc lặp lại ⚠)
    → Có (lập nhóm RCA) / Không (xử lý tại khoa)
 8. Nguyên nhân hệ thống hay đơn lẻ? → Hệ thống (cải tiến quy trình toàn viện) / Đơn lẻ (đào tạo, nhắc nhở tại khoa)
-9. Giám đốc phê duyệt khuyến cáo? → Duyệt / Yêu cầu phân tích lại
+9. Người đứng đầu ban hành kế hoạch thực hiện giải pháp, khuyến cáo do QLCL tham mưu [1, Điều 11]? → Ban hành / Yêu cầu
+   phân tích lại ⚠ (Điều 8 không quy định bước phê duyệt khuyến cáo)
 10. Sự cố có tái diễn sau khi triển khai giải pháp? → Có (quay lại RCA) / Không (đóng hồ sơ)
 
 **Song song (split/join) đề xuất:**
 - Sau khi phát hiện sự cố có ảnh hưởng: nhánh 1 *xử lý, cấp cứu người bệnh*, nhánh 2 *báo trưởng khoa*,
   nhánh 3 *thông tin cho người nhà* → join → *lập phiếu báo cáo*.
-- Với sự cố NC3: nhánh 1 *báo cáo bắt buộc lên Sở Y tế*, nhánh 2 *lập nhóm RCA* → join → *phê duyệt khuyến cáo*.
+- Với sự cố NC3: nhánh 1 *báo cáo bắt buộc lên Sở Y tế*, nhánh 2 *lập nhóm RCA* → join → *ban hành kế hoạch khắc phục*.
 
 **Pool / message flow:** Khoa khám bệnh ↔ Phòng QLCL ↔ Ban giám đốc (cùng tổ chức, có thể dùng lane);
 Bệnh viện ↔ Sở Y tế (pool riêng, message flow cho báo cáo bắt buộc và báo cáo định kỳ).

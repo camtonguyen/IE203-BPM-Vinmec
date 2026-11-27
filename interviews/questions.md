@@ -159,6 +159,7 @@ Hỏi câu mở trước, câu đóng sau. Không gợi ý đáp án, không ph�
 
 Sau buổi phỏng vấn: hoàn thiện biên bản trong vòng 24 giờ, để người hỏi và người ghi cùng rà soát, lưu file theo mã buổi (ví dụ PV-BN-01).
 
+
 ## **Tài liệu tham khảo**
 
 \[1\]	Bộ Y tế, “Quyết định số 1313/QĐ-BYT ngày 22/4/2013 về việc ban hành Hướng dẫn quy trình khám bệnh tại Khoa Khám bệnh của bệnh viện,” Hà Nội, Việt Nam, 2013\. \[Trực tuyến\]. Có tại: [https\://bvbdien.thuathienhue.gov.vn/UploadFiles/TinTuc/2022/11/10/quyet\_dinh\_1313\_qdbyt.pdf](https://bvbdien.thuathienhue.gov.vn/UploadFiles/TinTuc/2022/11/10/quyet_dinh_1313_qdbyt.pdf)
