@@ -3,6 +3,8 @@
 Ngày 27/11/2026, chạy trên Windows với Docker Desktop 4.100.1 và WSL 2.
 Các lệnh dưới đây chạy từ thư mục `infra/`.
 
+![Dashboard Camunda Operate chạy local](t30-camunda-operate.png)
+
 ```text
 > docker compose pull
 Image camunda/camunda:8.9.30 Pulled
