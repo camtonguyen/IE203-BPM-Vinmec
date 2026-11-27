@@ -15,6 +15,8 @@ import sys
 import tempfile
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+
 
 def test_python_version():
     """Kiểm tra phiên bản Python."""
@@ -58,18 +60,20 @@ def test_pandas_numpy():
     print(f"   -> Pandas version: {pd.__version__}")
     print(f"   -> Numpy version: {np.__version__}")
 
-    log_path = Path("data/event_log.csv")
-    if not log_path.exists():
-        log_path = Path("data/event_log_template.csv")
-
-    if log_path.exists():
-        df = pd.read_csv(log_path)
-        required_cols = {"case_id", "activity", "start_time", "end_time"}
-        assert required_cols.issubset(set(df.columns)), f"Thiếu cột chuẩn trong {log_path}"
-        print(f"   -> Đọc thành công {log_path}: {len(df)} dòng, đầy đủ cột chuẩn.")
-    else:
-        print("   -> Cảnh báo: Chưa tìm thấy data/event_log.csv hoặc data/event_log_template.csv")
+    log_path = event_log_path()
+    df = pd.read_csv(log_path)
+    required_cols = {"case_id", "activity", "start_time", "end_time"}
+    assert required_cols.issubset(df.columns), f"Thiếu cột chuẩn trong {log_path}"
+    print(f"   -> Đọc thành công {log_path}: {len(df)} dòng, đầy đủ cột chuẩn.")
     return True
+
+
+def event_log_path():
+    for filename in ("event_log.csv", "event_log_template.csv"):
+        path = ROOT / "data" / filename
+        if path.is_file():
+            return path
+    raise FileNotFoundError("Chưa tìm thấy data/event_log.csv hoặc data/event_log_template.csv")
 
 
 def test_matplotlib():
@@ -87,7 +91,7 @@ def test_matplotlib():
     ax.set_title("Kiểm thử biểu đồ thời gian Vinmec")
     plt.tight_layout()
 
-    out_test = Path("analysis/test_plot.png")
+    out_test = ROOT / "analysis/test_plot.png"
     out_test.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(out_test)
     plt.close(fig)
@@ -106,28 +110,7 @@ def test_pm4py_event_log():
 
     print(f"   -> PM4Py version: {pm4py.__version__}")
 
-    sample_path = Path("data/event_log.csv")
-    if not sample_path.exists():
-        sample_path = Path("data/event_log_template.csv")
-
-    if sample_path.exists():
-        df = pd.read_csv(sample_path)
-    else:
-        df = pd.DataFrame({
-            "case_id": ["L01", "L01", "L01", "L02", "L02", "L02"],
-            "activity": [
-                "Tiếp đón", "Khám bác sĩ", "Nhận thuốc",
-                "Tiếp đón", "Khám bác sĩ", "Nhận thuốc",
-            ],
-            "start_time": [
-                "2026-12-01 08:00", "2026-12-01 08:15", "2026-12-01 08:40",
-                "2026-12-01 08:05", "2026-12-01 08:20", "2026-12-01 08:45",
-            ],
-            "end_time": [
-                "2026-12-01 08:10", "2026-12-01 08:35", "2026-12-01 08:50",
-                "2026-12-01 08:12", "2026-12-01 08:38", "2026-12-01 08:55",
-            ],
-        })
+    df = pd.read_csv(event_log_path())
 
     df["start_time"] = pd.to_datetime(df["start_time"])
     df["end_time"] = pd.to_datetime(df["end_time"])
@@ -149,7 +132,7 @@ def test_pm4py_bpmn():
     print("6. Kiểm tra đọc mô hình BPMN 2.0 (PM4Py)...")
     import pm4py
 
-    bpmn_files = sorted(Path("bpmn").rglob("*.bpmn")) if Path("bpmn").exists() else []
+    bpmn_files = sorted((ROOT / "bpmn").rglob("*.bpmn"))
     if bpmn_files:
         bpmn_graph = pm4py.read_bpmn(str(bpmn_files[0]))
         nodes = bpmn_graph.get_nodes()
@@ -185,7 +168,7 @@ def check_camunda_local():
     try:
         import requests
 
-        resp = requests.get("http://localhost:8080/engine-rest/version", timeout=2)
+        resp = requests.get("http://localhost:8080/v2/topology", timeout=2)
         if resp.status_code == 200:
             print(f"   -> Camunda đang hoạt động: {resp.json()}")
         else:
