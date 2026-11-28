@@ -54,10 +54,21 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md). Tóm tắt:
 ## Chạy demo
 
 ```bash
-cd infra && docker compose up -d          # Camunda tại http://localhost:8080 (demo/demo)
-pip install -r requirements.txt
+docker compose -f infra/docker-compose.yml pull
+docker compose -f infra/docker-compose.yml up -d --wait
+docker compose -f infra/docker-compose.yml ps
+python -m pip install -r requirements.txt
+python scripts/test_env.py
 python scripts/check_bpmn.py bpmn          # đếm gateway, kiểm tra split/join theo rubric
 ```
+
+Mở Operate ở `http://localhost:8080/operate` hoặc Tasklist ở
+`http://localhost:8080/tasklist` và đăng nhập bằng `demo` / `demo`.
+REST API ở `http://localhost:8080/v2` và gRPC ở `localhost:26500`.
+Deploy BPMN thực thi được trên Camunda 8 qua `POST /v2/deployments` hoặc
+Camunda Desktop Modeler theo [hướng dẫn deploy](infra/README.md#deploy-bpmn).
+Để chạy [notebook kiểm thử](analysis/test_environment.ipynb), chọn kernel Python
+của môi trường đã cài `requirements.txt`.
 
 ## Bảo mật thông tin y tế
 

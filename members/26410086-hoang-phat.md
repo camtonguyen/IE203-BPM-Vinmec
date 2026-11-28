@@ -16,6 +16,7 @@
 | **1** | **T04** | Thiết lập CI GitHub Actions & Docker Camunda | [.github/workflows/check.yml](../.github/workflows/check.yml), [infra/docker-compose.yml](../infra/docker-compose.yml), [scripts/check_bpmn.py](../scripts/check_bpmn.py), [scripts/check_links.py](../scripts/check_links.py) | **Hoàn thành** |
 | **1** | **T07** | Biên soạn Glossary và Bảng từ viết tắt | [docs/glossary.md](../docs/glossary.md) | **Hoàn thành** |
 | **1** | **T16** | Mô tả chi tiết quy trình hỗ trợ S1, S2, S3 | [docs/processes/S1-cap-phat-thuoc.md](../docs/processes/S1-cap-phat-thuoc.md)<br>[docs/processes/S2-tuyen-dung-dao-tao.md](../docs/processes/S2-tuyen-dung-dao-tao.md)<br>[docs/processes/S3-khieu-nai.md](../docs/processes/S3-khieu-nai.md) | **Hoàn thành** |
+| **2** | **T30** | Dựng Camunda 8 local, môi trường Python (PM4Py, SimPy), notebook mẫu | [requirements.txt](../requirements.txt), [scripts/test_env.py](../scripts/test_env.py), [analysis/test_environment.ipynb](../analysis/test_environment.ipynb), [infra/docker-compose.yml](../infra/docker-compose.yml) | **Đang làm** |
 
 ---
 
@@ -26,7 +27,7 @@
   + Tối ưu hóa workflow [.github/workflows/check.yml](../.github/workflows/check.yml) chạy tự động trên push/pull request. Tích hợp các jobs: Kiểm tra chuẩn BPMN XML và rubric chấm điểm; Kiểm tra bảo mật và quyền riêng tư thông tin y tế (chặn commit file ghi âm thô `.m4a`, `.mp3`); Kiểm tra liên kết tài liệu Markdown ([scripts/check_links.py](../scripts/check_links.py)); Kiểm tra cú pháp công cụ Python.
   + Nâng cấp công cụ kiểm tra [scripts/check_bpmn.py](../scripts/check_bpmn.py) tự động quét cổng rẽ nhánh, cổng song song split/join, cảnh báo thiếu nhãn điều kiện và chấm điểm rubric tự động.
   + Bổ sung công cụ kiểm tra liên kết [scripts/check_links.py](../scripts/check_links.py) tự động quét toàn bộ liên kết nội bộ trong các file Markdown, đảm bảo tính nhất quán tài liệu đồ án.
-  + Chuẩn hóa [infra/docker-compose.yml](../infra/docker-compose.yml) sử dụng Camunda Run 7.22.0 với volume mount và healthcheck phục vụ chạy thử nghiệm.
+  + Thiết lập Docker Compose ban đầu cho Camunda. Cấu hình hiện tại chuyển sang Camunda 8 trong T30.
 - **Task T07 (Glossary và Viết tắt):**
   + Biên soạn hoàn thiện [docs/glossary.md](../docs/glossary.md) bao gồm 5 nhóm thuật ngữ chuẩn hóa: BPMN 2.0, Khai phá & Mô phỏng quy trình (PM4Py, SimPy), Chỉ số hiệu năng vận hành (Cycle Time, Waiting Time, Throughput, Little's Law), Công nghệ triển khai (Docker, Camunda), và Nghiệp vụ y tế chuẩn JCI (BHYT, BHTN, HIS, LIS, RIS/PACS, EMR, RCA).
 - **Task T16 (Mô tả quy trình S1, S2, S3):**
@@ -37,3 +38,10 @@
   + Đảm bảo phân định rõ ràng giữa căn cứ bằng chứng pháp lý (Luật KCB 2023, Thông tư Bộ Y tế, Tiêu chuẩn JCI) và giả định nghiệp vụ khảo sát.
 - **Task T01 (Hỗ trợ cấu trúc repository & README):**
   + Đóng góp rà soát cấu trúc thư mục, chuẩn hóa tài liệu và cập nhật nhật ký thành viên.
+
+### Tuần 2 (23/11/2026 – 29/11/2026): Thiết lập Môi trường Phân tích & Mô phỏng
+- **Task T30 (Camunda local + Python Environment + Notebook mẫu):**
+  + Chuẩn hóa [requirements.txt](../requirements.txt) với các thư viện phân tích, mô phỏng và `ipykernel` để chạy notebook.
+  + Cập nhật [scripts/test_env.py](../scripts/test_env.py) để tìm event log, BPMN và đường dẫn xuất biểu đồ từ thư mục gốc của repo, đồng thời kiểm tra Camunda local qua `http://localhost:8080/v2/topology`.
+  + Xây dựng notebook mẫu [analysis/test_environment.ipynb](../analysis/test_environment.ipynb) kiểm thử đầy đủ SimPy, PM4Py (Event Log + BPMN), Matplotlib và Camunda REST API.
+  + Chuyển [infra/docker-compose.yml](../infra/docker-compose.yml) sang Camunda 8.9.30 với H2 và deploy BPMN qua REST API v2 hoặc Desktop Modeler theo [hướng dẫn demo](../infra/README.md#deploy-bpmn).
