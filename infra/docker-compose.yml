@@ -1,21 +1,48 @@
-# Docker Compose cho Hệ thống Quản trị Quy trình Camunda BPM (Bản 7.22 Run)
-# Phục vụ Đồ án môn học IE203 - Bệnh viện Đa khoa Quốc tế Vinmec Central Park
-
+# Camunda 8 Orchestration Cluster với H2 cho demo local.
 services:
-  camunda:
-    image: camunda/camunda-bpm-platform:run-7.22.0
-    container_name: ie203-camunda
-    ports:
-      - "8080:8080"
-    environment:
-      - CAMUNDA_RUN_WEB_PORT=8080
+  camunda-data-init:
+    image: camunda/camunda:8.9.30
+    user: "0:0"
+    entrypoint: ["/bin/sh", "-c", "chown 1001:1001 /usr/local/camunda/camunda-data && chmod 775 /usr/local/camunda/camunda-data"]
     volumes:
-      # Tự động nạp các quy trình .bpmn khi container khởi động
-      - ./camunda/deployments:/camunda/configuration/resources:ro
+      - camunda-h2:/usr/local/camunda/camunda-data
+
+  camunda:
+    image: camunda/camunda:8.9.30
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:26500:26500"
+    environment:
+      CAMUNDA_SECURITY_AUTHENTICATION_METHOD: basic
+      CAMUNDA_SECURITY_AUTHENTICATION_UNPROTECTEDAPI: "true"
+      CAMUNDA_SECURITY_AUTHORIZATIONS_ENABLED: "false"
+      CAMUNDA_SECURITY_INITIALIZATION_USERS_0_USERNAME: demo
+      CAMUNDA_SECURITY_INITIALIZATION_USERS_0_PASSWORD: demo
+      CAMUNDA_SECURITY_INITIALIZATION_USERS_0_NAME: Demo User
+      CAMUNDA_SECURITY_INITIALIZATION_USERS_0_EMAIL: demo@demo.com
+      CAMUNDA_SECURITY_INITIALIZATION_DEFAULTROLES_ADMIN_USERS_0: demo
+      CAMUNDA_DATA_SECONDARY_STORAGE_TYPE: rdbms
+      CAMUNDA_DATA_SECONDARY_STORAGE_RDBMS_URL: jdbc:h2:file:/usr/local/camunda/camunda-data/h2db
+      CAMUNDA_DATA_SECONDARY_STORAGE_RDBMS_USERNAME: sa
+    volumes:
+      - camunda-zeebe:/usr/local/camunda/data
+      - camunda-h2:/usr/local/camunda/camunda-data
+    depends_on:
+      camunda-data-init:
+        condition: service_completed_successfully
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8080/engine-rest/version || exit 1"]
+      test:
+        - CMD-SHELL
+        - >-
+          bash -c 'exec 3<>/dev/tcp/127.0.0.1/9600 &&
+          printf "GET /actuator/health/readiness HTTP/1.0\r\nHost: localhost\r\n\r\n" >&3 &&
+          read -r protocol status reason <&3 && [[ "$$status" == 200 ]]'
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 12
       start_period: 30s
     restart: unless-stopped
+
+volumes:
+  camunda-zeebe:
+  camunda-h2:
