@@ -1,0 +1,321 @@
+case_id,activity,start_time,end_time,resource,note
+L01,Tiếp đón - mở hồ sơ,2026-11-23 07:47,2026-11-23 07:57,Lễ tân,mô phỏng; giả định; có lịch hẹn; bảo hiểm tư nhân
+L01,Chờ đo sinh hiệu,2026-11-23 07:57,2026-11-23 08:07,,mô phỏng; giả định
+L01,Đo sinh hiệu,2026-11-23 08:07,2026-11-23 08:13,Điều dưỡng,mô phỏng; giả định
+L01,Chờ khám,2026-11-23 08:13,2026-11-23 08:21,,mô phỏng; giả định
+L01,Khám lần 1,2026-11-23 08:21,2026-11-23 08:48,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L01,Thanh toán,2026-11-23 08:48,2026-11-23 08:56,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L01,Chờ cận lâm sàng,2026-11-23 08:56,2026-11-23 09:08,,mô phỏng; giả định; xét nghiệm
+L01,Xét nghiệm - lấy mẫu,2026-11-23 09:08,2026-11-23 09:13,Kỹ thuật viên XN,mô phỏng; giả định
+L01,Chờ kết quả,2026-11-23 09:13,2026-11-23 10:55,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L01,Khám lần 2 - đọc kết quả,2026-11-23 10:55,2026-11-23 11:07,Bác sĩ,mô phỏng; giả định
+L01,Chờ bảo lãnh,2026-11-23 11:07,2026-11-23 11:27,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L01,Thanh toán,2026-11-23 11:27,2026-11-23 11:34,Thu ngân,mô phỏng; giả định; bảo lãnh
+L01,Lĩnh thuốc,2026-11-23 11:34,2026-11-23 11:53,Dược sĩ,mô phỏng; giả định
+L02,Tiếp đón - mở hồ sơ,2026-11-23 07:59,2026-11-23 08:08,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L02,Chờ đo sinh hiệu,2026-11-23 08:08,2026-11-23 08:12,,mô phỏng; giả định
+L02,Đo sinh hiệu,2026-11-23 08:12,2026-11-23 08:17,Điều dưỡng,mô phỏng; giả định
+L02,Chờ khám,2026-11-23 08:17,2026-11-23 08:41,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L02,Khám lần 1,2026-11-23 08:41,2026-11-23 09:12,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L02,Thanh toán,2026-11-23 09:12,2026-11-23 09:15,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L02,Chờ cận lâm sàng,2026-11-23 09:15,2026-11-23 09:24,,mô phỏng; giả định; xét nghiệm
+L02,Xét nghiệm - lấy mẫu,2026-11-23 09:24,2026-11-23 09:29,Kỹ thuật viên XN,mô phỏng; giả định
+L02,Chờ kết quả,2026-11-23 09:29,2026-11-23 11:23,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L02,Khám lần 2 - đọc kết quả,2026-11-23 11:23,2026-11-23 11:29,Bác sĩ,mô phỏng; giả định
+L02,Lĩnh thuốc,2026-11-23 11:29,2026-11-23 11:43,Dược sĩ,mô phỏng; giả định
+L03,Tiếp đón - mở hồ sơ,2026-11-23 08:25,2026-11-23 08:32,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L03,Chờ đo sinh hiệu,2026-11-23 08:32,2026-11-23 08:43,,mô phỏng; giả định
+L03,Đo sinh hiệu,2026-11-23 08:43,2026-11-23 08:47,Điều dưỡng,mô phỏng; giả định
+L03,Chờ khám,2026-11-23 08:47,2026-11-23 09:17,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L03,Khám lần 1,2026-11-23 09:17,2026-11-23 09:47,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L03,Thanh toán,2026-11-23 09:47,2026-11-23 09:50,Thu ngân,mô phỏng; giả định; sau khám
+L03,Lĩnh thuốc,2026-11-23 09:50,2026-11-23 10:02,Dược sĩ,mô phỏng; giả định
+L04,Tiếp đón - mở hồ sơ,2026-11-23 08:30,2026-11-23 08:34,Lễ tân,mô phỏng; giả định; đến trực tiếp; bảo hiểm tư nhân
+L04,Chờ đo sinh hiệu,2026-11-23 08:34,2026-11-23 08:38,,mô phỏng; giả định
+L04,Đo sinh hiệu,2026-11-23 08:38,2026-11-23 08:44,Điều dưỡng,mô phỏng; giả định
+L04,Chờ khám,2026-11-23 08:44,2026-11-23 09:13,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L04,Khám lần 1,2026-11-23 09:13,2026-11-23 09:34,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L04,Thanh toán,2026-11-23 09:34,2026-11-23 09:39,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L04,Chờ cận lâm sàng,2026-11-23 09:39,2026-11-23 09:46,,mô phỏng; giả định; chẩn đoán hình ảnh
+L04,Chẩn đoán hình ảnh,2026-11-23 09:46,2026-11-23 09:58,Kỹ thuật viên CĐHA,mô phỏng; giả định; X-quang
+L04,Chờ kết quả,2026-11-23 09:58,2026-11-23 10:24,,mô phỏng; giả định; kết quả hình ảnh
+L04,Khám lần 2 - đọc kết quả,2026-11-23 10:24,2026-11-23 10:32,Bác sĩ,mô phỏng; giả định
+L04,Chờ bảo lãnh,2026-11-23 10:32,2026-11-23 10:52,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L04,Thanh toán,2026-11-23 10:52,2026-11-23 10:55,Thu ngân,mô phỏng; giả định; bảo lãnh
+L04,Lĩnh thuốc,2026-11-23 10:55,2026-11-23 11:05,Dược sĩ,mô phỏng; giả định
+L05,Tiếp đón - mở hồ sơ,2026-11-23 13:03,2026-11-23 13:13,Lễ tân,mô phỏng; giả định; có lịch hẹn; bảo hiểm tư nhân
+L05,Chờ đo sinh hiệu,2026-11-23 13:13,2026-11-23 13:23,,mô phỏng; giả định
+L05,Đo sinh hiệu,2026-11-23 13:23,2026-11-23 13:26,Điều dưỡng,mô phỏng; giả định
+L05,Chờ khám,2026-11-23 13:26,2026-11-23 13:38,,mô phỏng; giả định
+L05,Khám lần 1,2026-11-23 13:38,2026-11-23 14:06,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L05,Chờ bảo lãnh,2026-11-23 14:06,2026-11-23 14:50,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L05,Thanh toán,2026-11-23 14:50,2026-11-23 14:56,Thu ngân,mô phỏng; giả định; bảo lãnh
+L05,Lĩnh thuốc,2026-11-23 14:56,2026-11-23 15:04,Dược sĩ,mô phỏng; giả định
+L06,Tiếp đón - mở hồ sơ,2026-11-24 07:36,2026-11-24 07:46,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L06,Chờ đo sinh hiệu,2026-11-24 07:46,2026-11-24 07:55,,mô phỏng; giả định
+L06,Đo sinh hiệu,2026-11-24 07:55,2026-11-24 07:58,Điều dưỡng,mô phỏng; giả định
+L06,Chờ khám,2026-11-24 07:58,2026-11-24 08:25,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L06,Khám lần 1,2026-11-24 08:25,2026-11-24 08:49,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L06,Thanh toán,2026-11-24 08:49,2026-11-24 08:56,Thu ngân,mô phỏng; giả định; sau khám
+L07,Tiếp đón - mở hồ sơ,2026-11-24 07:51,2026-11-24 07:56,Lễ tân,mô phỏng; giả định; đến trực tiếp; bảo hiểm tư nhân
+L07,Chờ đo sinh hiệu,2026-11-24 07:56,2026-11-24 07:58,,mô phỏng; giả định
+L07,Đo sinh hiệu,2026-11-24 07:58,2026-11-24 08:02,Điều dưỡng,mô phỏng; giả định
+L07,Chờ khám,2026-11-24 08:02,2026-11-24 08:16,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L07,Khám lần 1,2026-11-24 08:16,2026-11-24 08:55,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L07,Thanh toán,2026-11-24 08:55,2026-11-24 09:01,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L07,Chờ cận lâm sàng,2026-11-24 09:01,2026-11-24 09:13,,mô phỏng; giả định; xét nghiệm
+L07,Chờ cận lâm sàng,2026-11-24 09:01,2026-11-24 09:25,,mô phỏng; giả định; chẩn đoán hình ảnh
+L07,Xét nghiệm - lấy mẫu,2026-11-24 09:13,2026-11-24 09:22,Kỹ thuật viên XN,mô phỏng; giả định
+L07,Chẩn đoán hình ảnh,2026-11-24 09:25,2026-11-24 09:41,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L07,Chờ kết quả,2026-11-24 09:41,2026-11-24 10:27,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L07,Khám lần 2 - đọc kết quả,2026-11-24 10:27,2026-11-24 10:33,Bác sĩ,mô phỏng; giả định
+L07,Chờ bảo lãnh,2026-11-24 10:33,2026-11-24 10:50,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L07,Thanh toán,2026-11-24 10:50,2026-11-24 10:57,Thu ngân,mô phỏng; giả định; bảo lãnh
+L07,Lĩnh thuốc,2026-11-24 10:57,2026-11-24 11:06,Dược sĩ,mô phỏng; giả định
+L08,Tiếp đón - mở hồ sơ,2026-11-24 08:36,2026-11-24 08:42,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L08,Chờ đo sinh hiệu,2026-11-24 08:42,2026-11-24 08:54,,mô phỏng; giả định
+L08,Đo sinh hiệu,2026-11-24 08:54,2026-11-24 08:59,Điều dưỡng,mô phỏng; giả định
+L08,Chờ khám,2026-11-24 08:59,2026-11-24 09:36,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L08,Khám lần 1,2026-11-24 09:36,2026-11-24 10:06,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L08,Thanh toán,2026-11-24 10:06,2026-11-24 10:10,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L08,Chờ cận lâm sàng,2026-11-24 10:10,2026-11-24 10:21,,mô phỏng; giả định; chẩn đoán hình ảnh
+L08,Chẩn đoán hình ảnh,2026-11-24 10:21,2026-11-24 10:49,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L08,Chờ kết quả,2026-11-24 10:49,2026-11-24 11:28,,mô phỏng; giả định; kết quả hình ảnh
+L08,Khám lần 2 - đọc kết quả,2026-11-24 11:28,2026-11-24 11:33,Bác sĩ,mô phỏng; giả định
+L09,Tiếp đón - mở hồ sơ,2026-11-24 13:23,2026-11-24 13:31,Lễ tân,mô phỏng; giả định; có lịch hẹn; bảo hiểm tư nhân
+L09,Chờ đo sinh hiệu,2026-11-24 13:31,2026-11-24 13:42,,mô phỏng; giả định
+L09,Đo sinh hiệu,2026-11-24 13:42,2026-11-24 13:46,Điều dưỡng,mô phỏng; giả định
+L09,Chờ khám,2026-11-24 13:46,2026-11-24 14:14,,"mô phỏng; giả định; đến muộn so với giờ hẹn, chờ xếp lượt"
+L09,Khám lần 1,2026-11-24 14:14,2026-11-24 14:39,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L09,Chờ bảo lãnh,2026-11-24 14:39,2026-11-24 14:54,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L09,Thanh toán,2026-11-24 14:54,2026-11-24 15:02,Thu ngân,mô phỏng; giả định; bảo lãnh
+L10,Tiếp đón - mở hồ sơ,2026-11-24 13:44,2026-11-24 13:52,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L10,Chờ đo sinh hiệu,2026-11-24 13:52,2026-11-24 14:04,,mô phỏng; giả định
+L10,Đo sinh hiệu,2026-11-24 14:04,2026-11-24 14:10,Điều dưỡng,mô phỏng; giả định
+L10,Chờ khám,2026-11-24 14:10,2026-11-24 14:32,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L10,Khám lần 1,2026-11-24 14:32,2026-11-24 15:07,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L10,Thanh toán,2026-11-24 15:07,2026-11-24 15:15,Thu ngân,mô phỏng; giả định; sau khám
+L10,Lĩnh thuốc,2026-11-24 15:15,2026-11-24 15:31,Dược sĩ,mô phỏng; giả định
+L11,Tiếp đón - mở hồ sơ,2026-11-25 07:42,2026-11-25 07:47,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L11,Chờ đo sinh hiệu,2026-11-25 07:47,2026-11-25 07:59,,mô phỏng; giả định
+L11,Đo sinh hiệu,2026-11-25 07:59,2026-11-25 08:03,Điều dưỡng,mô phỏng; giả định
+L11,Chờ khám,2026-11-25 08:03,2026-11-25 08:35,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L11,Khám lần 1,2026-11-25 08:35,2026-11-25 09:04,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L11,Thanh toán,2026-11-25 09:04,2026-11-25 09:07,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L11,Chờ cận lâm sàng,2026-11-25 09:07,2026-11-25 09:21,,mô phỏng; giả định; chẩn đoán hình ảnh
+L11,Chẩn đoán hình ảnh,2026-11-25 09:21,2026-11-25 09:36,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L11,Chờ kết quả,2026-11-25 09:36,2026-11-25 10:14,,mô phỏng; giả định; kết quả hình ảnh
+L11,Khám lần 2 - đọc kết quả,2026-11-25 10:14,2026-11-25 10:20,Bác sĩ,mô phỏng; giả định
+L12,Tiếp đón - mở hồ sơ,2026-11-25 07:50,2026-11-25 08:00,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L12,Chờ đo sinh hiệu,2026-11-25 08:00,2026-11-25 08:07,,mô phỏng; giả định
+L12,Đo sinh hiệu,2026-11-25 08:07,2026-11-25 08:11,Điều dưỡng,mô phỏng; giả định
+L12,Chờ khám,2026-11-25 08:11,2026-11-25 08:36,,"mô phỏng; giả định; đến muộn so với giờ hẹn, chờ xếp lượt"
+L12,Khám lần 1,2026-11-25 08:36,2026-11-25 09:05,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L12,Thanh toán,2026-11-25 09:05,2026-11-25 09:12,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L12,Chờ cận lâm sàng,2026-11-25 09:12,2026-11-25 09:24,,mô phỏng; giả định; xét nghiệm
+L12,Xét nghiệm - lấy mẫu,2026-11-25 09:24,2026-11-25 09:29,Kỹ thuật viên XN,mô phỏng; giả định
+L12,Chờ kết quả,2026-11-25 09:29,2026-11-25 10:54,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L12,Khám lần 2 - đọc kết quả,2026-11-25 10:54,2026-11-25 11:04,Bác sĩ,mô phỏng; giả định
+L12,Lĩnh thuốc,2026-11-25 11:04,2026-11-25 11:15,Dược sĩ,mô phỏng; giả định
+L13,Tiếp đón - mở hồ sơ,2026-11-25 08:39,2026-11-25 08:44,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L13,Chờ đo sinh hiệu,2026-11-25 08:44,2026-11-25 08:48,,mô phỏng; giả định
+L13,Đo sinh hiệu,2026-11-25 08:48,2026-11-25 08:51,Điều dưỡng,mô phỏng; giả định
+L13,Chờ khám,2026-11-25 08:51,2026-11-25 09:05,,mô phỏng; giả định
+L13,Khám lần 1,2026-11-25 09:05,2026-11-25 09:25,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L13,Thanh toán,2026-11-25 09:25,2026-11-25 09:29,Thu ngân,mô phỏng; giả định; sau khám
+L13,Lĩnh thuốc,2026-11-25 09:29,2026-11-25 09:35,Dược sĩ,mô phỏng; giả định
+L14,Tiếp đón - mở hồ sơ,2026-11-25 13:01,2026-11-25 13:04,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L14,Chờ đo sinh hiệu,2026-11-25 13:04,2026-11-25 13:05,,mô phỏng; giả định
+L14,Đo sinh hiệu,2026-11-25 13:05,2026-11-25 13:09,Điều dưỡng,mô phỏng; giả định
+L14,Chờ khám,2026-11-25 13:09,2026-11-25 13:27,,mô phỏng; giả định
+L14,Khám lần 1,2026-11-25 13:27,2026-11-25 14:05,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L14,Thanh toán,2026-11-25 14:05,2026-11-25 14:11,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L14,Chờ cận lâm sàng,2026-11-25 14:11,2026-11-25 14:25,,mô phỏng; giả định; xét nghiệm
+L14,Chờ cận lâm sàng,2026-11-25 14:11,2026-11-25 14:34,,mô phỏng; giả định; chẩn đoán hình ảnh
+L14,Xét nghiệm - lấy mẫu,2026-11-25 14:25,2026-11-25 14:31,Kỹ thuật viên XN,mô phỏng; giả định
+L14,Chẩn đoán hình ảnh,2026-11-25 14:34,2026-11-25 14:50,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L14,Chờ kết quả,2026-11-25 14:50,2026-11-25 15:41,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L14,Khám lần 2 - đọc kết quả,2026-11-25 15:41,2026-11-25 15:48,Bác sĩ,mô phỏng; giả định
+L14,Lĩnh thuốc,2026-11-25 15:48,2026-11-25 15:56,Dược sĩ,mô phỏng; giả định
+L15,Tiếp đón - mở hồ sơ,2026-11-25 13:40,2026-11-25 13:47,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L15,Chờ đo sinh hiệu,2026-11-25 13:47,2026-11-25 14:00,,mô phỏng; giả định
+L15,Đo sinh hiệu,2026-11-25 14:00,2026-11-25 14:06,Điều dưỡng,mô phỏng; giả định
+L15,Chờ khám,2026-11-25 14:06,2026-11-25 14:23,,mô phỏng; giả định
+L15,Khám lần 1,2026-11-25 14:23,2026-11-25 14:47,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L15,Thanh toán,2026-11-25 14:47,2026-11-25 14:57,Thu ngân,mô phỏng; giả định; sau khám
+L15,Lĩnh thuốc,2026-11-25 14:57,2026-11-25 15:13,Dược sĩ,mô phỏng; giả định
+L16,Tiếp đón - mở hồ sơ,2026-11-26 07:35,2026-11-26 07:38,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L16,Chờ đo sinh hiệu,2026-11-26 07:38,2026-11-26 07:42,,mô phỏng; giả định
+L16,Đo sinh hiệu,2026-11-26 07:42,2026-11-26 07:48,Điều dưỡng,mô phỏng; giả định
+L16,Chờ khám,2026-11-26 07:48,2026-11-26 08:13,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L16,Khám lần 1,2026-11-26 08:13,2026-11-26 08:33,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L16,Thanh toán,2026-11-26 08:33,2026-11-26 08:39,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L16,Chờ cận lâm sàng,2026-11-26 08:39,2026-11-26 09:02,,mô phỏng; giả định; xét nghiệm
+L16,Xét nghiệm - lấy mẫu,2026-11-26 09:02,2026-11-26 09:12,Kỹ thuật viên XN,mô phỏng; giả định
+L16,Chờ kết quả,2026-11-26 09:12,2026-11-26 11:08,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L16,Khám lần 2 - đọc kết quả,2026-11-26 11:08,2026-11-26 11:14,Bác sĩ,mô phỏng; giả định
+L16,Lĩnh thuốc,2026-11-26 11:14,2026-11-26 11:32,Dược sĩ,mô phỏng; giả định
+L17,Tiếp đón - mở hồ sơ,2026-11-26 07:49,2026-11-26 07:54,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L17,Chờ đo sinh hiệu,2026-11-26 07:54,2026-11-26 08:06,,mô phỏng; giả định
+L17,Đo sinh hiệu,2026-11-26 08:06,2026-11-26 08:09,Điều dưỡng,mô phỏng; giả định
+L17,Chờ khám,2026-11-26 08:09,2026-11-26 08:30,,mô phỏng; giả định
+L17,Khám lần 1,2026-11-26 08:30,2026-11-26 09:03,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L17,Thanh toán,2026-11-26 09:03,2026-11-26 09:12,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L17,Chờ cận lâm sàng,2026-11-26 09:12,2026-11-26 09:33,,mô phỏng; giả định; xét nghiệm
+L17,Xét nghiệm - lấy mẫu,2026-11-26 09:33,2026-11-26 09:41,Kỹ thuật viên XN,mô phỏng; giả định
+L17,Chờ kết quả,2026-11-26 09:41,2026-11-26 10:54,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L17,Khám lần 2 - đọc kết quả,2026-11-26 10:54,2026-11-26 11:09,Bác sĩ,mô phỏng; giả định
+L17,Lĩnh thuốc,2026-11-26 11:09,2026-11-26 11:21,Dược sĩ,mô phỏng; giả định
+L18,Tiếp đón - mở hồ sơ,2026-11-26 08:39,2026-11-26 08:44,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L18,Chờ đo sinh hiệu,2026-11-26 08:44,2026-11-26 08:55,,mô phỏng; giả định
+L18,Đo sinh hiệu,2026-11-26 08:55,2026-11-26 09:01,Điều dưỡng,mô phỏng; giả định
+L18,Chờ khám,2026-11-26 09:01,2026-11-26 09:26,,mô phỏng; giả định
+L18,Khám lần 1,2026-11-26 09:26,2026-11-26 09:53,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L18,Thanh toán,2026-11-26 09:53,2026-11-26 09:57,Thu ngân,mô phỏng; giả định; sau khám
+L19,Tiếp đón - mở hồ sơ,2026-11-26 08:58,2026-11-26 09:02,Lễ tân,mô phỏng; giả định; có lịch hẹn; bảo hiểm tư nhân
+L19,Chờ đo sinh hiệu,2026-11-26 09:02,2026-11-26 09:12,,mô phỏng; giả định
+L19,Đo sinh hiệu,2026-11-26 09:12,2026-11-26 09:17,Điều dưỡng,mô phỏng; giả định
+L19,Chờ khám,2026-11-26 09:17,2026-11-26 09:29,,mô phỏng; giả định
+L19,Khám lần 1,2026-11-26 09:29,2026-11-26 09:57,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L19,Chờ bảo lãnh,2026-11-26 09:57,2026-11-26 10:36,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L19,Thanh toán,2026-11-26 10:36,2026-11-26 10:46,Thu ngân,mô phỏng; giả định; bảo lãnh
+L19,Lĩnh thuốc,2026-11-26 10:46,2026-11-26 10:58,Dược sĩ,mô phỏng; giả định
+L20,Tiếp đón - mở hồ sơ,2026-11-26 13:10,2026-11-26 13:19,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L20,Chờ đo sinh hiệu,2026-11-26 13:19,2026-11-26 13:29,,mô phỏng; giả định
+L20,Đo sinh hiệu,2026-11-26 13:29,2026-11-26 13:33,Điều dưỡng,mô phỏng; giả định
+L20,Chờ khám,2026-11-26 13:33,2026-11-26 13:44,,mô phỏng; giả định
+L20,Khám lần 1,2026-11-26 13:44,2026-11-26 14:11,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L20,Thanh toán,2026-11-26 14:11,2026-11-26 14:19,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L20,Chờ cận lâm sàng,2026-11-26 14:19,2026-11-26 14:31,,mô phỏng; giả định; xét nghiệm
+L20,Chờ cận lâm sàng,2026-11-26 14:19,2026-11-26 14:37,,mô phỏng; giả định; chẩn đoán hình ảnh
+L20,Xét nghiệm - lấy mẫu,2026-11-26 14:31,2026-11-26 14:37,Kỹ thuật viên XN,mô phỏng; giả định
+L20,Chẩn đoán hình ảnh,2026-11-26 14:37,2026-11-26 14:52,Kỹ thuật viên CĐHA,mô phỏng; giả định; X-quang
+L20,Chờ kết quả,2026-11-26 14:52,2026-11-26 15:59,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L20,Khám lần 2 - đọc kết quả,2026-11-26 15:59,2026-11-26 16:12,Bác sĩ,mô phỏng; giả định
+L21,Tiếp đón - mở hồ sơ,2026-11-27 07:48,2026-11-27 07:51,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L21,Chờ đo sinh hiệu,2026-11-27 07:51,2026-11-27 08:03,,mô phỏng; giả định
+L21,Đo sinh hiệu,2026-11-27 08:03,2026-11-27 08:06,Điều dưỡng,mô phỏng; giả định
+L21,Chờ khám,2026-11-27 08:06,2026-11-27 08:26,,mô phỏng; giả định
+L21,Khám lần 1,2026-11-27 08:26,2026-11-27 08:53,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L21,Thanh toán,2026-11-27 08:53,2026-11-27 08:57,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L21,Chờ cận lâm sàng,2026-11-27 08:57,2026-11-27 09:21,,mô phỏng; giả định; chẩn đoán hình ảnh
+L21,Chẩn đoán hình ảnh,2026-11-27 09:21,2026-11-27 09:48,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L21,Chờ kết quả,2026-11-27 09:48,2026-11-27 10:28,,mô phỏng; giả định; kết quả hình ảnh
+L21,Khám lần 2 - đọc kết quả,2026-11-27 10:28,2026-11-27 10:34,Bác sĩ,mô phỏng; giả định
+L21,Lĩnh thuốc,2026-11-27 10:34,2026-11-27 10:40,Dược sĩ,mô phỏng; giả định
+L22,Tiếp đón - mở hồ sơ,2026-11-27 08:11,2026-11-27 08:14,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L22,Chờ đo sinh hiệu,2026-11-27 08:14,2026-11-27 08:17,,mô phỏng; giả định
+L22,Đo sinh hiệu,2026-11-27 08:17,2026-11-27 08:21,Điều dưỡng,mô phỏng; giả định
+L22,Chờ khám,2026-11-27 08:21,2026-11-27 08:49,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L22,Khám lần 1,2026-11-27 08:49,2026-11-27 09:24,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L22,Thanh toán,2026-11-27 09:24,2026-11-27 09:29,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L22,Chờ cận lâm sàng,2026-11-27 09:29,2026-11-27 09:53,,mô phỏng; giả định; chẩn đoán hình ảnh
+L22,Chẩn đoán hình ảnh,2026-11-27 09:53,2026-11-27 10:06,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L22,Chờ kết quả,2026-11-27 10:06,2026-11-27 10:24,,mô phỏng; giả định; kết quả hình ảnh
+L22,Khám lần 2 - đọc kết quả,2026-11-27 10:24,2026-11-27 10:35,Bác sĩ,mô phỏng; giả định
+L22,Lĩnh thuốc,2026-11-27 10:35,2026-11-27 10:50,Dược sĩ,mô phỏng; giả định
+L23,Tiếp đón - mở hồ sơ,2026-11-27 08:37,2026-11-27 08:41,Lễ tân,mô phỏng; giả định; có lịch hẹn; bảo hiểm tư nhân
+L23,Chờ đo sinh hiệu,2026-11-27 08:41,2026-11-27 08:46,,mô phỏng; giả định
+L23,Đo sinh hiệu,2026-11-27 08:46,2026-11-27 08:51,Điều dưỡng,mô phỏng; giả định
+L23,Chờ khám,2026-11-27 08:51,2026-11-27 09:08,,mô phỏng; giả định
+L23,Khám lần 1,2026-11-27 09:08,2026-11-27 09:48,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L23,Chờ bảo lãnh,2026-11-27 09:48,2026-11-27 10:08,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L23,Thanh toán,2026-11-27 10:08,2026-11-27 10:13,Thu ngân,mô phỏng; giả định; bảo lãnh
+L23,Lĩnh thuốc,2026-11-27 10:13,2026-11-27 10:30,Dược sĩ,mô phỏng; giả định
+L24,Tiếp đón - mở hồ sơ,2026-11-27 13:13,2026-11-27 13:21,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L24,Chờ đo sinh hiệu,2026-11-27 13:21,2026-11-27 13:34,,mô phỏng; giả định
+L24,Đo sinh hiệu,2026-11-27 13:34,2026-11-27 13:39,Điều dưỡng,mô phỏng; giả định
+L24,Chờ khám,2026-11-27 13:39,2026-11-27 13:55,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L24,Khám lần 1,2026-11-27 13:55,2026-11-27 14:26,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L24,Thanh toán,2026-11-27 14:26,2026-11-27 14:31,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L24,Chờ cận lâm sàng,2026-11-27 14:31,2026-11-27 14:41,,mô phỏng; giả định; xét nghiệm
+L24,Chờ cận lâm sàng,2026-11-27 14:31,2026-11-27 14:48,,mô phỏng; giả định; chẩn đoán hình ảnh
+L24,Xét nghiệm - lấy mẫu,2026-11-27 14:41,2026-11-27 14:48,Kỹ thuật viên XN,mô phỏng; giả định
+L24,Chẩn đoán hình ảnh,2026-11-27 14:48,2026-11-27 15:01,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L24,Chờ kết quả,2026-11-27 15:01,2026-11-27 15:52,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L24,Khám lần 2 - đọc kết quả,2026-11-27 15:52,2026-11-27 15:58,Bác sĩ,mô phỏng; giả định
+L24,Lĩnh thuốc,2026-11-27 15:58,2026-11-27 16:09,Dược sĩ,mô phỏng; giả định
+L25,Tiếp đón - mở hồ sơ,2026-11-27 13:35,2026-11-27 13:38,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L25,Chờ đo sinh hiệu,2026-11-27 13:38,2026-11-27 13:51,,mô phỏng; giả định
+L25,Đo sinh hiệu,2026-11-27 13:51,2026-11-27 13:55,Điều dưỡng,mô phỏng; giả định
+L25,Chờ khám,2026-11-27 13:55,2026-11-27 14:28,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt"
+L25,Khám lần 1,2026-11-27 14:28,2026-11-27 14:58,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L25,Thanh toán,2026-11-27 14:58,2026-11-27 15:06,Thu ngân,mô phỏng; giả định; sau khám
+L26,Tiếp đón - mở hồ sơ,2026-11-28 07:33,2026-11-28 07:42,Lễ tân,mô phỏng; giả định; đến trực tiếp; bảo hiểm tư nhân
+L26,Chờ đo sinh hiệu,2026-11-28 07:42,2026-11-28 07:50,,mô phỏng; giả định; cuối tuần đông khách
+L26,Đo sinh hiệu,2026-11-28 07:50,2026-11-28 07:53,Điều dưỡng,mô phỏng; giả định
+L26,Chờ khám,2026-11-28 07:53,2026-11-28 08:49,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt; cuối tuần đông khách"
+L26,Khám lần 1,2026-11-28 08:49,2026-11-28 09:25,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L26,Thanh toán,2026-11-28 09:25,2026-11-28 09:31,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L26,Chờ cận lâm sàng,2026-11-28 09:31,2026-11-28 09:45,,mô phỏng; giả định; xét nghiệm; cuối tuần đông khách
+L26,Chờ cận lâm sàng,2026-11-28 09:31,2026-11-28 09:54,,mô phỏng; giả định; chẩn đoán hình ảnh; cuối tuần đông khách
+L26,Xét nghiệm - lấy mẫu,2026-11-28 09:45,2026-11-28 09:54,Kỹ thuật viên XN,mô phỏng; giả định
+L26,Chẩn đoán hình ảnh,2026-11-28 09:54,2026-11-28 10:11,Kỹ thuật viên CĐHA,mô phỏng; giả định; X-quang
+L26,Chờ kết quả,2026-11-28 10:11,2026-11-28 10:57,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L26,Khám lần 2 - đọc kết quả,2026-11-28 10:57,2026-11-28 11:05,Bác sĩ,mô phỏng; giả định
+L26,Chờ bảo lãnh,2026-11-28 11:05,2026-11-28 11:26,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L26,Thanh toán,2026-11-28 11:26,2026-11-28 11:34,Thu ngân,mô phỏng; giả định; bảo lãnh
+L26,Lĩnh thuốc,2026-11-28 11:34,2026-11-28 11:48,Dược sĩ,mô phỏng; giả định
+L27,Tiếp đón - mở hồ sơ,2026-11-28 07:46,2026-11-28 07:50,Lễ tân,mô phỏng; giả định; đến trực tiếp; bảo hiểm tư nhân
+L27,Chờ đo sinh hiệu,2026-11-28 07:50,2026-11-28 07:54,,mô phỏng; giả định; cuối tuần đông khách
+L27,Đo sinh hiệu,2026-11-28 07:54,2026-11-28 08:00,Điều dưỡng,mô phỏng; giả định
+L27,Chờ khám,2026-11-28 08:00,2026-11-28 09:11,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt; cuối tuần đông khách"
+L27,Khám lần 1,2026-11-28 09:11,2026-11-28 09:37,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L27,Thanh toán,2026-11-28 09:37,2026-11-28 09:42,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L27,Chờ cận lâm sàng,2026-11-28 09:42,2026-11-28 09:52,,mô phỏng; giả định; chẩn đoán hình ảnh; cuối tuần đông khách
+L27,Chẩn đoán hình ảnh,2026-11-28 09:52,2026-11-28 10:07,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L27,Chờ kết quả,2026-11-28 10:07,2026-11-28 10:33,,mô phỏng; giả định; kết quả hình ảnh
+L27,Khám lần 2 - đọc kết quả,2026-11-28 10:33,2026-11-28 10:43,Bác sĩ,mô phỏng; giả định
+L27,Chờ bảo lãnh,2026-11-28 10:43,2026-11-28 11:26,,mô phỏng; Vinmec: xử lý bảo lãnh 15–45 phút
+L27,Thanh toán,2026-11-28 11:26,2026-11-28 11:34,Thu ngân,mô phỏng; giả định; bảo lãnh
+L27,Lĩnh thuốc,2026-11-28 11:34,2026-11-28 11:41,Dược sĩ,mô phỏng; giả định
+L28,Tiếp đón - mở hồ sơ,2026-11-28 08:44,2026-11-28 08:52,Lễ tân,mô phỏng; giả định; đến trực tiếp; tự chi trả
+L28,Chờ đo sinh hiệu,2026-11-28 08:52,2026-11-28 08:56,,mô phỏng; giả định; cuối tuần đông khách
+L28,Đo sinh hiệu,2026-11-28 08:56,2026-11-28 09:02,Điều dưỡng,mô phỏng; giả định
+L28,Chờ khám,2026-11-28 09:02,2026-11-28 09:26,,"mô phỏng; giả định; đến trực tiếp, chờ xếp lượt; cuối tuần đông khách"
+L28,Khám lần 1,2026-11-28 09:26,2026-11-28 09:59,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L28,Thanh toán,2026-11-28 09:59,2026-11-28 10:07,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L28,Chờ cận lâm sàng,2026-11-28 10:07,2026-11-28 10:23,,mô phỏng; giả định; xét nghiệm; cuối tuần đông khách
+L28,Chờ cận lâm sàng,2026-11-28 10:07,2026-11-28 10:30,,mô phỏng; giả định; chẩn đoán hình ảnh; cuối tuần đông khách
+L28,Xét nghiệm - lấy mẫu,2026-11-28 10:23,2026-11-28 10:30,Kỹ thuật viên XN,mô phỏng; giả định
+L28,Chẩn đoán hình ảnh,2026-11-28 10:30,2026-11-28 10:43,Kỹ thuật viên CĐHA,mô phỏng; giả định; siêu âm
+L28,Chờ kết quả,2026-11-28 10:43,2026-11-28 11:37,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L28,Khám lần 2 - đọc kết quả,2026-11-28 11:37,2026-11-28 11:42,Bác sĩ,mô phỏng; giả định
+L28,Lĩnh thuốc,2026-11-28 11:42,2026-11-28 11:51,Dược sĩ,mô phỏng; giả định
+L29,Tiếp đón - mở hồ sơ,2026-11-28 13:21,2026-11-28 13:29,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L29,Chờ đo sinh hiệu,2026-11-28 13:29,2026-11-28 13:32,,mô phỏng; giả định; cuối tuần đông khách
+L29,Đo sinh hiệu,2026-11-28 13:32,2026-11-28 13:38,Điều dưỡng,mô phỏng; giả định
+L29,Chờ khám,2026-11-28 13:38,2026-11-28 13:47,,mô phỏng; giả định; cuối tuần đông khách
+L29,Khám lần 1,2026-11-28 13:47,2026-11-28 14:21,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L29,Thanh toán,2026-11-28 14:21,2026-11-28 14:30,Thu ngân,mô phỏng; giả định; tạm ứng cận lâm sàng
+L29,Chờ cận lâm sàng,2026-11-28 14:30,2026-11-28 14:44,,mô phỏng; giả định; xét nghiệm; cuối tuần đông khách
+L29,Xét nghiệm - lấy mẫu,2026-11-28 14:44,2026-11-28 14:50,Kỹ thuật viên XN,mô phỏng; giả định
+L29,Chờ kết quả,2026-11-28 14:50,2026-11-28 16:11,,mô phỏng; Vinmec: xét nghiệm đơn giản 1–2 giờ tính từ lúc lấy mẫu
+L29,Khám lần 2 - đọc kết quả,2026-11-28 16:11,2026-11-28 16:18,Bác sĩ,mô phỏng; giả định
+L30,Tiếp đón - mở hồ sơ,2026-11-28 13:38,2026-11-28 13:46,Lễ tân,mô phỏng; giả định; có lịch hẹn; tự chi trả
+L30,Chờ đo sinh hiệu,2026-11-28 13:46,2026-11-28 14:06,,mô phỏng; giả định; cuối tuần đông khách
+L30,Đo sinh hiệu,2026-11-28 14:06,2026-11-28 14:11,Điều dưỡng,mô phỏng; giả định
+L30,Chờ khám,2026-11-28 14:11,2026-11-28 14:45,,mô phỏng; giả định; cuối tuần đông khách
+L30,Khám lần 1,2026-11-28 14:45,2026-11-28 15:23,Bác sĩ,mô phỏng; Vinmec: mỗi lượt khám khoảng 30 phút
+L30,Thanh toán,2026-11-28 15:23,2026-11-28 15:26,Thu ngân,mô phỏng; giả định; sau khám
+L31,Tiếp đón - mở hồ sơ,2026-11-16 07:00,2026-11-16 07:08,Lễ tân,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L31,Chờ khám,2026-11-16 07:08,2026-11-16 07:40,,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L31,Khám lần 1,2026-11-16 07:40,2026-11-16 07:53,Bác sĩ,mô phỏng; ngoài Vinmec (bệnh viện công); kết thúc đặt theo giờ in đơn thuốc trên chứng từ
+L31,Lĩnh thuốc,2026-11-16 07:53,2026-11-16 08:15,Dược sĩ,mô phỏng; ngoài Vinmec (bệnh viện công); giả định; bắt đầu đặt theo giờ in đơn thuốc trên chứng từ
+L32,Tiếp đón - mở hồ sơ,2026-11-17 05:00,2026-11-17 05:08,Lễ tân,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Chờ khám,2026-11-17 05:08,2026-11-17 05:30,,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Khám lần 1,2026-11-17 05:30,2026-11-17 05:43,Bác sĩ,mô phỏng; ngoài Vinmec (bệnh viện công); kết thúc đặt theo giờ chỉ định trên chứng từ
+L32,Chờ thanh toán,2026-11-17 05:43,2026-11-17 06:35,,mô phỏng; ngoài Vinmec (bệnh viện công); từ giờ chỉ định đến giờ in phiếu chỉ định trên chứng từ
+L32,Thanh toán,2026-11-17 06:35,2026-11-17 06:38,Thu ngân,mô phỏng; ngoài Vinmec (bệnh viện công); từ giờ in phiếu chỉ định đến giờ in phiếu thu trên chứng từ; tạm ứng
+L32,Chờ cận lâm sàng,2026-11-17 06:38,2026-11-17 07:05,,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Chẩn đoán hình ảnh,2026-11-17 07:05,2026-11-17 07:20,Kỹ thuật viên CĐHA,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Chờ cận lâm sàng,2026-11-17 07:20,2026-11-17 07:50,,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Thăm dò chức năng,2026-11-17 07:50,2026-11-17 08:05,Kỹ thuật viên CĐHA,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Chờ kết quả,2026-11-17 08:05,2026-11-17 09:10,,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Khám lần 2 - đọc kết quả,2026-11-17 09:10,2026-11-17 09:20,Bác sĩ,mô phỏng; ngoài Vinmec (bệnh viện công); giả định
+L32,Thanh toán,2026-11-17 09:20,2026-11-17 09:30,Thu ngân,mô phỏng; ngoài Vinmec (bệnh viện công); giả định; quyết toán
+L33,Tiếp đón - mở hồ sơ,2026-11-18 07:26,2026-11-18 07:32,Lễ tân,mô phỏng; ngoài Vinmec (phòng khám tư); kết thúc đặt theo giờ in nhãn xét nghiệm trên chứng từ
+L33,Thanh toán,2026-11-18 07:32,2026-11-18 07:36,Thu ngân,mô phỏng; ngoài Vinmec (phòng khám tư); giả định
+L33,Chờ cận lâm sàng,2026-11-18 07:36,2026-11-18 07:50,,mô phỏng; ngoài Vinmec (phòng khám tư); giả định
+L33,Xét nghiệm - lấy mẫu,2026-11-18 07:50,2026-11-18 07:56,Kỹ thuật viên XN,mô phỏng; ngoài Vinmec (phòng khám tư); giả định
+L33,Chờ kết quả,2026-11-18 07:56,2026-11-18 09:20,,mô phỏng; ngoài Vinmec (phòng khám tư); giả định

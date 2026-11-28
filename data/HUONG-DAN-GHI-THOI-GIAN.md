@@ -3,6 +3,9 @@
 Dùng cho T27 (ghi ≥ 3 lượt khám) và T44 (phân tích PM4Py). Kết quả lưu ở `data/event_log.csv`,
 **đúng định dạng** `data/event_log_template.csv`. Các dòng trong template là **ví dụ định dạng, không phải số liệu thật**.
 
+> `data/event_log.csv` hiện là **bản mô phỏng** (mọi dòng có `note` bắt đầu bằng `mô phỏng`), xem [README](README.md).
+> Khi có số đo thật thì **thay toàn bộ file**, không trộn dòng thật với dòng mô phỏng.
+
 ## 1. Định dạng file
 
 - Mã hóa **UTF-8**, dấu phân cách **dấu phẩy**, dòng đầu là tiêu đề. Ô có dấu phẩy thì bọc trong `"..."`.
@@ -29,6 +32,8 @@ Dùng cho T27 (ghi ≥ 3 lượt khám) và T44 (phân tích PM4Py). Kết quả
    không cần tách.
 6. Không quan sát được điểm bắt đầu/kết thúc thì vẫn ghi dòng đó, ghi `note: ước lượng` để loại khi phân tích.
 7. Lượt khám bị bỏ dở (người bệnh về trước, chuyển nhập viện) → ghi đến hoạt động cuối cùng, `note` ghi lý do.
+8. **Được dùng mẫu quan sát từ cơ sở ngoài Vinmec cho C1.** `note` ghi `ngoài Vinmec (loại cơ sở)`, không ghi tên cơ sở.
+   Báo cáo dùng các mẫu này phải nêu rõ đó không phải số liệu đo tại Vinmec.
 
 ## 3. Danh mục hoạt động (C1 Khám ngoại trú)
 
@@ -41,6 +46,7 @@ Dùng đúng tên dưới đây. Cần thêm hoạt động mới thì bổ sung
 | Đo sinh hiệu | C1 | Mạch, huyết áp, cân nặng… |
 | Chờ khám | C1 | Từ lúc ngồi chờ (sau đo sinh hiệu) đến lúc được gọi vào phòng khám. KPI *Thời gian chờ khám* của M2 tính rộng hơn: hết *Tiếp đón - mở hồ sơ* → bắt đầu *Khám lần 1* |
 | Khám lần 1 | C1 | Bác sĩ khám, chỉ định |
+| Chờ thanh toán | C3 | Từ lúc có chỉ định hoặc kết luận đến lúc bắt đầu thanh toán |
 | Thanh toán | C3 | Tạm ứng / quyết toán / bảo lãnh – ghi ở `note` |
 | Chờ bảo lãnh | C3 | Chờ công ty bảo hiểm phản hồi |
 | Xét nghiệm - lấy mẫu | C2 | |
@@ -73,6 +79,7 @@ import pandas as pd
 import pm4py
 
 df = pd.read_csv("data/event_log.csv", parse_dates=["start_time", "end_time"])
+df = df[~df["note"].fillna("").str.contains("ước lượng")]        # quy tắc 6: loại dòng không đủ bắt đầu/kết thúc
 df = pm4py.format_dataframe(df, case_id="case_id", activity_key="activity", timestamp_key="end_time",
                             start_timestamp_key="start_time")
 log = pm4py.convert_to_event_log(df)

@@ -57,12 +57,7 @@ jobs:
         run: |
           if [ -f data/event_log.csv ]; then
             echo "Kiểm tra event_log.csv..."
-            python -c "
-          import pandas as pd
-          df = pd.read_csv('data/event_log.csv')
-          assert 'case_id' in df.columns, 'Thiếu cột case_id trong event_log.csv'
-          print('event_log.csv hợp lệ với', len(df), 'dòng sự kiện.')
-          "
+            python scripts/check_event_log.py data/event_log.csv
           fi
 
   env-and-simulation-check:
